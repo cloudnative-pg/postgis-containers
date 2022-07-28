@@ -35,6 +35,7 @@ fetch_postgres_image_version() {
 	curl -SsL "https://registry.hub.docker.com/v2/repositories/postgis/postgis/tags/?name=${suite}&ordering=last_updated&" | \
 	  jq -c ".results[] | select( .name | match(\"^${suite}-[0-9.]+$\"))" | \
 	  jq -r ".${item}" | \
+	  sort -r | \
 	  head -n1
 }
 
