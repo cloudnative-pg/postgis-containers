@@ -3,7 +3,7 @@
 Maintenance scripts to generate Immutable Application Containers
 for all available PostgreSQL + PostGIS versions (11 to 14) to be used as
 operands with the [CloudNativePG operator](https://cloudnative-pg.io)
-for Kubernetes. 
+for Kubernetes.
 
 These images are built on top of the [PostGIS image](https://hub.docker.com/r/postgis/postgis)
 (Debian version), by adding the following software:
@@ -27,7 +27,8 @@ cluster with PostGIS 3.2 in it. All you have to do is set the `imageName`
 accordingly. Please look at the registry for a list of available images
 and select the one you need.
 
-Create a YAML manifest called `postgis.yaml` as you like (please refer to
+Create a YAML manifest. For example, you can put the YAML below into a file
+named `postgis.yaml` (any name is fine). (Please refer to
 [CloudNativePG](https://cloudnative-pg.io/docs) for details on the API):
 
 ```yaml
@@ -56,7 +57,7 @@ When the cluster is up, run the following command to verify the version of
 PostGIS that is available in the system, by connecting to the `app` database:
 
 ```console
-$ k exec -ti cluster-example-1 -- psql app
+$ kubectl exec -ti cluster-example-1 -- psql app
 Defaulted container "postgres" out of: postgres, bootstrap-controller (init)
 psql (14.4 (Debian 14.4-1.pgdg110+1))
 Type "help" for help.
@@ -109,4 +110,3 @@ Copyright The CloudNativePG Contributors.
 *[Postgres, PostgreSQL and the Slonik Logo](https://www.postgresql.org/about/policies/trademarks/)
 are trademarks or registered trademarks of the PostgreSQL Community Association
 of Canada, and used with their permission.*
-
