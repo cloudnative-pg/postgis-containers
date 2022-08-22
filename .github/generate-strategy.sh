@@ -42,24 +42,28 @@ for version in "${postgis_versions[@]}"; do
 
 	# Read versions from the definition file
 	versionFile="${version}/.versions.json"
-	postgisImageVersion=$(jq -r '.POSTGIS_IMAGE_VERSION | split("-") | .[0]' "${versionFile}")
+	postgisVersion=$(jq -r '.POSTGIS_IMAGE_VERSION | split("-") | .[1]' "${versionFile}")
 	releaseVersion=$(jq -r '.IMAGE_RELEASE_VERSION' "${versionFile}")
 
-	# Initial aliases are "major version", "optional alias", "full version with release"
-	# i.e. "14", "latest", "14.2-1", "14.2-postgis","14.2"
+	# Initial aliases are:
+	# "major version"
+	# "optional alias"
+	# "major version - postgis version"
+	# "major version - postgis version - release version"
+	# i.e. "14", "latest", "14-3.2", "14-3.2-1"
 	versionAliases=(
 			"${version}"
 			${aliases[$version]:+"${aliases[$version]}"}
-			"${postgisImageVersion}-${releaseVersion}"
-			"${postgisImageVersion}-postgis"
+			"${version}-${postgisVersion}"
+			"${version}-${postgisVersion}-${releaseVersion}"
 		)
 
-  # Support platform for container images
+	# Support platform for container images
 	platforms="linux/amd64,linux/arm64"
 
 	# Build the json entry
 	entries+=(
-		"{\"name\": \"PostGIS ${postgisImageVersion}\", \"platforms\": \"$platforms\", \"dir\": \"PostGIS/$version\", \"file\": \"PostGIS/$version/Dockerfile\", \"version\": \"$version\", \"tags\": [\"$(join "\", \"" "${versionAliases[@]}")\"]}"
+		"{\"name\": \"PostGIS ${version}-${postgisVersion}\", \"platforms\": \"$platforms\", \"dir\": \"PostGIS/$version\", \"file\": \"PostGIS/$version/Dockerfile\", \"version\": \"$version\", \"tags\": [\"$(join "\", \"" "${versionAliases[@]}")\"]}"
 	)
 done
 
