@@ -46,9 +46,9 @@ for version in "${postgis_versions[@]}"; do
 	releaseVersion=$(jq -r '.IMAGE_RELEASE_VERSION' "${versionFile}")
 
 	# Initial aliases are:
-	# "major version"
+	# "major version" (of postgres)
 	# "optional alias"
-	# "major version - postgis version"
+	# "major version - postgis version" ("postgis version": "$postgisMajorVersion.$postgisMinorVersion")
 	# "major version - postgis version - release version"
 	# i.e. "14", "latest", "14-3.2", "14-3.2-1"
 	versionAliases=(
