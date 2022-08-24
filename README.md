@@ -38,7 +38,7 @@ metadata:
   name: cluster-example
 spec:
   instances: 3
-  imageName: ghcr.io/cloudnative-pg/postgis:14-3
+  imageName: ghcr.io/cloudnative-pg/postgis:14-3.2
   bootstrap:
     initdb:
       postInitTemplateSQL:
