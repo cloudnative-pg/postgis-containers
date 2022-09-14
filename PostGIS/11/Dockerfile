@@ -14,15 +14,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-FROM postgis/postgis:11-3.2
+FROM postgis/postgis:11-3.3
 
 # Do not split the description, otherwise we will see a blank space in the labels
 LABEL name="PostgreSQL + PostGIS Container Images" \
       vendor="The CloudNativePG Contributors" \
       version="${PG_VERSION}" \
-      release="9" \
+      release="1" \
       summary="PostgreSQL + PostGIS Container images." \
-      description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres 11-3.2."
+      description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres 11-3.3."
 
 COPY requirements.txt /
 
