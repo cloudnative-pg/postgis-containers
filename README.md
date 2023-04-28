@@ -12,7 +12,7 @@ These images are built on top of the [PostGIS image](https://hub.docker.com/r/po
 - PGAudit
 
 Barman Cloud is distributed by EnterpriseDB under the
-[GNU GPL 3 License](https://github.com/2ndquadrant-it/barman/blob/master/LICENSE).
+[GNU GPL 3 License](https://github.com/EnterpriseDB/barman/blob/master/LICENSE).
 
 PGAudit is distributed under the
 [PostgreSQL License](https://github.com/pgaudit/pgaudit/blob/master/LICENSE).
