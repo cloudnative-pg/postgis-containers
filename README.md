@@ -1,7 +1,7 @@
 # PostGIS Container Images
 
 Maintenance scripts to generate Immutable Application Containers
-for all available PostgreSQL + PostGIS versions (11 to 14) to be used as
+for all available PostgreSQL + PostGIS versions (11 to 15) to be used as
 operands with the [CloudNativePG operator](https://cloudnative-pg.io)
 for Kubernetes.
 
@@ -12,7 +12,7 @@ These images are built on top of the [PostGIS image](https://hub.docker.com/r/po
 - PGAudit
 
 Barman Cloud is distributed by EnterpriseDB under the
-[GNU GPL 3 License](https://github.com/2ndquadrant-it/barman/blob/master/LICENSE).
+[GNU GPL 3 License](https://github.com/EnterpriseDB/barman/blob/master/LICENSE).
 
 PGAudit is distributed under the
 [PostgreSQL License](https://github.com/pgaudit/pgaudit/blob/master/LICENSE).
@@ -22,8 +22,8 @@ Images are available via the
 
 ## How to use them
 
-The following example shows how you can easily create a new PostgreSQL 14
-cluster with PostGIS 3.2 in it. All you have to do is set the `imageName`
+The following example shows how you can easily create a new PostgreSQL 15
+cluster with PostGIS 3.3 in it. All you have to do is set the `imageName`
 accordingly. Please look at the registry for a list of available images
 and select the one you need.
 
@@ -38,7 +38,7 @@ metadata:
   name: cluster-example
 spec:
   instances: 3
-  imageName: ghcr.io/cloudnative-pg/postgis:14-3.2
+  imageName: ghcr.io/cloudnative-pg/postgis:15-3.3
   bootstrap:
     initdb:
       postInitTemplateSQL:
@@ -58,23 +58,22 @@ PostGIS that is available in the system, by connecting to the `app` database:
 
 ```console
 $ kubectl exec -ti cluster-example-1 -- psql app
-Defaulted container "postgres" out of: postgres, bootstrap-controller (init)
-psql (14.4 (Debian 14.4-1.pgdg110+1))
+psql (15.2 (Debian 15.2-1.pgdg110+1))
 Type "help" for help.
 
 app=# SELECT * FROM pg_available_extensions WHERE name ~ '^postgis' ORDER BY 1;
            name           | default_version | installed_version |                          comment
 --------------------------+-----------------+-------------------+------------------------------------------------------------
- postgis                  | 3.2.2           |                   | PostGIS geometry and geography spatial types and functions
- postgis-3                | 3.2.2           |                   | PostGIS geometry and geography spatial types and functions
- postgis_raster           | 3.2.2           |                   | PostGIS raster types and functions
- postgis_raster-3         | 3.2.2           |                   | PostGIS raster types and functions
- postgis_sfcgal           | 3.2.2           |                   | PostGIS SFCGAL functions
- postgis_sfcgal-3         | 3.2.2           |                   | PostGIS SFCGAL functions
- postgis_tiger_geocoder   | 3.2.2           |                   | PostGIS tiger geocoder and reverse geocoder
- postgis_tiger_geocoder-3 | 3.2.2           |                   | PostGIS tiger geocoder and reverse geocoder
- postgis_topology         | 3.2.2           |                   | PostGIS topology spatial types and functions
- postgis_topology-3       | 3.2.2           |                   | PostGIS topology spatial types and functions
+ postgis                  | 3.3.2           |                   | PostGIS geometry and geography spatial types and functions
+ postgis-3                | 3.3.2           |                   | PostGIS geometry and geography spatial types and functions
+ postgis_raster           | 3.3.2           |                   | PostGIS raster types and functions
+ postgis_raster-3         | 3.3.2           |                   | PostGIS raster types and functions
+ postgis_sfcgal           | 3.3.2           |                   | PostGIS SFCGAL functions
+ postgis_sfcgal-3         | 3.3.2           |                   | PostGIS SFCGAL functions
+ postgis_tiger_geocoder   | 3.3.2           |                   | PostGIS tiger geocoder and reverse geocoder
+ postgis_tiger_geocoder-3 | 3.3.2           |                   | PostGIS tiger geocoder and reverse geocoder
+ postgis_topology         | 3.3.2           |                   | PostGIS topology spatial types and functions
+ postgis_topology-3       | 3.3.2           |                   | PostGIS topology spatial types and functions
 (10 rows)
 ```
 
@@ -91,9 +90,9 @@ app=# \dx
 ------------------------+---------+------------+------------------------------------------------------------
  fuzzystrmatch          | 1.1     | public     | determine similarities and distance between strings
  plpgsql                | 1.0     | pg_catalog | PL/pgSQL procedural language
- postgis                | 3.2.2   | public     | PostGIS geometry and geography spatial types and functions
- postgis_tiger_geocoder | 3.2.2   | tiger      | PostGIS tiger geocoder and reverse geocoder
- postgis_topology       | 3.2.2   | topology   | PostGIS topology spatial types and functions
+ postgis                | 3.3.2   | public     | PostGIS geometry and geography spatial types and functions
+ postgis_tiger_geocoder | 3.3.2   | tiger      | PostGIS tiger geocoder and reverse geocoder
+ postgis_topology       | 3.3.2   | topology   | PostGIS topology spatial types and functions
 (5 rows)
 ```
 
