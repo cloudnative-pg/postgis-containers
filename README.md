@@ -10,12 +10,16 @@ These images are built on top of the [PostGIS image](https://hub.docker.com/r/po
 
 - Barman Cloud
 - PGAudit
+- Postgres Failover Slots
 
 Barman Cloud is distributed by EnterpriseDB under the
 [GNU GPL 3 License](https://github.com/EnterpriseDB/barman/blob/master/LICENSE).
 
 PGAudit is distributed under the
 [PostgreSQL License](https://github.com/pgaudit/pgaudit/blob/master/LICENSE).
+
+Postgres Failover Slots is distributed by EnterpriseDB under the
+[PostgreSQL License](https://github.com/EnterpriseDB/pg_failover_slots/blob/master/LICENSE).
 
 Images are available via the
 [GitHub Container Registry](https://github.com/cloudnative-pg/postgis-containers/pkgs/container/postgis).
