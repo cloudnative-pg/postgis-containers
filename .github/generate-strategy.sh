@@ -61,7 +61,7 @@ for version in "${postgis_versions[@]}"; do
 		)
 
 	# Support platform for container images
-	platforms="linux/amd64,linux/arm64"
+	platforms="linux/amd64"
 
 	# Build the json entry
 	entries+=(
