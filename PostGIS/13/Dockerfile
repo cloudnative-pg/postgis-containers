@@ -32,6 +32,7 @@ RUN set -xe; \
 	apt-get install -y --no-install-recommends \
 		"postgresql-${PG_MAJOR}-pgaudit" \
 		"postgresql-${PG_MAJOR}-pg-failover-slots" \
+		"postgresql-${PG_MAJOR}-pgrouting" \
 	; \
 	rm -fr /tmp/* ; \
 	rm -rf /var/lib/apt/lists/*;
