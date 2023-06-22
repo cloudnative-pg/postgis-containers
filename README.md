@@ -8,9 +8,10 @@ for Kubernetes.
 These images are built on top of the [PostGIS image](https://hub.docker.com/r/postgis/postgis)
 (Debian version), by adding the following software:
 
-- Barman Cloud
-- PGAudit
-- Postgres Failover Slots
+- [Barman Cloud](https://www.pgbarman.org)
+- [PGAudit](https://github.com/pgaudit/pgaudit)
+- [Postgres Failover Slots](https://github.com/EnterpriseDB/pg_failover_slots)
+- [pgRouting](https://github.com/pgRouting/pgrouting)
 
 Barman Cloud is distributed by EnterpriseDB under the
 [GNU GPL 3 License](https://github.com/EnterpriseDB/barman/blob/master/LICENSE).
@@ -20,6 +21,16 @@ PGAudit is distributed under the
 
 Postgres Failover Slots is distributed by EnterpriseDB under the
 [PostgreSQL License](https://github.com/EnterpriseDB/pg_failover_slots/blob/master/LICENSE).
+
+pgRouting is distributed under the
+[GNU GPL 2 License](https://github.com/pgRouting/pgrouting/blob/main/LICENSE),
+with the some Boost extensions being available under
+[Boost Software License](https://docs.pgrouting.org/latest/en/pgRouting-introduction.html#licensing).
+
+Licensing information of all the software included in the container images is
+in the `/usr/share/doc/*/copyright*` files.
+
+## Where to get them
 
 Images are available via the
 [GitHub Container Registry](https://github.com/cloudnative-pg/postgis-containers/pkgs/container/postgis).
