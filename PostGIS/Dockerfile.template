@@ -24,6 +24,8 @@ LABEL name="PostgreSQL + PostGIS Container Images" \
       summary="PostgreSQL + PostGIS Container images." \
       description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres %%POSTGIS_IMAGE_VERSION%%."
 
+LABEL org.opencontainers.image.description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres %%POSTGIS_IMAGE_VERSION%%."
+
 COPY requirements.txt /
 
 # Install additional extensions
@@ -33,6 +35,7 @@ RUN set -xe; \
 		"postgresql-${PG_MAJOR}-pgaudit" \
 		"postgresql-${PG_MAJOR}-pg-failover-slots" \
 		"postgresql-${PG_MAJOR}-pgrouting" \
+		"postgresql-${PG_MAJOR}-pgvector" \
 	; \
 	rm -fr /tmp/* ; \
 	rm -rf /var/lib/apt/lists/*;
