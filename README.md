@@ -1,7 +1,7 @@
 # PostGIS Container Images
 
 Maintenance scripts to generate Immutable Application Containers
-for all available PostgreSQL + PostGIS versions (11 to 15) to be used as
+for all available PostgreSQL + PostGIS versions (11 to 16) to be used as
 operands with the [CloudNativePG operator](https://cloudnative-pg.io)
 for Kubernetes.
 
@@ -37,8 +37,8 @@ Images are available via the
 
 ## How to use them
 
-The following example shows how you can easily create a new PostgreSQL 15
-cluster with PostGIS 3.3 in it. All you have to do is set the `imageName`
+The following example shows how you can easily create a new PostgreSQL 16
+cluster with PostGIS 3.4 in it. All you have to do is set the `imageName`
 accordingly. Please look at the registry for a list of available images
 and select the one you need.
 
@@ -53,7 +53,7 @@ metadata:
   name: cluster-example
 spec:
   instances: 3
-  imageName: ghcr.io/cloudnative-pg/postgis:15-3.3
+  imageName: ghcr.io/cloudnative-pg/postgis:16-3.4
   bootstrap:
     initdb:
       postInitTemplateSQL:
@@ -73,22 +73,22 @@ PostGIS that is available in the system, by connecting to the `app` database:
 
 ```console
 $ kubectl exec -ti cluster-example-1 -- psql app
-psql (15.2 (Debian 15.2-1.pgdg110+1))
+psql (16.0 (Debian 16.0-1.pgdg110+1))
 Type "help" for help.
 
 app=# SELECT * FROM pg_available_extensions WHERE name ~ '^postgis' ORDER BY 1;
            name           | default_version | installed_version |                          comment
 --------------------------+-----------------+-------------------+------------------------------------------------------------
- postgis                  | 3.3.2           |                   | PostGIS geometry and geography spatial types and functions
- postgis-3                | 3.3.2           |                   | PostGIS geometry and geography spatial types and functions
- postgis_raster           | 3.3.2           |                   | PostGIS raster types and functions
- postgis_raster-3         | 3.3.2           |                   | PostGIS raster types and functions
- postgis_sfcgal           | 3.3.2           |                   | PostGIS SFCGAL functions
- postgis_sfcgal-3         | 3.3.2           |                   | PostGIS SFCGAL functions
- postgis_tiger_geocoder   | 3.3.2           |                   | PostGIS tiger geocoder and reverse geocoder
- postgis_tiger_geocoder-3 | 3.3.2           |                   | PostGIS tiger geocoder and reverse geocoder
- postgis_topology         | 3.3.2           |                   | PostGIS topology spatial types and functions
- postgis_topology-3       | 3.3.2           |                   | PostGIS topology spatial types and functions
+ postgis                  | 3.4.0           |                   | PostGIS geometry and geography spatial types and functions
+ postgis-3                | 3.4.0           |                   | PostGIS geometry and geography spatial types and functions
+ postgis_raster           | 3.4.0           |                   | PostGIS raster types and functions
+ postgis_raster-3         | 3.4.0           |                   | PostGIS raster types and functions
+ postgis_sfcgal           | 3.4.0           |                   | PostGIS SFCGAL functions
+ postgis_sfcgal-3         | 3.4.0           |                   | PostGIS SFCGAL functions
+ postgis_tiger_geocoder   | 3.4.0           |                   | PostGIS tiger geocoder and reverse geocoder
+ postgis_tiger_geocoder-3 | 3.4.0           |                   | PostGIS tiger geocoder and reverse geocoder
+ postgis_topology         | 3.4.0           |                   | PostGIS topology spatial types and functions
+ postgis_topology-3       | 3.4.0           |                   | PostGIS topology spatial types and functions
 (10 rows)
 ```
 
@@ -103,11 +103,11 @@ app=# \dx
                                         List of installed extensions
           Name          | Version |   Schema   |                        Description
 ------------------------+---------+------------+------------------------------------------------------------
- fuzzystrmatch          | 1.1     | public     | determine similarities and distance between strings
+ fuzzystrmatch          | 1.2     | public     | determine similarities and distance between strings
  plpgsql                | 1.0     | pg_catalog | PL/pgSQL procedural language
- postgis                | 3.3.2   | public     | PostGIS geometry and geography spatial types and functions
- postgis_tiger_geocoder | 3.3.2   | tiger      | PostGIS tiger geocoder and reverse geocoder
- postgis_topology       | 3.3.2   | topology   | PostGIS topology spatial types and functions
+ postgis                | 3.4.0   | public     | PostGIS geometry and geography spatial types and functions
+ postgis_tiger_geocoder | 3.4.0   | tiger      | PostGIS tiger geocoder and reverse geocoder
+ postgis_topology       | 3.4.0   | topology   | PostGIS topology spatial types and functions
 (5 rows)
 ```
 
