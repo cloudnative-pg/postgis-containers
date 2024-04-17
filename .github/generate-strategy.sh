@@ -53,19 +53,20 @@ for version in "${postgis_versions[@]}"; do
 	# "major version - postgis version" ("postgis version": "$postgisMajorVersion.$postgisMinorVersion")
 	# "major version - postgis version - release version"
 	# i.e. "14", "latest", "14-3.2", "14-3.2-1"
-	versionAliases=(
+	fullTag="${version}-${postgisVersion}-${releaseVersion}"
+  versionAliases=(
 			"${version}"
 			${aliases[$version]:+"${aliases[$version]}"}
 			"${version}-${postgisVersion}"
-			"${version}-${postgisVersion}-${releaseVersion}"
-		)
+			"${fullTag}"
+	)
 
 	# Support platform for container images
 	platforms="linux/amd64"
 
 	# Build the json entry
 	entries+=(
-		"{\"name\": \"PostGIS ${version}-${postgisVersion}\", \"platforms\": \"$platforms\", \"dir\": \"PostGIS/$version\", \"file\": \"PostGIS/$version/Dockerfile\", \"version\": \"$version\", \"tags\": [\"$(join "\", \"" "${versionAliases[@]}")\"]}"
+		"{\"name\": \"PostGIS ${version}-${postgisVersion}\", \"platforms\": \"$platforms\", \"dir\": \"PostGIS/$version\", \"file\": \"PostGIS/$version/Dockerfile\", \"version\": \"$version\", \"tags\": [\"$(join "\", \"" "${versionAliases[@]}")\"], \"fullTag\": \"${fullTag}\"}"
 	)
 done
 
