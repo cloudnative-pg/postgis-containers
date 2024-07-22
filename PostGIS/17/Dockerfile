@@ -14,17 +14,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-FROM postgis/postgis:%%POSTGIS_IMAGE_VERSION%%
+FROM postgis/postgis:17beta2-master
 
 # Do not split the description, otherwise we will see a blank space in the labels
 LABEL name="PostgreSQL + PostGIS Container Images" \
       vendor="The CloudNativePG Contributors" \
       version="${PG_VERSION}" \
-      release="%%IMAGE_RELEASE_VERSION%%" \
+      release="53" \
       summary="PostgreSQL + PostGIS Container images." \
-      description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres %%POSTGIS_IMAGE_VERSION%%."
-
-LABEL org.opencontainers.image.description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres %%POSTGRES_IMAGE_VERSION%%."
+      description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres 17beta2-master."
 
 COPY requirements.txt /
 
