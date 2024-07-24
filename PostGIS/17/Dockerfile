@@ -31,20 +31,12 @@ RUN set -xe; \
 	apt-get update; \
 	apt-get install -y --no-install-recommends \
 		"postgresql-${PG_MAJOR}-pgaudit" \
-<<<<<<< HEAD
 	; \
 	rm -fr /tmp/* ; \
 	rm -rf /var/lib/apt/lists/*;
 # Packages not available
 #   "postgresql-${PG_MAJOR}-pg-failover-slots" \
 #   "postgresql-${PG_MAJOR}-pgrouting" \
-=======
-		"postgresql-${PG_MAJOR}-pg-failover-slots" \
-		"postgresql-${PG_MAJOR}-pgrouting" \
-	; \
-	rm -fr /tmp/* ; \
-	rm -rf /var/lib/apt/lists/*;
->>>>>>> 32d8103 (feat: add PostgreSQL17beta2 test postgis image)
 
 # Install barman-cloud
 RUN set -xe; \
