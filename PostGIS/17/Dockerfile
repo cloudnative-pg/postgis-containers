@@ -31,11 +31,12 @@ RUN set -xe; \
 	apt-get update; \
 	apt-get install -y --no-install-recommends \
 		"postgresql-${PG_MAJOR}-pgaudit" \
-		"postgresql-${PG_MAJOR}-pg-failover-slots" \
-		"postgresql-${PG_MAJOR}-pgrouting" \
 	; \
 	rm -fr /tmp/* ; \
 	rm -rf /var/lib/apt/lists/*;
+# Packages not available
+#   "postgresql-${PG_MAJOR}-pg-failover-slots" \
+#   "postgresql-${PG_MAJOR}-pgrouting" \
 
 # Install barman-cloud
 RUN set -xe; \
