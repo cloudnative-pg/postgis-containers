@@ -79,12 +79,12 @@ generate_postgres() {
 		echo "Unable to retrieve latest postgres ${version} image version"
 		exit 1
 	fi
+
 	postgisImageLastUpdate=$(fetch_postgres_image_version "${version}" "last_updated")
 	if [ -z "$postgisImageLastUpdate" ]; then
 		echo "Unable to retrieve latest  postgis ${version} image version last update time"
 		exit 1
 	fi
-
 
 	barmanVersion=$(get_latest_barman_version)
 	if [ -z "$barmanVersion" ]; then
@@ -110,9 +110,9 @@ generate_postgres() {
 
 	newRelease="false"
 
-	# Detect if postgres image updated
+	# Detect an update of the postgis image
 	if [ "$oldPostgisImageLastUpdate" != "$postgisImageLastUpdate" ]; then
-		echo "Debian Image changed from $oldPostgisImageLastUpdate to $postgisImageLastUpdate"
+		echo "Postgis image timestamp changed from $oldPostgisImageLastUpdate to $postgisImageLastUpdate"
 		newRelease="true"
 		record_version "${versionFile}" "POSTGIS_IMAGE_LAST_UPDATED" "${postgisImageLastUpdate}"
 	fi
@@ -124,9 +124,21 @@ generate_postgres() {
 		record_version "${versionFile}" "BARMAN_VERSION" "${barmanVersion}"
 	fi
 
-    if [ "$oldPostgisImageVersion" != "$postgisImageVersion" ]; then
-	    echo "PostGIS base image changed from $oldPostgisImageVersion to $postgisImageVersion"
-	    record_version "${versionFile}" "IMAGE_RELEASE_VERSION" 1
+	# Detect an update of Dockerfile template
+	if [[ -n $(git diff --name-status Dockerfile.template) ]]; then
+		echo "Detected update of Dockerfile.template"
+		newRelease="true"
+	fi
+
+	# Detect an update of requirements.txt
+	if [[ -n $(git diff --name-status "$version/requirements.txt") ]]; then
+		echo "Detected update of requirements.txt dependencies"
+		newRelease="true"
+	fi
+
+	if [ "$oldPostgisImageVersion" != "$postgisImageVersion" ]; then
+		echo "PostGIS base image changed from $oldPostgisImageVersion to $postgisImageVersion"
+		record_version "${versionFile}" "IMAGE_RELEASE_VERSION" 1
 		record_version "${versionFile}" "POSTGIS_IMAGE_VERSION" "${postgisImageVersion}"
 		imageReleaseVersion=1
 	elif [ "$newRelease" = "true" ]; then
