@@ -22,7 +22,9 @@ LABEL name="PostgreSQL + PostGIS Container Images" \
       version="${PG_VERSION}" \
       release="53" \
       summary="PostgreSQL + PostGIS Container images." \
-      description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres 17beta3-master."
+      description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on PostGIS 17beta3-master."
+
+LABEL org.opencontainers.image.description="This Docker image contains PostgreSQL and Barman Cloud based on PostGIS 17beta3-master."
 
 COPY requirements.txt /
 
