@@ -28,6 +28,9 @@ if [ ${#versions[@]} -eq 0 ]; then
 fi
 versions=("${versions[@]%/}")
 
+# Update this everytime a new major release of PostgreSQL is available
+POSTGRESQL_LATEST_MAJOR_RELEASE=16
+
 # Get the last postgres base image tag and update time
 fetch_postgres_image_version() {
     local suite="$1";
@@ -134,10 +137,15 @@ generate_postgres() {
 		record_version "${versionFile}" "IMAGE_RELEASE_VERSION" $imageReleaseVersion
 	fi
 
+	dockerTemplate="Dockerfile.template"
+	if [[ ${version} -gt "${POSTGRESQL_LATEST_MAJOR_RELEASE}" ]]; then
+		dockerTemplate="Dockerfile-beta.template"
+	fi
+
 	cp -r src/* "$version/"
 	sed -e 's/%%POSTGIS_IMAGE_VERSION%%/'"$postgisImageVersion"'/g' \
 		-e 's/%%IMAGE_RELEASE_VERSION%%/'"$imageReleaseVersion"'/g' \
-		Dockerfile.template \
+		"${dockerTemplate}" \
 		> "$version/Dockerfile"
 }
 
