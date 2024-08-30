@@ -24,6 +24,8 @@ LABEL name="PostgreSQL + PostGIS Container Images" \
       summary="PostgreSQL + PostGIS Container images." \
       description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres 14-3.4."
 
+LABEL org.opencontainers.image.description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres 14-3.4."
+
 COPY requirements.txt /
 
 # Install additional extensions
