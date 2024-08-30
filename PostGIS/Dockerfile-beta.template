@@ -4,8 +4,8 @@
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-# 
+# You may obtain a copy of the License at
+#
 #    http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
@@ -24,7 +24,7 @@ LABEL name="PostgreSQL + PostGIS Container Images" \
       summary="PostgreSQL + PostGIS Container images." \
       description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres %%POSTGIS_IMAGE_VERSION%%."
 
-LABEL org.opencontainers.image.description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres %%POSTGIS_IMAGE_VERSION%%."
+LABEL org.opencontainers.image.description="This Docker image contains PostgreSQL and Barman Cloud based on Postgres %%POSTGIS_IMAGE_VERSION%%."
 
 COPY requirements.txt /
 
@@ -34,7 +34,6 @@ RUN set -xe; \
 	apt-get install -y --no-install-recommends \
 		"postgresql-${PG_MAJOR}-pgaudit" \
 		"postgresql-${PG_MAJOR}-pg-failover-slots" \
-		"postgresql-${PG_MAJOR}-pgrouting" \
 	; \
 	rm -fr /tmp/* ; \
 	rm -rf /var/lib/apt/lists/*;
