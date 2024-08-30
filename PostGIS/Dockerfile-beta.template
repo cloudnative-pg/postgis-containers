@@ -37,8 +37,6 @@ RUN set -xe; \
 	; \
 	rm -fr /tmp/* ; \
 	rm -rf /var/lib/apt/lists/*;
-# Packages not available
-#   "postgresql-${PG_MAJOR}-pgrouting" \
 
 # Install barman-cloud
 RUN set -xe; \
