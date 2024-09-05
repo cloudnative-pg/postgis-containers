@@ -118,9 +118,9 @@ generate_postgres() {
 
 	newRelease="false"
 
-	# Detect if postgres image updated
+	# Detect an update of the postgis image
 	if [ "$oldPostgisImageLastUpdate" != "$postgisImageLastUpdate" ]; then
-		echo "Debian Image changed from $oldPostgisImageLastUpdate to $postgisImageLastUpdate"
+		echo "Postgis image timestamp changed from $oldPostgisImageLastUpdate to $postgisImageLastUpdate"
 		newRelease="true"
 		record_version "${versionFile}" "POSTGIS_IMAGE_LAST_UPDATED" "${postgisImageLastUpdate}"
 	fi
@@ -130,6 +130,18 @@ generate_postgres() {
 		echo "Barman changed from $oldBarmanVersion to $barmanVersion"
 		newRelease="true"
 		record_version "${versionFile}" "BARMAN_VERSION" "${barmanVersion}"
+	fi
+
+	# Detect an update of Dockerfile template
+	if [[ -n $(git diff --name-status Dockerfile.template) ]]; then
+		echo "Detected update of Dockerfile.template"
+		newRelease="true"
+	fi
+
+	# Detect an update of requirements.txt
+	if [[ -n $(git diff --name-status "$version/requirements.txt") ]]; then
+		echo "Detected update of requirements.txt dependencies"
+		newRelease="true"
 	fi
 
 	if [ "$oldPostgisImageVersion" != "$postgisImageVersion" ]; then
