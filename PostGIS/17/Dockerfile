@@ -4,8 +4,8 @@
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-# 
+# You may obtain a copy of the License at
+#
 #    http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
@@ -14,17 +14,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-FROM postgis/postgis:12-3.4
+FROM postgis/postgis:17beta3-master
 
 # Do not split the description, otherwise we will see a blank space in the labels
 LABEL name="PostgreSQL + PostGIS Container Images" \
       vendor="The CloudNativePG Contributors" \
       version="${PG_VERSION}" \
-      release="70" \
+      release="2" \
       summary="PostgreSQL + PostGIS Container images." \
-      description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres 12-3.4."
+      description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres 17beta3-master."
 
-LABEL org.opencontainers.image.description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres 12-3.4."
+LABEL org.opencontainers.image.description="This Docker image contains PostgreSQL and Barman Cloud based on Postgres 17beta3-master."
 
 COPY requirements.txt /
 
@@ -34,7 +34,6 @@ RUN set -xe; \
 	apt-get install -y --no-install-recommends \
 		"postgresql-${PG_MAJOR}-pgaudit" \
 		"postgresql-${PG_MAJOR}-pg-failover-slots" \
-		"postgresql-${PG_MAJOR}-pgrouting" \
 	; \
 	rm -fr /tmp/* ; \
 	rm -rf /var/lib/apt/lists/*;

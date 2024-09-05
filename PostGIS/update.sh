@@ -28,17 +28,25 @@ if [ ${#versions[@]} -eq 0 ]; then
 fi
 versions=("${versions[@]%/}")
 
+# Update this everytime a new major release of PostgreSQL is available
+POSTGRESQL_LATEST_MAJOR_RELEASE=16
+
 # Get the last postgres base image tag and update time
 fetch_postgres_image_version() {
-    local suite="$1";
-    local item="$2";
-	curl -SsL "https://registry.hub.docker.com/v2/repositories/postgis/postgis/tags/?name=${suite}&ordering=last_updated&" | \
-	  jq -c ".results[] | select( .name | match(\"^${suite}-[0-9.]+$\"))" | \
-	  jq -r ".${item}" | \
-	  sort -r | \
-	  head -n1
-}
+	local version="$1";
+	local item="$2";
 
+	regexp="^${version}-[0-9.]+$"
+	if [[ ${version} -gt "${POSTGRESQL_LATEST_MAJOR_RELEASE}" ]]; then
+		regexp="^${version}beta[0-9]+-master$"
+	fi
+
+	curl -SsL "https://registry.hub.docker.com/v2/repositories/postgis/postgis/tags/?name=${version}&ordering=last_updated&" | \
+		jq --arg regexp "$regexp" -c '.results[] | select( .name | match($regexp))' | \
+		jq -r ".${item}" | \
+		sort -r | \
+		head -n1
+}
 
 # Get the latest Barman version
 latest_barman_version=
@@ -146,10 +154,15 @@ generate_postgres() {
 		record_version "${versionFile}" "IMAGE_RELEASE_VERSION" $imageReleaseVersion
 	fi
 
+	dockerTemplate="Dockerfile.template"
+	if [[ ${version} -gt "${POSTGRESQL_LATEST_MAJOR_RELEASE}" ]]; then
+		dockerTemplate="Dockerfile-beta.template"
+	fi
+
 	cp -r src/* "$version/"
 	sed -e 's/%%POSTGIS_IMAGE_VERSION%%/'"$postgisImageVersion"'/g' \
 		-e 's/%%IMAGE_RELEASE_VERSION%%/'"$imageReleaseVersion"'/g' \
-		Dockerfile.template \
+		"${dockerTemplate}" \
 		> "$version/Dockerfile"
 }
 
