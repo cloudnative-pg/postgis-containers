@@ -100,6 +100,17 @@ generate_postgres() {
 		exit 1
 	fi
 
+	dockerTemplate="Dockerfile.template"
+	if [[ ${version} -gt "${POSTGRESQL_LATEST_MAJOR_RELEASE}" ]]; then
+		dockerTemplate="Dockerfile-beta.template"
+	fi
+
+	# Update requirements.txt
+	cp -r src/* "$version/"
+
+	# Output the image being updated
+	echo "$postgisImageVersion"
+
 	if [ -f "${versionFile}" ]; then
 		oldImageReleaseVersion=$(jq -r '.IMAGE_RELEASE_VERSION' "${versionFile}")
 		oldBarmanVersion=$(jq -r '.BARMAN_VERSION' "${versionFile}")
@@ -133,8 +144,8 @@ generate_postgres() {
 	fi
 
 	# Detect an update of Dockerfile template
-	if [[ -n $(git diff --name-status Dockerfile.template) ]]; then
-		echo "Detected update of Dockerfile.template"
+	if [[ -n $(git diff --name-status "$dockerTemplate") ]]; then
+		echo "Detected update of $dockerTemplate"
 		newRelease="true"
 	fi
 
@@ -154,12 +165,6 @@ generate_postgres() {
 		record_version "${versionFile}" "IMAGE_RELEASE_VERSION" $imageReleaseVersion
 	fi
 
-	dockerTemplate="Dockerfile.template"
-	if [[ ${version} -gt "${POSTGRESQL_LATEST_MAJOR_RELEASE}" ]]; then
-		dockerTemplate="Dockerfile-beta.template"
-	fi
-
-	cp -r src/* "$version/"
 	sed -e 's/%%POSTGIS_IMAGE_VERSION%%/'"$postgisImageVersion"'/g' \
 		-e 's/%%IMAGE_RELEASE_VERSION%%/'"$imageReleaseVersion"'/g' \
 		"${dockerTemplate}" \
