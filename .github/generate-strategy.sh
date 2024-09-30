@@ -10,7 +10,7 @@ set -eu
 
 # Define an optional aliases for some major versions
 declare -A aliases=(
-	[16]='latest'
+	[17]='latest'
 )
 
 GITHUB_ACTIONS=${GITHUB_ACTIONS:-false}
@@ -54,7 +54,7 @@ for version in "${postgis_versions[@]}"; do
 	# "major version - postgis version - release version"
 	# i.e. "14", "latest", "14-3.2", "14-3.2-1"
 	fullTag="${version}-${postgisVersion}-${releaseVersion}"
-  versionAliases=(
+	versionAliases=(
 			"${version}"
 			${aliases[$version]:+"${aliases[$version]}"}
 			"${version}-${postgisVersion}"

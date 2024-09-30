@@ -29,7 +29,7 @@ fi
 versions=("${versions[@]%/}")
 
 # Update this everytime a new major release of PostgreSQL is available
-POSTGRESQL_LATEST_MAJOR_RELEASE=16
+POSTGRESQL_LATEST_MAJOR_RELEASE=17
 
 # Get the last postgres base image tag and update time
 fetch_postgres_image_version() {
