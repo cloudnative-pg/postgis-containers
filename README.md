@@ -1,7 +1,7 @@
 # PostGIS Container Images
 
 Maintenance scripts to generate Immutable Application Containers
-for all available PostgreSQL + PostGIS versions (12 to 16) to be used as
+for all available PostgreSQL + PostGIS versions (12 to 17) to be used as
 operands with the [CloudNativePG operator](https://cloudnative-pg.io)
 for Kubernetes.
 
@@ -37,7 +37,7 @@ Images are available via the
 
 ## How to use them
 
-The following example shows how you can easily create a new PostgreSQL 16
+The following example shows how you can easily create a new PostgreSQL 17
 cluster with PostGIS 3.4 in it. All you have to do is set the `imageName`
 accordingly. Please look at the registry for a list of available images
 and select the one you need.
@@ -53,7 +53,7 @@ metadata:
   name: cluster-example
 spec:
   instances: 3
-  imageName: ghcr.io/cloudnative-pg/postgis:16-3.4
+  imageName: ghcr.io/cloudnative-pg/postgis:17-3.4
   bootstrap:
     initdb:
       postInitTemplateSQL:
@@ -73,7 +73,7 @@ PostGIS that is available in the system, by connecting to the `app` database:
 
 ```console
 $ kubectl exec -ti cluster-example-1 -- psql app
-psql (16.0 (Debian 16.0-1.pgdg110+1))
+psql (17.0 (Debian 17.0-1.pgdg110+1))
 Type "help" for help.
 
 app=# SELECT * FROM pg_available_extensions WHERE name ~ '^postgis' ORDER BY 1;
