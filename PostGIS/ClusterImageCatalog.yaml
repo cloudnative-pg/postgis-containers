@@ -5,14 +5,14 @@ metadata:
 spec:
   images:
     - major: 12
-      image: ghcr.io/cloudnative-pg/postgis:12-3.4-81@sha256:d148ae2f39ffddd0840961c5e6e7ac94db8472d5403bfb44733df7ad2e292a4a
+      image: ghcr.io/cloudnative-pg/postgis:12-3.4-82@sha256:b38931edbed3dda76f76e6ce85ac30b19caf87420a2a6739230f8e335f244c74
     - major: 13
-      image: ghcr.io/cloudnative-pg/postgis:13-3.4-81@sha256:4985f9c5339633c67c793cba90be2e28de60fee1cceebe9ed1caba99f4d3f13a
+      image: ghcr.io/cloudnative-pg/postgis:13-3.4-82@sha256:c2e23d8f8fda47ef9b8bb1ef4e954a61bc095d3acd31c7a6e104c8836df69446
     - major: 14
-      image: ghcr.io/cloudnative-pg/postgis:14-3.4-81@sha256:08c0beb1e27bdba94ecc1475d74d2915a6b2c3463b835e1f6d6169292fa309a8
+      image: ghcr.io/cloudnative-pg/postgis:14-3.4-82@sha256:a68663c3d7325bd44bb2a898bd3a3760258e2bb3cdc4022f2d2ca644556f69a5
     - major: 15
-      image: ghcr.io/cloudnative-pg/postgis:15-3.4-81@sha256:fba780f119af73eed6781b6ff968db2779654074d662ed55bd41f62f7689e19f
+      image: ghcr.io/cloudnative-pg/postgis:15-3.4-82@sha256:59f8be8375f9375f301774e782f30ccce66db6f4f321e0f09c05d5fa2456fc70
     - major: 16
-      image: ghcr.io/cloudnative-pg/postgis:16-3.4-73@sha256:1b6a6ef0274e0f77def4ca1ed776202e8556f4581765737257d0897285e851bb
+      image: ghcr.io/cloudnative-pg/postgis:16-3.4-74@sha256:afd9ed07160bd12fe023b070d3798ecf6fbbc1df4e921145d94a9b10a4ca5fa1
     - major: 17
-      image: ghcr.io/cloudnative-pg/postgis:17-3.4-2@sha256:553fa2399a942c032d19e13a88b75c495463185b692f137db182bd66220f0e99
+      image: ghcr.io/cloudnative-pg/postgis:17-3.4-3@sha256:c26038ee5e5c9e0dc6279c413021866088acaa95189338aee1e13ce40055adda
