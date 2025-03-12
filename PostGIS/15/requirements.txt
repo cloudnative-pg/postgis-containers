@@ -10,12 +10,12 @@ azure-core==1.32.0 \
     # via
     #   azure-identity
     #   azure-storage-blob
-azure-identity==1.20.0 \
-    --hash=sha256:40597210d56c83e15031b0fe2ea3b26420189e1e7f3e20bdbb292315da1ba014 \
-    --hash=sha256:5f23fc4889a66330e840bd78830287e14f3761820fe3c5f77ac875edcb9ec998
-azure-storage-blob==12.24.1 \
-    --hash=sha256:052b2a1ea41725ba12e2f4f17be85a54df1129e13ea0321f5a2fcc851cbf47d4 \
-    --hash=sha256:77fb823fdbac7f3c11f7d86a5892e2f85e161e8440a7489babe2195bf248f09e
+azure-identity==1.21.0 \
+    --hash=sha256:258ea6325537352440f71b35c3dffe9d240eae4a5126c1b7ce5efd5766bd9fd9 \
+    --hash=sha256:ea22ce6e6b0f429bc1b8d9212d5b9f9877bd4c82f1724bfa910760612c07a9a6
+azure-storage-blob==12.25.0 \
+    --hash=sha256:42364ca8f9f49dbccd0acc10144ed47bb6770bf78719970b51915f048891abba \
+    --hash=sha256:a38e18bf10258fb19028f343db0d3d373280c6427a619c98c06d76485805b755
 barman[azure,cloud,google,lz4,snappy,zstandard]==3.12.1 \
     --hash=sha256:258ef7100717f66032402e0abe03c977089c50fc47143df5708e92aa1d772937 \
     --hash=sha256:9dd7be219b6f74954b80cdc28f9a72f2acb923e7da65edd0f41cdc82fd32e169
