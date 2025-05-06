@@ -16,9 +16,9 @@ azure-identity==1.21.0 \
 azure-storage-blob==12.25.1 \
     --hash=sha256:1f337aab12e918ec3f1b638baada97550673911c4ceed892acc8e4e891b74167 \
     --hash=sha256:4f294ddc9bc47909ac66b8934bd26b50d2000278b10ad82cc109764fdc6e0e3b
-barman[azure,cloud,google,lz4,snappy,zstandard]==3.12.1 \
-    --hash=sha256:258ef7100717f66032402e0abe03c977089c50fc47143df5708e92aa1d772937 \
-    --hash=sha256:9dd7be219b6f74954b80cdc28f9a72f2acb923e7da65edd0f41cdc82fd32e169
+barman[azure,cloud,google,lz4,snappy,zstandard]==3.13.3 \
+    --hash=sha256:0ebc81caf4f9d8a9ca986d364a5cd6398ec90b5ef0292985e6551b8aba501114 \
+    --hash=sha256:d3fe573ea81d820ab0b30ec921c3ed2a226b8a1acdd9990a4bfdb84d3ff38906
     # via -r requirements.in
 boto3==1.35.99 \
     --hash=sha256:83e560faaec38a956dfb3d62e05e1703ee50432b45b788c09e25107c5058bd71 \
@@ -359,9 +359,9 @@ google-api-core==2.25.0rc0 \
     # via
     #   google-cloud-core
     #   google-cloud-storage
-google-auth==2.39.0 \
-    --hash=sha256:0150b6711e97fb9f52fe599f55648950cc4540015565d8fbb31be2ad6e1548a2 \
-    --hash=sha256:73222d43cdc35a3aeacbfdcaf73142a97839f10de930550d89ebfe1d0a00cde7
+google-auth==2.40.0 \
+    --hash=sha256:c277cf39f7c192d8540eb6331c08b5a0796e8041af8343ae73dd6b269732ca6c \
+    --hash=sha256:dc3a5078acb1043c3e43685c22d628afe40af8559cf561de388e0c939280fcc8
     # via
     #   google-api-core
     #   google-cloud-core
