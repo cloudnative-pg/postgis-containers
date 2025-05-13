@@ -20,7 +20,7 @@ FROM postgis/postgis:13-3.5
 LABEL name="PostgreSQL + PostGIS Container Images" \
       vendor="The CloudNativePG Contributors" \
       version="${PG_VERSION}" \
-      release="114" \
+      release="115" \
       summary="PostgreSQL + PostGIS Container images." \
       description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres 13-3.5."
 
@@ -31,6 +31,11 @@ COPY requirements.txt /
 # Install additional extensions
 RUN set -xe; \
 	apt-get update; \
+	if apt list --upgradable 2>/dev/null | grep -q '^postgres'; then \
+		echo "ERROR: Upgradable postgres packages found!"; \
+		apt list --upgradable 2>/dev/null | grep '^postgres'; \
+		exit 1; \
+	fi; \
 	apt-get install -y --no-install-recommends \
 		"postgresql-${PG_MAJOR}-pgaudit" \
 		"postgresql-${PG_MAJOR}-pg-failover-slots" \
