@@ -1,7 +1,7 @@
 # PostGIS Container Images
 
 Maintenance scripts to generate Immutable Application Containers
-for all available PostgreSQL + PostGIS versions (12 to 17) to be used as
+for all available PostgreSQL + PostGIS versions (13 to 17) to be used as
 operands with the [CloudNativePG operator](https://cloudnative-pg.io)
 for Kubernetes.
 
