@@ -16,19 +16,16 @@ azure-identity==1.23.0 \
 azure-storage-blob==12.25.1 \
     --hash=sha256:1f337aab12e918ec3f1b638baada97550673911c4ceed892acc8e4e891b74167 \
     --hash=sha256:4f294ddc9bc47909ac66b8934bd26b50d2000278b10ad82cc109764fdc6e0e3b
-barman[azure,cloud,google,lz4,snappy,zstandard]==3.13.3 \
-    --hash=sha256:0ebc81caf4f9d8a9ca986d364a5cd6398ec90b5ef0292985e6551b8aba501114 \
-    --hash=sha256:d3fe573ea81d820ab0b30ec921c3ed2a226b8a1acdd9990a4bfdb84d3ff38906
+barman[azure,cloud,google,lz4,snappy,zstandard]==3.14.0 \
+    --hash=sha256:372d5f1c13e4015c4335eb576a829562c350ba62bfca488d0677fabe8d104cb2 \
+    --hash=sha256:e99e4bb96e60d0efa20abeb3a5737cc02a6b4a91093dc43a284ccc2e4ee7749c
     # via -r requirements.in
-boto3==1.35.99 \
-    --hash=sha256:83e560faaec38a956dfb3d62e05e1703ee50432b45b788c09e25107c5058bd71 \
-    --hash=sha256:e0abd794a7a591d90558e92e29a9f8837d25ece8e3c120e530526fe27eba5fca
-    # via
-    #   -r requirements.in
-    #   barman
-botocore==1.35.99 \
-    --hash=sha256:1eab44e969c39c5f3d9a3104a0836c24715579a455f12b3979a31d7cde51b3c3 \
-    --hash=sha256:b22d27b6b617fc2d7342090d6129000af2efd20174215948c0d7ae2da0fab445
+boto3==1.38.25 \
+    --hash=sha256:2f2cd517dd31d33ace0eefe567dc903fdf74221513e32f1e9445bdfac7554db7 \
+    --hash=sha256:85c1556a110896f68de8573a9b4757c81071448dbf6ffc1074941bfc8a43195e
+botocore==1.38.25 \
+    --hash=sha256:5a960bd990a11cdb78865e908a58ed712d87d9b419f55ad21c99d7d21f0d6726 \
+    --hash=sha256:8c73e97d9662a6c92be33dab66cd1e2b59797154c7ec379ce3bb5d6779d9d78c
     # via
     #   boto3
     #   s3transfer
@@ -544,9 +541,9 @@ rsa==4.9.1 \
     --hash=sha256:68635866661c6836b8d39430f97a996acbd61bfa49406748ea243539fe239762 \
     --hash=sha256:e7bdbfdb5497da4c07dfd35530e1a902659db6ff241e39d9953cad06ebd0ae75
     # via google-auth
-s3transfer==0.10.4 \
-    --hash=sha256:244a76a24355363a68164241438de1b72f8781664920260c48465896b712a41e \
-    --hash=sha256:29edc09801743c21eb5ecbc617a152df41d3c287f67b615f73e5f750583666a7
+s3transfer==0.13.0 \
+    --hash=sha256:0148ef34d6dd964d0d8cf4311b2b21c474693e57c2e069ec708ce043d2b527be \
+    --hash=sha256:f5e6db74eb7776a37208001113ea7aa97695368242b364d73e91c981ac522177
     # via boto3
 six==1.17.0 \
     --hash=sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274 \
