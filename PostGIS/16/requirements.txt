@@ -4,9 +4,9 @@
 #
 #    pip-compile --generate-hashes
 #
-azure-core==1.34.0 \
-    --hash=sha256:0615d3b756beccdb6624d1c0ae97284f38b78fb59a2a9839bf927c66fbbdddd6 \
-    --hash=sha256:bdb544989f246a0ad1c85d72eeb45f2f835afdcbc5b45e43f0dbde7461c81ece
+azure-core==1.35.0 \
+    --hash=sha256:8db78c72868a58f3de8991eb4d22c4d368fae226dac1002998d6c50437e7dad1 \
+    --hash=sha256:c0be528489485e9ede59b6971eb63c1eaacf83ef53001bfe3904e475e972be5c
     # via
     #   azure-identity
     #   azure-storage-blob
@@ -20,12 +20,12 @@ barman[azure,cloud,google,lz4,snappy,zstandard]==3.14.0 \
     --hash=sha256:372d5f1c13e4015c4335eb576a829562c350ba62bfca488d0677fabe8d104cb2 \
     --hash=sha256:e99e4bb96e60d0efa20abeb3a5737cc02a6b4a91093dc43a284ccc2e4ee7749c
     # via -r requirements.in
-boto3==1.39.2 \
-    --hash=sha256:a37f202978f11f384e3fd1f0ff8938367b527845493f9509357e1732debc390f \
-    --hash=sha256:edad811edacb8c99f2fe59b117d9b9d8ee3972beb6c090c8aa164ddbc506d67d
-botocore==1.39.2 \
-    --hash=sha256:474445fa8b281dd5db8fc62184f0f6e494d4f1efb96fe10312490583e67a9dd0 \
-    --hash=sha256:921cab9aa6e1e4ceddcece5b55b57daae7722168e74409f1aafcc2c5589df676
+boto3==1.39.3 \
+    --hash=sha256:056cfa2440fe1a157a7c2be897c749c83e1a322144aa4dad889f2fca66571019 \
+    --hash=sha256:0a367106497649ae3d8a7b571b8c3be01b7b935a0fe303d4cc2574ed03aecbb4
+botocore==1.39.3 \
+    --hash=sha256:66a81cfac18ad5e9f47696c73fdf44cdbd8f8ca51ab3fca1effca0aabf61f02f \
+    --hash=sha256:da8f477e119f9f8a3aaa8b3c99d9c6856ed0a243680aa3a3fbbfc15a8d4093fb
     # via
     #   boto3
     #   s3transfer
