@@ -178,6 +178,9 @@ jobs:
     name: Generate ClusterImageCatalog
     runs-on: ubuntu-22.04
     needs: build
+    permissions:
+      contents: write
+      actions: read
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
