@@ -12,6 +12,8 @@ env:
   IMAGE_STAGING: "ghcr.io/${{ github.repository_owner }}/postgis-testing"
   IMAGE_RELEASE: "ghcr.io/${{ github.repository_owner }}/postgis"
 
+permissions: read-all
+
 jobs:
   generate-jobs:
     name: Generate Jobs
