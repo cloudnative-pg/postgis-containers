@@ -19,7 +19,7 @@ FROM postgis/postgis:17-3.5
 LABEL name="PostgreSQL + PostGIS Container Images" \
       vendor="The CloudNativePG Contributors" \
       version="${PG_VERSION}" \
-      release="186" \
+      release="187" \
       summary="PostgreSQL + PostGIS Container images." \
       description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres 17-3.5."
 
