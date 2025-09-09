@@ -3,8 +3,8 @@
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-# 
+# You may obtain a copy of the License at
+#
 #    http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
@@ -19,26 +19,20 @@ FROM postgis/postgis:18rc1-3.6
 LABEL name="PostgreSQL + PostGIS Container Images" \
       vendor="The CloudNativePG Contributors" \
       version="${PG_VERSION}" \
-      release="192" \
+      release="1" \
       summary="PostgreSQL + PostGIS Container images." \
-      description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres 17-3.5."
+      description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres 18rc1-3.6."
 
-LABEL org.opencontainers.image.description="This Docker image contains PostgreSQL, PostGIS and Barman Cloud based on Postgres 17-3.5."
+LABEL org.opencontainers.image.description="This Docker image contains PostgreSQL and Barman Cloud based on Postgres 18rc1-3.6."
 
 COPY requirements.txt /
 
 # Install additional extensions
 RUN set -xe; \
 	apt-get update; \
-	if apt-get -s upgrade | grep "^Inst postgres"; then \
-		echo "ERROR: Upgradable postgres packages found!"; \
-		apt-get -s upgrade | grep "^Inst postgres"; \
-		exit 1; \
-	fi; \
 	apt-get install -y --no-install-recommends \
 		"postgresql-${PG_MAJOR}-pgaudit" \
 		"postgresql-${PG_MAJOR}-pg-failover-slots" \
-		"postgresql-${PG_MAJOR}-pgrouting" \
 	; \
 	rm -fr /tmp/* ; \
 	rm -rf /var/lib/apt/lists/*;

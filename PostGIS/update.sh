@@ -53,7 +53,8 @@ fetch_postgres_image_version() {
 
 	regexp="^${version}-[0-9.]+$"
 	if [[ ${version} -gt "${POSTGRESQL_LATEST_MAJOR_RELEASE}" ]]; then
-		regexp="^${version}beta[0-9]+-master$"
+		#regexp="^${version}beta[0-9]+-3\.6$"
+		regexp="^${version}rc[0-9]+-3\.6$"
 	fi
 
 	curl -SsL "https://registry.hub.docker.com/v2/repositories/postgis/postgis/tags/?name=${version}&ordering=last_updated&" | \
@@ -194,7 +195,7 @@ update_requirements() {
 
 	# This will take the requirements.in file and generate a file
 	# requirements.txt with the hashes for the required packages
-	pip-compile -U --generate-hashes #2> /dev/null
+	pip-compile -U --generate-hashes 2> /dev/null
 
 	# Removes psycopg from the list of packages to install
 	sed -i '/psycopg/{:a;N;/barman/!ba};/via barman/d' requirements.txt
