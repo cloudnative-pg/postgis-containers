@@ -33,7 +33,7 @@ jobs:
         id: get_versions
         run: |
           VERSIONS="$(curl -s https://raw.githubusercontent.com/cloudnative-pg/postgres-containers/refs/heads/main/docker-bake.hcl \
-            | sed -n '/postgreSQLVersions = \[/,/\]/ s/.*"\([0-9][0-9]*\)[.~][^"]*".*/\1/p' \
+            | sed -n '/postgreSQL\(Versions\|PreviewVersions\) = \[/,/\]/ s/.*"\([0-9][0-9]*\)[.~][^"]*".*/\1/p' \
             | sort -nu | paste -sd,)"
           echo "PostgreSQL versions: [$VERSIONS]"
           echo "versions=[$VERSIONS]" >> "$GITHUB_OUTPUT"
