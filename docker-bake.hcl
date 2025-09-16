@@ -1,10 +1,13 @@
 fullname = ( environment == "testing") ? "${registry}/postgis-testing" : "${registry}/postgis"
 url = "https://github.com/cloudnative-pg/postgis-containers"
 
-postgisVersion = "3.5.2"
-postgisMajor = index(split(".", postgisVersion),0)
-shortPostgisVersion = join(".", slice(split(".", postgisVersion), 0, 2))
-
+variable "postgisMatrix" {
+  default = {
+    "bullseye" = "3.5.2"
+    "bookworm" = "3.6.0"
+    "trixie" = "3.6.0"
+  }
+}
 
 target "postgis" {
   matrix = {
@@ -26,16 +29,16 @@ target "postgis" {
   ]
   dockerfile = "cwd://Dockerfile"
   context = "."
-  name = "postgis-${replace(postgisVersion, ".", "")}-${index(split(".",cleanVersion(pgVersion)),0)}-${tgt}-${distro}"
+  name = "postgis-${replace(getPostgisByDistro(distro), ".", "")}-${index(split(".",cleanVersion(pgVersion)),0)}-${tgt}-${distro}"
   tags = [
-    "${fullname}:${index(split(".",cleanVersion(pgVersion)),0)}-${shortPostgisVersion}-${tgt}-${distro}",
-    "${fullname}:${cleanVersion(pgVersion)}-${postgisVersion}-${tgt}-${distro}",
-    "${fullname}:${cleanVersion(pgVersion)}-${postgisVersion}-${formatdate("YYYYMMDDhhmm", now)}-${tgt}-${distro}",
+    "${fullname}:${index(split(".",cleanVersion(pgVersion)),0)}-${getShortPostgisVersion(getPostgisByDistro(distro))}-${tgt}-${distro}",
+    "${fullname}:${cleanVersion(pgVersion)}-${getPostgisByDistro(distro)}-${tgt}-${distro}",
+    "${fullname}:${cleanVersion(pgVersion)}-${getPostgisByDistro(distro)}-${formatdate("YYYYMMDDhhmm", now)}-${tgt}-${distro}",
   ]
   args = {
     PG_MAJOR = "${getMajor(pgVersion)}"
-    POSTGIS_VERSION = "${postgisVersion}"
-    POSTGIS_MAJOR = "${postgisMajor}"
+    POSTGIS_VERSION = "${getPostgisByDistro(distro)}"
+    POSTGIS_MAJOR = "${getPostgisMajor(getPostgisByDistro(distro))}"
     BASE = "${getBaseImage(pgVersion, tgt, distro)}"
   }
   attest = [
@@ -46,11 +49,11 @@ target "postgis" {
     "index,manifest:org.opencontainers.image.created=${now}",
     "index,manifest:org.opencontainers.image.url=${url}",
     "index,manifest:org.opencontainers.image.source=${url}",
-    "index,manifest:org.opencontainers.image.version=${pgVersion}-${postgisVersion}",
+    "index,manifest:org.opencontainers.image.version=${pgVersion}-${getPostgisByDistro(distro)}",
     "index,manifest:org.opencontainers.image.revision=${revision}",
     "index,manifest:org.opencontainers.image.vendor=${authors}",
-    "index,manifest:org.opencontainers.image.title=CloudNativePG PostGIS ${pgVersion}-${postgisVersion} ${tgt}",
-    "index,manifest:org.opencontainers.image.description=A ${tgt} PostGIS ${pgVersion}-${postgisVersion} container image",
+    "index,manifest:org.opencontainers.image.title=CloudNativePG PostGIS ${pgVersion}-${getPostgisByDistro(distro)} ${tgt}",
+    "index,manifest:org.opencontainers.image.description=A ${tgt} PostGIS ${pgVersion}-${getPostgisByDistro(distro)} container image",
     "index,manifest:org.opencontainers.image.documentation=${url}",
     "index,manifest:org.opencontainers.image.authors=${authors}",
     "index,manifest:org.opencontainers.image.licenses=Apache-2.0",
@@ -63,8 +66,8 @@ target "postgis" {
     "org.opencontainers.image.version" = "${pgVersion}",
     "org.opencontainers.image.revision" = "${revision}",
     "org.opencontainers.image.vendor" = "${authors}",
-    "org.opencontainers.image.title" = "CloudNativePG PostGIS ${pgVersion}-${postgisVersion} ${tgt}",
-    "org.opencontainers.image.description" = "A ${tgt} PostGIS ${pgVersion}-${postgisVersion} container image",
+    "org.opencontainers.image.title" = "CloudNativePG PostGIS ${pgVersion}-${getPostgisByDistro(distro)} ${tgt}",
+    "org.opencontainers.image.description" = "A ${tgt} PostGIS ${pgVersion}-${getPostgisByDistro(distro)} container image",
     "org.opencontainers.image.documentation" = "${url}",
     "org.opencontainers.image.authors" = "${authors}",
     "org.opencontainers.image.licenses" = "Apache-2.0"
@@ -75,4 +78,19 @@ target "postgis" {
 function getBaseImage {
   params = [ pgVersion, imageType, distro ]
   result = format("ghcr.io/cloudnative-pg/postgresql:%s-%s-%s", pgVersion, imageType, distro)
+}
+
+function getPostgisByDistro {
+  params = [ distro ]
+  result = postgisMatrix[distro]
+}
+
+function getPostgisMajor {
+  params = [ postgisVersion ]
+  result = index(split(".", postgisVersion),0)
+}
+
+function getShortPostgisVersion {
+  params = [ postgisVersion ]
+  result = join(".", slice(split(".", postgisVersion), 0, 2))
 }
