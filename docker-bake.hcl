@@ -24,7 +24,7 @@ target "postgis" {
       "system"
     ]
     distro = distributions
-    pgVersion = postgreSQLVersions
+    pgVersion = getPgVersions(postgreSQLVersions, postgreSQLPreviewVersions)
   }
 
   platforms = [
@@ -81,7 +81,7 @@ target "postgis" {
 
 function getBaseImage {
   params = [ pgVersion, imageType, distro ]
-  result = format("ghcr.io/cloudnative-pg/postgresql:%s-%s-%s", pgVersion, imageType, distro)
+  result = format("ghcr.io/cloudnative-pg/postgresql:%s-%s-%s", cleanVersion(pgVersion), imageType, distro)
 }
 
 function getPostgisByDistro {
