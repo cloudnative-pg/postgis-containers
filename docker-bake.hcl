@@ -3,10 +3,18 @@ url = "https://github.com/cloudnative-pg/postgis-containers"
 
 variable "postgisMatrix" {
   default = {
-    "bullseye" = "3.5.2"
-    "bookworm" = "3.6.0"
-    "trixie" = "3.6.0"
+    "bullseye" = "3.5.2+dfsg-1.pgdg110+1"
+    "bookworm" = "3.6.0+dfsg-1.pgdg12+1"
+    "trixie" = "3.6.0+dfsg-1.pgdg13+1"
   }
+}
+
+variable "distributions" {
+  default = [
+    "bullseye",
+    "bookworm",
+    "trixie"
+  ]
 }
 
 target "postgis" {
@@ -15,30 +23,26 @@ target "postgis" {
       "standard",
       "system"
     ]
-    distro = [
-      "bullseye",
-      "bookworm",
-      "trixie"
-    ]
+    distro = distributions
     pgVersion = postgreSQLVersions
   }
 
   platforms = [
     "linux/amd64",
-    // "linux/arm64"
+    "linux/arm64"
   ]
   dockerfile = "cwd://Dockerfile"
   context = "."
-  name = "postgis-${replace(getPostgisByDistro(distro), ".", "")}-${index(split(".",cleanVersion(pgVersion)),0)}-${tgt}-${distro}"
+  name = "postgis-${replace(getPostgisVersion(distro), ".", "")}-${index(split(".",cleanVersion(pgVersion)),0)}-${tgt}-${distro}"
   tags = [
-    "${fullname}:${index(split(".",cleanVersion(pgVersion)),0)}-${getShortPostgisVersion(getPostgisByDistro(distro))}-${tgt}-${distro}",
-    "${fullname}:${cleanVersion(pgVersion)}-${getPostgisByDistro(distro)}-${tgt}-${distro}",
-    "${fullname}:${cleanVersion(pgVersion)}-${getPostgisByDistro(distro)}-${formatdate("YYYYMMDDhhmm", now)}-${tgt}-${distro}",
+    "${fullname}:${index(split(".",cleanVersion(pgVersion)),0)}-${getShortPostgisVersion(distro)}-${tgt}-${distro}",
+    "${fullname}:${cleanVersion(pgVersion)}-${getPostgisVersion(distro)}-${tgt}-${distro}",
+    "${fullname}:${cleanVersion(pgVersion)}-${getPostgisVersion(distro)}-${formatdate("YYYYMMDDhhmm", now)}-${tgt}-${distro}",
   ]
   args = {
     PG_MAJOR = "${getMajor(pgVersion)}"
     POSTGIS_VERSION = "${getPostgisByDistro(distro)}"
-    POSTGIS_MAJOR = "${getPostgisMajor(getPostgisByDistro(distro))}"
+    POSTGIS_MAJOR = "${getPostgisMajor(distro)}"
     BASE = "${getBaseImage(pgVersion, tgt, distro)}"
   }
   attest = [
@@ -49,11 +53,11 @@ target "postgis" {
     "index,manifest:org.opencontainers.image.created=${now}",
     "index,manifest:org.opencontainers.image.url=${url}",
     "index,manifest:org.opencontainers.image.source=${url}",
-    "index,manifest:org.opencontainers.image.version=${pgVersion}-${getPostgisByDistro(distro)}",
+    "index,manifest:org.opencontainers.image.version=${pgVersion}-${getPostgisVersion(distro)}",
     "index,manifest:org.opencontainers.image.revision=${revision}",
     "index,manifest:org.opencontainers.image.vendor=${authors}",
-    "index,manifest:org.opencontainers.image.title=CloudNativePG PostGIS ${pgVersion}-${getPostgisByDistro(distro)} ${tgt}",
-    "index,manifest:org.opencontainers.image.description=A ${tgt} PostGIS ${pgVersion}-${getPostgisByDistro(distro)} container image",
+    "index,manifest:org.opencontainers.image.title=CloudNativePG PostGIS ${pgVersion}-${getPostgisVersion(distro)} ${tgt}",
+    "index,manifest:org.opencontainers.image.description=A ${tgt} PostGIS ${pgVersion}-${getPostgisVersion(distro)} container image",
     "index,manifest:org.opencontainers.image.documentation=${url}",
     "index,manifest:org.opencontainers.image.authors=${authors}",
     "index,manifest:org.opencontainers.image.licenses=Apache-2.0",
@@ -66,8 +70,8 @@ target "postgis" {
     "org.opencontainers.image.version" = "${pgVersion}",
     "org.opencontainers.image.revision" = "${revision}",
     "org.opencontainers.image.vendor" = "${authors}",
-    "org.opencontainers.image.title" = "CloudNativePG PostGIS ${pgVersion}-${getPostgisByDistro(distro)} ${tgt}",
-    "org.opencontainers.image.description" = "A ${tgt} PostGIS ${pgVersion}-${getPostgisByDistro(distro)} container image",
+    "org.opencontainers.image.title" = "CloudNativePG PostGIS ${pgVersion}-${getPostgisVersion(distro)} ${tgt}",
+    "org.opencontainers.image.description" = "A ${tgt} PostGIS ${pgVersion}-${getPostgisVersion(distro)} container image",
     "org.opencontainers.image.documentation" = "${url}",
     "org.opencontainers.image.authors" = "${authors}",
     "org.opencontainers.image.licenses" = "Apache-2.0"
@@ -86,11 +90,16 @@ function getPostgisByDistro {
 }
 
 function getPostgisMajor {
-  params = [ postgisVersion ]
-  result = index(split(".", postgisVersion),0)
+  params = [ distro ]
+  result = index(split(".", getPostgisByDistro(distro)),0)
+}
+
+function getPostgisVersion {
+  params = [ distro ]
+  result = join(".", slice(split(".", split("+", getPostgisByDistro(distro))[0]), 0, 3))
 }
 
 function getShortPostgisVersion {
-  params = [ postgisVersion ]
-  result = join(".", slice(split(".", postgisVersion), 0, 2))
+  params = [ distro ]
+  result = join(".", slice(split(".", split("+", getPostgisByDistro(distro))[0]), 0, 2))
 }
