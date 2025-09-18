@@ -101,12 +101,20 @@ Examples:
 - Build all PostGIS 3.6.0 images for PostgreSQL 17:
 
   ```bash
-  docker buildx bake postgis-360-17*
+  docker buildx bake \
+    -f docker-bake.hcl \
+    -f cwd://docker-bake.hcl \
+    "https://github.com/cloudnative-pg/postgres-containers.git#main" \
+    postgis-360-17*
   ```
 
 - Build a specific image (PostGIS 3.6.0, PostgreSQL 17, `standard` variant,
   Debian Trixie):
 
   ```bash
-  docker buildx bake postgis-360-17-standard-trixie
+  docker buildx bake \
+    -f docker-bake.hcl \
+    -f cwd://docker-bake.hcl \
+    "https://github.com/cloudnative-pg/postgres-containers.git#main" \
+    postgis-360-17-standard-trixie
   ```
