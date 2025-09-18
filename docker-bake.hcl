@@ -3,7 +3,6 @@ url = "https://github.com/cloudnative-pg/postgis-containers"
 
 variable "postgisMatrix" {
   default = {
-    "bullseye" = "3.5.2+dfsg-1.pgdg110+1"
     "bookworm" = "3.6.0+dfsg-1.pgdg12+1"
     "trixie" = "3.6.0+dfsg-1.pgdg13+1"
   }
@@ -11,7 +10,6 @@ variable "postgisMatrix" {
 
 variable "distributions" {
   default = [
-    "bullseye",
     "bookworm",
     "trixie"
   ]
