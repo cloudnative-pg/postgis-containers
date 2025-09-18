@@ -1,61 +1,98 @@
 # Building PostGIS Container Images for CloudNativePG
 
-This guide outlines the process for building PostGIS operand images for
-CloudNativePG using [Docker Bake](https://docs.docker.com/build/bake/) and a
-[GitHub workflow](.github/workflows/bake.yml).
+This guide explains how to build PostGIS operand images for
+[CloudNativePG](https://cloudnative-pg.io) using
+[Docker Bake](https://docs.docker.com/build/bake/) together with a
+[GitHub Actions workflow](.github/workflows/bake.yml).
 
-## Prerequisites and Requirements
+## Prerequisites
 
-For prerequisites and requirements, refer to the [postgres-containers](https://github.com/cloudnative-pg/postgres-containers) documentation:
+This project depends on
+[`postgres-containers`](https://github.com/cloudnative-pg/postgres-containers).
+Before you begin, ensure that you have met the same prerequisites and
+requirements described there:
+
 - [Prerequisites](https://github.com/cloudnative-pg/postgres-containers/blob/main/BUILD.md#prerequisites)
 - [Verifying requirements](https://github.com/cloudnative-pg/postgres-containers/blob/main/BUILD.md#verifying-requirements)
 
-## How it works
+## How It Works
 
-This project works as a dependent module of [postgres-containers](https://github.com/cloudnative-pg/postgres-containers), and requires
-to include [postgres-containers's docker-bake.hcl](https://github.com/cloudnative-pg/postgres-containers/blob/main/docker-bake.hcl) as a source Bake file definition.
+This repository extends the build system of
+[`postgres-containers`](https://github.com/cloudnative-pg/postgres-containers)
+by defining PostGIS as an additional build target.
 
-The local [docker-bake.hcl](docker-bake.hcl) extends the source Bake file by adding a `postgis` target.
+It achieves this by:
+
+- Including the upstream [`docker-bake.hcl`](https://github.com/cloudnative-pg/postgres-containers/blob/main/docker-bake.hcl)
+  file as a source definition.
+- Extending it locally with the [`docker-bake.hcl`](docker-bake.hcl) in this
+  repository, which adds the `postgis` target.
+
+This modular setup allows you to reuse the same configuration, overrides, and
+build attributes from the upstream project, while keeping PostGIS-specific
+settings separate and maintainable, including the supply chain.
 
 ## PostGIS Target
 
-The `postgis` target in Bake represents a Cartesian product of the following
+The `postgis` target in Bake is defined as a Cartesian product of the following
 dimensions:
 
-- **Base Image** (e.g `18-standard-trixie`)
-  - **PostgreSQL Major version** (e.g `18`)
-  - **Type** (e.g. `standard`)
-  - **OS** (e.g. `trixie`)
+- **Base Image** (e.g. `18-standard-trixie`)
+
+  - **PostgreSQL major version** (e.g. `18`)
+  - **Image type** (e.g. `standard`)
+  - **Operating system codename** (e.g. `trixie`)
 - **Platforms**
 - **PostGIS version**
 
-## Building Images
+# Building PostGIS Images
 
-To build PostGIS images using the `postgis` target - all the available PostGIS combinations - run:
+To build all available PostGIS images, run:
 
 ```bash
+# The two docker-bake.hcl files are:
+# - the one from the upstream postgres-containers repository (remote)
+# - the one from this project (local), which extends/overrides the upstream file
 docker buildx bake --push \
-  -f docker-bake.hcl \ # The bake file relative to the remote URL
-  -f cwd://docker-bake.hcl \ # The local bake file
-  "https://github.com/cloudnative-pg/postgres-containers.git#main" \ # The remote URL
+  -f docker-bake.hcl \
+  -f cwd://docker-bake.hcl \
+  "https://github.com/cloudnative-pg/postgres-containers.git#main" \
   postgis
 ```
 
-> *Important:* It's mandatory to set the `postgis` target (or a stricter one).
-> Without it, Bake will try building all targets, including the `default` one
-> which contains plain PostgreSQL images inherited from the remote bake file.
+> **IMPORTANT:** Always specify the `postgis` target (or a more specific one).
+> If you omit the target, Bake will attempt to build all upstream targets
+> (including the default PostgreSQL-only images).
 
-This setup, described in https://docs.docker.com/build/bake/remote-definition/,
-let's you combine multiple bake files so that all attributes from the source configuration
-are reused. At the same time, it allows you to override specific values in the local bake file,
-giving you flexible and maintainable build configurations.
+This approach, based on
+[remote Bake file definitions](https://docs.docker.com/build/bake/remote-definition/),
+lets you combine multiple Bake files so that:
 
-You can limit the build to a stricter combination or even to a specific image.
-Postgis targets use the following naming convention:
+- The full configuration from the upstream project is inherited.
+- Local overrides and PostGIS-specific settings are applied cleanly.
+
+### Limiting the Build
+
+You can narrow down the build scope to a specific PostGIS/PostgreSQL
+combination using target naming conventions.
+
+PostGIS targets follow this pattern:
+
 ```
-postgis-<postgisVersion>-<postgresMajor>-<type>-<os>
+postgis-<postgisVersion>-<postgresMajor>-<variant>-<os>
 ```
 
-For example, you can limit the build to all PostGIS 3.6.0 on PostgreSQL 17 by using `postgis-360-17*` as a target,
-or even specify a full image like `postgis-360-17-standard-trixie`.
+Examples:
 
+- Build all PostGIS 3.6.0 images for PostgreSQL 17:
+
+  ```bash
+  docker buildx bake postgis-360-17*
+  ```
+
+- Build a specific image (PostGIS 3.6.0, PostgreSQL 17, `standard` variant,
+  Debian Trixie):
+
+  ```bash
+  docker buildx bake postgis-360-17-standard-trixie
+  ```
