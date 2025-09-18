@@ -1,4 +1,14 @@
-# PostGIS Container Images
+[![CloudNativePG](./logo/cloudnativepg.png)](https://cloudnative-pg.io/)
+
+> **IMPORTANT:** Starting from **September 2025**, the CloudNativePG project
+> has fully transitioned to the new Docker **`bake`-based build process** for
+> the main [PostgreSQL container images](https://github.com/cloudnative-pg/postgres-containers).
+> Consequently, the **CloudNativePG PostGIS images** will now also be built on
+> top of these new base images.
+
+---
+
+# CNPG PostGIS Container Images
 
 Maintenance scripts to generate Immutable Application Containers
 for all available PostgreSQL + PostGIS versions (13 to 17) to be used as
