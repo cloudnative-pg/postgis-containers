@@ -102,6 +102,7 @@ jobs:
         push: false
         load: true
         tags: ${{ env.TAGS }}
+        provenance: false
 
     - name: Dockle scan
       uses: erzz/dockle-action@v1
@@ -140,6 +141,7 @@ jobs:
         platforms: ${{ matrix.platforms }}
         push: true
         tags: ${{ env.TAGS }}
+        provenance: false
 
     - name: Create artifact
       run: |
