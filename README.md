@@ -14,8 +14,8 @@ This repository provides scripts and definitions for building **immutable
 application container images** that bundle PostGIS with PostgreSQL.
 These images are built on top of the official
 [CNPG PostgreSQL container images project](https://github.com/cloudnative-pg/postgres-containers)
-and are maintained for a selected set of PostGIS major versions, across all
-supported PostgreSQL releases, on the following base variants:
+and are maintained for the latest PostGIS major version (currently 3), across
+all supported PostgreSQL releases, on the following base variants:
 
 - `standard` – without Barman Cloud
 - `system` – with Barman Cloud
@@ -25,11 +25,6 @@ following the [`postgres-containers`](https://github.com/cloudnative-pg/postgres
 policy—**except that Debian `oldoldstable` is not supported**—and are
 contingent upon the availability of
 [Apt packages from the PostgreSQL Global Development Group (PGDG)](https://wiki.postgresql.org/wiki/Apt).
-
-Currently, CloudNativePG supports the following PostGIS versions:
-
-- PostGIS 3.6
-- PostGIS 3.5
 
 Images are available via the
 [`ghcr.io/cloudnative-pg/postgis` registry](https://github.com/cloudnative-pg/postgis-containers/pkgs/container/postgis),
@@ -42,11 +37,46 @@ in Kubernetes environments. They are **not designed for standalone use**.
 > PostGIS to be mounted as a separate image volume, removing the need for
 > dedicated PostGIS container images.
 
-<!--
-
 ## Image Tags
 
-TODO
+Each image is identified by its digest and a main tag of the form:
+
+```
+MM.mm-x.y.z-TS-TYPE-OS
+```
+
+where:
+
+- `MM` is the PostgreSQL major version (e.g. `17`)
+- `mm` is the PostgreSQL minor version (e.g. `6`)
+- `x` is the PostGIS major version (e.g. `3`)
+- `y` is the PostGIS minor version (e.g. `6`)
+- `z` is the PostGIS patch version (e.g. `0`)
+- `TS` is the build timestamp with minute precision (e.g. `202509221231`)
+- `TYPE` is image type (e.g. `minimal`)
+- `OS` is the underlying distribution (e.g. `trixie`)
+
+For example: `postgis-testing:17.6-3.6.0-202509221231-system-trixie`.
+
+### Rolling Tags
+
+In addition to fully qualified tags, rolling tags are available in the
+following formats:
+
+- `MM.mm-x.y.TYPE-OS`: latest image for a given PostgreSQL *minor* version
+  (`17.6`) with a given PostGIS *minor* version (`3.6`) of a specific type
+  (`minimal`) on a Debian version (`trixie`).
+  For example: `17.6-3.6-minimal-trixie`.
+- `MM-x.y.TYPE-OS`: latest image for a given PostgreSQL *major* version
+  (`17`) with a given PostGIS *minor* version (`3.6`) of a specific type
+  (`minimal`) on a Debian version (`trixie`).
+  For example: `17-3.6-minimal-trixie`.
+- `MM-x-TYPE-OS`: latest image for a given PostgreSQL *major* version (`17`)
+  with a given PostGIS *major* version (`3`) of a specific type a specific type
+  (`minimal`) on a Debian version (`trixie`).
+  For example: `17-3-minimal-trixie`.
+
+<!--
 
 ## Image Catalogs
 
