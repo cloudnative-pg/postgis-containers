@@ -25,16 +25,16 @@ jobs:
         id: fetch_versions
         run: |
           # Get the distributions
-          DISTROS=$(sed -n '/variable "distributions"/,/}/ { s/^[[:space:]]*"\([^"]*\)".*/\1/p }' docker-bake.hcl)
+          readarray -t DISTROS < <(sed -n '/variable "distributions"/,/}/ { s/^[[:space:]]*"\([^"]*\)".*/\1/p }' docker-bake.hcl)
           # get the PostGIS Majors
-          POSTGIS_MAJORS=$(sed -n '/variable "postgisMajorVersions"/,/]/ { s/^[[:space:]]*"\([^"]*\)".*/\1/p }' docker-bake.hcl)
+          readarray -t POSTGIS_MAJORS < <(sed -n '/variable "postgisMajorVersions"/,/]/ { s/^[[:space:]]*"\([^"]*\)".*/\1/p }' docker-bake.hcl)
 
           # Fetch the latest PostGIS versions for each distro, and update
           POSTGIS_MAP="postgisMatrix = {\n"
 
-          for DISTRO in ${DISTROS[@]}; do
+          for DISTRO in "${DISTROS[@]}"; do
             POSTGIS_MAP+="  ${DISTRO} = {\n"
-            for MAJOR in ${POSTGIS_MAJORS[@]}; do
+            for MAJOR in "${POSTGIS_MAJORS[@]}"; do
               VERSION=$(curl -s "https://apt.postgresql.org/pub/repos/apt/dists/$DISTRO-pgdg/main/binary-amd64/Packages" \
                 | awk '/^Package: postgis$/{show=1} /^Version:/{if(show){print $2; show=0}}' \
                 | grep "^${MAJOR}\." \
