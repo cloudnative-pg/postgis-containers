@@ -26,12 +26,16 @@ variable "distributions" {
   ]
 }
 
+variable "imageTypes" {
+  default = [
+    "standard",
+    "system"
+  ]
+}
+
 target "postgis" {
   matrix = {
-    tgt = [
-      "standard",
-      "system"
-    ]
+    tgt = imageTypes
     distro = distributions
     postgisMajor = postgisMajorVersions
     pgVersion = getPgVersions(postgreSQLVersions, postgreSQLPreviewVersions)
