@@ -1,0 +1,83 @@
+name: Update PostGIS versions
+
+on:
+  schedule:
+    - cron: 0 0 * * 1
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: 'bash -Eeuo pipefail -x {0}'
+
+permissions: read-all
+
+jobs:
+  update-postgis:
+    name: Update PostGIS versions
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
+        with:
+          token: ${{ secrets.REPO_GHA_PAT }}
+
+      - name: Fetch latest PostGIS versions
+        id: fetch_versions
+        run: |
+          # Get the distributions
+          readarray -t DISTROS < <(sed -n '/variable "distributions"/,/}/ { s/^[[:space:]]*"\([^"]*\)".*/\1/p }' docker-bake.hcl)
+          # get the PostGIS Majors
+          readarray -t POSTGIS_MAJORS < <(sed -n '/variable "postgisMajorVersions"/,/]/ { s/^[[:space:]]*"\([^"]*\)".*/\1/p }' docker-bake.hcl)
+
+          # Fetch the latest PostGIS versions for each distro, and update
+          POSTGIS_MAP="postgisMatrix = {\n"
+
+          for DISTRO in "${DISTROS[@]}"; do
+            POSTGIS_MAP+="  ${DISTRO} = {\n"
+            for MAJOR in "${POSTGIS_MAJORS[@]}"; do
+              VERSION=$(curl -s "https://apt.postgresql.org/pub/repos/apt/dists/$DISTRO-pgdg/main/binary-amd64/Packages" \
+                | awk '/^Package: postgis$/{show=1} /^Version:/{if(show){print $2; show=0}}' \
+                | grep "^${MAJOR}\." \
+                | sort -V \
+                | tail -n1)
+              if [[ -z "$VERSION" ]]; then
+                echo "No version found for PostGIS $MAJOR on $DISTRO"
+                exit 1
+              fi
+
+              echo "PostGIS $MAJOR on $DISTRO = $VERSION"
+              POSTGIS_MAP+="    \"${MAJOR}\" = \"${VERSION}\"\n"
+            done
+            POSTGIS_MAP+="  }\n"
+          done
+
+          POSTGIS_MAP+="}"
+          printf '%b\n' "$POSTGIS_MAP" | sed -i '/^postgisMatrix = [{]/,/^}/d;/^\/\/ PostGIS matrix/r /dev/stdin' docker-bake.hcl
+
+      - name: Diff
+        run: |
+          git status
+          git diff
+
+      - name: Temporarily disable "include administrators" branch protection
+        if: ${{ always() && github.ref == 'refs/heads/main' }}
+        id: disable_include_admins
+        uses: benjefferies/branch-protection-bot@af281f37de86139d1c7a27b91176b5dc1c2c827c # v1.1.2
+        with:
+          access_token: ${{ secrets.REPO_GHA_PAT }}
+          branch: main
+          enforce_admins: false
+
+      - uses: EndBug/add-and-commit@a94899bca583c204427a224a7af87c02f9b325d5 # v9
+        with:
+          author_name: CloudNativePG Automated Updates
+          author_email: noreply@cnpg.com
+          message: 'chore: update PostGIS versions'
+
+      - name: Enable "include administrators" branch protection
+        uses: benjefferies/branch-protection-bot@af281f37de86139d1c7a27b91176b5dc1c2c827c # v1.1.2
+        if: ${{ always() && github.ref == 'refs/heads/main' }}
+        with:
+          access_token: ${{ secrets.REPO_GHA_PAT }}
+          branch: main
+          enforce_admins: ${{ steps.disable_include_admins.outputs.initial_status }}
