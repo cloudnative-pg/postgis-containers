@@ -29,10 +29,10 @@ jobs:
           echo "image_types=$IMAGE_TYPES" >> "$GITHUB_OUTPUT"
 
       - name: Generate catalogs
-        uses: cloudnative-pg/postgres-containers/.github/actions/generate-catalogs@dev/100
+        uses: cloudnative-pg/postgres-containers/.github/actions/generate-catalogs@main
         with:
           output-dir: image-catalogs/
-          registry: ghcr.io/cloudnative-pg/postgis-testing
+          registry: ghcr.io/cloudnative-pg/postgis
           family: postgis
           distributions: ${{ steps.get_env.outputs.distributions }}
           image-types: ${{ steps.get_env.outputs.image_types }}
