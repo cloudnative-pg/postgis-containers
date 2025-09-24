@@ -76,13 +76,11 @@ following formats:
   (`minimal`) on a Debian version (`trixie`).
   For example: `17-3-minimal-trixie`.
 
-<!--
-
 ## Image Catalogs
 
-TODO
-
--->
+CloudNativePG publishes `ClusterImageCatalog` manifests for PostGIS in the
+[`image-catalogs` folder](image-catalogs), with one catalog available for each
+supported combination of image type and operating system version.
 
 ## License and copyright
 
