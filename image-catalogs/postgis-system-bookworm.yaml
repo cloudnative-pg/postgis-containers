@@ -1,0 +1,22 @@
+apiVersion: postgresql.cnpg.io/v1
+kind: ClusterImageCatalog
+metadata:
+  name: postgis-system-bookworm
+  labels:
+    images.cnpg.io/family: postgis
+    images.cnpg.io/type: system
+    images.cnpg.io/os: bookworm
+    images.cnpg.io/date: '20250924'
+    images.cnpg.io/publisher: cnpg.io
+spec:
+  images:
+  - major: 13
+    image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202509231629-system-bookworm@sha256:889573a83c621a8e0316afc1b8bd84a92ec7e7e86deaa9065142f1a8ae929407
+  - major: 14
+    image: ghcr.io/cloudnative-pg/postgis:14.19-3.6.0-202509231629-system-bookworm@sha256:4cc2f04005127e629a002194df73a003297c2e7f684641ed6d8753aa864e5bda
+  - major: 15
+    image: ghcr.io/cloudnative-pg/postgis:15.14-3.6.0-202509231629-system-bookworm@sha256:ecd7d3155a83cfbbbdf180f079e52800da6d5441aa861247389ce39ec898a353
+  - major: 16
+    image: ghcr.io/cloudnative-pg/postgis:16.10-3.6.0-202509231629-system-bookworm@sha256:e708c4ff2a9549ef84a729c74d1154279c529b99546ad171c7dc178cdd9b7c08
+  - major: 17
+    image: ghcr.io/cloudnative-pg/postgis:17.6-3.6.0-202509231629-system-bookworm@sha256:8d06611e32eccd2bf8c9fee1c56a5490b11ef091907cc50263b18a292bd9228d
