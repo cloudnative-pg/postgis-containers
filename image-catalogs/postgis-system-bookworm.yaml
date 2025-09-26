@@ -6,17 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20250924'
+    images.cnpg.io/date: '20250926'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
-    image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202509231629-system-bookworm@sha256:889573a83c621a8e0316afc1b8bd84a92ec7e7e86deaa9065142f1a8ae929407
+    image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202509261450-system-bookworm@sha256:3d885354130061179d9cc1d495783b203dde13c6e4593564b5a6905f1942e84f
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.19-3.6.0-202509231629-system-bookworm@sha256:4cc2f04005127e629a002194df73a003297c2e7f684641ed6d8753aa864e5bda
+    image: ghcr.io/cloudnative-pg/postgis:14.19-3.6.0-202509261413-system-bookworm@sha256:568a0d3c2cbf1f168dea8efb12bf45461b7b1e47c6f23910cafff03fc452e67a
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.14-3.6.0-202509231629-system-bookworm@sha256:ecd7d3155a83cfbbbdf180f079e52800da6d5441aa861247389ce39ec898a353
+    image: ghcr.io/cloudnative-pg/postgis:15.14-3.6.0-202509261449-system-bookworm@sha256:a7e8045e2c26b5bf1b3bc3b650e38dd2c79eb884427a331fd958ae2f401ac480
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.10-3.6.0-202509231629-system-bookworm@sha256:e708c4ff2a9549ef84a729c74d1154279c529b99546ad171c7dc178cdd9b7c08
+    image: ghcr.io/cloudnative-pg/postgis:16.10-3.6.0-202509261413-system-bookworm@sha256:c96d2ea2c3730364b9658e3f43e9da3db754ff5586f25eda39c409764091bbdb
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.6-3.6.0-202509231629-system-bookworm@sha256:8d06611e32eccd2bf8c9fee1c56a5490b11ef091907cc50263b18a292bd9228d
+    image: ghcr.io/cloudnative-pg/postgis:17.6-3.6.0-202509261449-system-bookworm@sha256:d1f0c6f8c426ccedd4f9a6175a7032beb3d70b9acce5b5bb12b052a53fdfcb86
+  - major: 18
+    image: ghcr.io/cloudnative-pg/postgis:18.0-3.6.0-202509261451-system-bookworm@sha256:c609cf1008948f229c60c95d53ebc5d8976b9dd997249aab21ad89242a90c9b8

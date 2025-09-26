@@ -6,17 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20250924'
+    images.cnpg.io/date: '20250926'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
-    image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202509231629-standard-trixie@sha256:a913be31c6e7eeefdb70e023d949aacf9831128e3e634a52e345a52fbdf583c8
+    image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202509261450-standard-trixie@sha256:aa2567c5a201cd85cdd5d888e5704cf8f850dbad24ffb26f4aac19ae3414b757
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.19-3.6.0-202509231629-standard-trixie@sha256:2c82dd0557e5e759c7c37e181f5a10619063da0ed1b810b79c6cd4cd1d193331
+    image: ghcr.io/cloudnative-pg/postgis:14.19-3.6.0-202509261413-standard-trixie@sha256:28bdbc3a3648eefcd131e4dbeadf6ead9e78c15346cded32d197d419105fcba1
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.14-3.6.0-202509231629-standard-trixie@sha256:47d94d2cbca351b0171b6a062c475cf51d33609e028334354ad6ea463c7d0161
+    image: ghcr.io/cloudnative-pg/postgis:15.14-3.6.0-202509261449-standard-trixie@sha256:4f514f55b1a62768ff17ccd68912bce03627121f1d38bee914682524ee32f48a
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.10-3.6.0-202509231629-standard-trixie@sha256:7c31890c2827e2454a5d827aed6ce5ee329f5ffbbc0fbf6015c7ee99fa1e6c03
+    image: ghcr.io/cloudnative-pg/postgis:16.10-3.6.0-202509261413-standard-trixie@sha256:8a53a4cf3b749f4893804ce3c0f013fbf9ea39e92119832d4dde06fdd0d9d84b
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.6-3.6.0-202509231629-standard-trixie@sha256:2711bbacfaad008d628a6be9d0e591d087cccf967bef49bd5b00af9bdbdedab2
+    image: ghcr.io/cloudnative-pg/postgis:17.6-3.6.0-202509261449-standard-trixie@sha256:82ff7616431de31f2f22538cadcc79fefc8e72b8cc0b54b7a6c0359350162bcc
+  - major: 18
+    image: ghcr.io/cloudnative-pg/postgis:18.0-3.6.0-202509261451-standard-trixie@sha256:a7005e9dd653141572f00fdcec5a36ddf99b58379a4133d895765e04ee83790a

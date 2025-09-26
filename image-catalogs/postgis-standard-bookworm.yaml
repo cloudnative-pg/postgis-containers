@@ -6,17 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20250924'
+    images.cnpg.io/date: '20250926'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
-    image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202509231629-standard-bookworm@sha256:65306fee02d752c85eb81a1371435bb064d02f124e7330ae2e1c00e6ddfdce9b
+    image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202509261450-standard-bookworm@sha256:79f63feac33aea954afbaf7ce3857e854a33dcc337883837e77c168c2812fbcf
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.19-3.6.0-202509231629-standard-bookworm@sha256:b8f4c9d8d802700288bc173942a934e3c5ed90edb9eba2f32a62223ba36f353a
+    image: ghcr.io/cloudnative-pg/postgis:14.19-3.6.0-202509261413-standard-bookworm@sha256:e45ca7b05b19bd3014c2c7975e2bd524a5c315c88db3e97a022e6e4dec068061
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.14-3.6.0-202509231629-standard-bookworm@sha256:9d0cf6a43dce725945dad9133e97b57eaf99c8927ecec5388c87bf00f3a87e0e
+    image: ghcr.io/cloudnative-pg/postgis:15.14-3.6.0-202509261449-standard-bookworm@sha256:1b9c14b4d23016e2074bd7760bcb49cbe5f2261e92995255ac28ace5b0d405fe
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.10-3.6.0-202509231629-standard-bookworm@sha256:4d81da1f526d95ebbc97a3eb69b27fbf06ff4a667d6303c8ec798f0537c8e8a3
+    image: ghcr.io/cloudnative-pg/postgis:16.10-3.6.0-202509261413-standard-bookworm@sha256:93317b4e80ede616fef5e1217ba937031d70b410a8a4bce171541917b3408235
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.6-3.6.0-202509231629-standard-bookworm@sha256:9912a4a018834ad34c42cd8a56af0de298bc2bc11cdc8006b66389df66713578
+    image: ghcr.io/cloudnative-pg/postgis:17.6-3.6.0-202509261449-standard-bookworm@sha256:f7ffdf73ec721385a42039846c2ac0a129ae9236537ea4c36d57ec64ca3e4cd8
+  - major: 18
+    image: ghcr.io/cloudnative-pg/postgis:18.0-3.6.0-202509261451-standard-bookworm@sha256:39f11583b258d924cd9afc01390747b495bd1c1639250ea0efc3f2a06e21b67d
