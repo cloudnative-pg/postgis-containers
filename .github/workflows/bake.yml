@@ -56,6 +56,8 @@ jobs:
       target: "postgis"
       bake_files: "./source/docker-bake.hcl,./docker-bake.hcl"
       bake_remote_source: "cloudnative-pg/postgres-containers"
+    secrets:
+      SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
 
   Catalogs:
     name: Update Catalogs
