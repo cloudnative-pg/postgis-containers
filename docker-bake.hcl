@@ -12,10 +12,10 @@ variable "postgisMajorVersions" {
 // PostGIS matrix of distro x versions
 postgisMatrix = {
   bookworm = {
-    "3" = "3.6.0+dfsg-1.pgdg12+1"
+    "3" = "3.6.0+dfsg-2.pgdg12+1"
   }
   trixie = {
-    "3" = "3.6.0+dfsg-1.pgdg13+1"
+    "3" = "3.6.0+dfsg-2.pgdg13+1"
   }
 }
 
