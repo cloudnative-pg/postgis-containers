@@ -49,7 +49,7 @@ jobs:
       fail-fast: false
       matrix:
         version: ${{ fromJson(needs.get_versions.outputs.versions) }}
-    uses: cloudnative-pg/postgres-containers/.github/workflows/bake_targets.yml@main
+    uses: cloudnative-pg/postgres-containers/.github/workflows/bake_targets.yml@dev/346
     with:
       environment: ${{ github.event.inputs.environment }}
       postgresql_version: ${{ matrix.version }}
