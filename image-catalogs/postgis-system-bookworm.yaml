@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20251013'
+    images.cnpg.io/date: '20251021'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
-    image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202510131009-system-bookworm@sha256:30db7b33e4bcd7eda01b32209ae6ef677a80c624a1d8611592bdc7a962aeb8cb
+    image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202510211432-system-bookworm@sha256:847608a7441a202e0e5af91be37e3d23fe0eafb5aa5a0944ba8f01d27176639c
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.19-3.6.0-202510131009-system-bookworm@sha256:672c53900975e8a3c8d3f193f372668f24ddf555839322c60198b130ba31adf3
+    image: ghcr.io/cloudnative-pg/postgis:14.19-3.6.0-202510211432-system-bookworm@sha256:049600da4cc80c77e4adaa520587674e1c189b0941e4f9bcaa69cb29ebb2b1eb
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.14-3.6.0-202510131009-system-bookworm@sha256:da1b999aa93e8b8feb56f3c7aef35e6da12c1c810284dfcd831cb7542b645a3e
+    image: ghcr.io/cloudnative-pg/postgis:15.14-3.6.0-202510211432-system-bookworm@sha256:e51b342974c46d6ca25f2220a28e624d471d3998e64791a03aa8f548501ef189
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.10-3.6.0-202510131009-system-bookworm@sha256:f791a41e538e397a3aeaab177926804c20ac83eaf69bc32632c310a420904fa6
+    image: ghcr.io/cloudnative-pg/postgis:16.10-3.6.0-202510211432-system-bookworm@sha256:ba6f03b2911848b9499ef0bb959bfe069931b0efff6508220e8ccd421ddc1fc8
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.6-3.6.0-202510131009-system-bookworm@sha256:e7543c22ab1bdccbd96cfaddc8caa83947d178f815e848bae3a1922498f8ff1b
+    image: ghcr.io/cloudnative-pg/postgis:17.6-3.6.0-202510211432-system-bookworm@sha256:5b0ff7da6f061928ed900c807ec21b280fa306950589a19268202b7c7cf4afb8
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.0-3.6.0-202510131009-system-bookworm@sha256:f23db0503b3b349669f916bf18c066264119574b1dbfe0d9ca00a887cff96d92
+    image: ghcr.io/cloudnative-pg/postgis:18.0-3.6.0-202510211432-system-bookworm@sha256:3f2405050dce7361be86d0d1a461f3254ebb21c2552ced4d9d278bb9de5ce333
