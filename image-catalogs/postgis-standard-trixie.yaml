@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20251103'
+    images.cnpg.io/date: '20251115'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
-    image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511031008-standard-trixie@sha256:33de556528fd6df8d76b190b87f3a6422901cd08dac0936d8bd3bed3fdd06dc2
+    image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.19-3.6.0-202511031009-standard-trixie@sha256:f7180d0b89bd0b6131f5203a3af86ffa5a416f1f365fc4830f3f688769e4b263
+    image: ghcr.io/cloudnative-pg/postgis:14.19-3.6.0-202511101009-standard-trixie@sha256:f85a27e41216687515616384e677bfd3825f405d3b9671c1170bc7de4e69319f
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.14-3.6.0-202511031009-standard-trixie@sha256:a58d68db7ed3b184dc2548a7b72ba5b862f7dba7a8f3103db7b31c635cc3d6f5
+    image: ghcr.io/cloudnative-pg/postgis:15.14-3.6.0-202511101009-standard-trixie@sha256:59511f015284d8e30f9428f0cdffe6f3625d82b2967e38c98a52e1cf922f2a05
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.10-3.6.0-202511031008-standard-trixie@sha256:71618a2d0aeb1ada6872218058c7be6baf37b3797f4026302b657dd253aa5fe8
+    image: ghcr.io/cloudnative-pg/postgis:16.10-3.6.0-202511101009-standard-trixie@sha256:00716853d3a5b80a57e4cd3018a493b7c7839bd9eb92d8c8a25d8497492ab968
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.6-3.6.0-202511031009-standard-trixie@sha256:6f95a94b083c3057c7ce5d1f1b30eabecea98af217e8fc31ad3c737573115bf9
+    image: ghcr.io/cloudnative-pg/postgis:17.6-3.6.0-202511101009-standard-trixie@sha256:623e9510c4c0f2e19a08850c5c311b7f25c93069164eecf40fc8e7a3052fb053
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.0-3.6.0-202511031009-standard-trixie@sha256:57b877e735619ba49ef5c085c04e40a6367f668ec9e677d67b03914ef72bdb2e
+    image: ghcr.io/cloudnative-pg/postgis:18.0-3.6.0-202511101008-standard-trixie@sha256:490ff3b5c300766bee9b88f94841b76a3a0022d5d883bc4be6bd5376609e3de9
