@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20251117'
+    images.cnpg.io/date: '20251124'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202511171008-standard-trixie@sha256:ec7277ffba96a1de469c0b08abe9d40f8009b91caa1b02168a8233f93f5318a3
+    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202511241008-standard-trixie@sha256:5f131fe19461b982142f34197242074d5dc52693d28c0cfae81b4d2fe2e21781
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202511171009-standard-trixie@sha256:4940c760b862d67390af366392e38e58d8173f397e8a8f309cbbdce36f0badaf
+    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202511241008-standard-trixie@sha256:8e67d955a95852077c4832a4d0d5e36fa54fda51878c54520c3f502b48032a3a
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202511171008-standard-trixie@sha256:b1b2f86a3addd678fabf67a727e4c2c8bfde2f3f18a86f8f5baa30700c5d1e84
+    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202511241008-standard-trixie@sha256:6e6a137ed4daaf1b89866a3c0dac59e3dc12848d29f4f79acc137c83bd260fee
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202511171009-standard-trixie@sha256:c267805d210e79c33303edb3a8fe57bd6dd91cd6ccbde9d90913dc4d9564146f
+    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202511241009-standard-trixie@sha256:fa539b079da5e9ac4ced4155a65ff424a92195ecd2a73658111cee1815c59240
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202511171009-standard-trixie@sha256:c05dd58aa0f11b54519a2c848875f64aecb03558494a196cab4322d738203e0c
+    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202511241008-standard-trixie@sha256:1cf00df66c10fcf07debacc78172a5c59d81141f62bc95e4a49db060202bdc60

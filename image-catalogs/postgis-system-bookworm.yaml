@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20251117'
+    images.cnpg.io/date: '20251124'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202511171008-system-bookworm@sha256:c3a409a965684e9138bb56003ce0267ce33ffc4547e12432ba25ef1f9f3d9fa9
+    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202511241008-system-bookworm@sha256:63df565f1da47158988b100adc52ace2e21bacece73424c7e3df1286c61a2595
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202511171009-system-bookworm@sha256:299dec033281bf295f74e199bc505ac52538afecd4f05ce78ffde20e5859718c
+    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202511241008-system-bookworm@sha256:5923623322f3c5bf50ad9f7aac8f9e6738b436998cfdb9b594ddbd0598cfb0aa
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202511171008-system-bookworm@sha256:938d7e2b4dda36eabe4ab7dd4742854cf24fb14a6e075b74822cea3a898346b2
+    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202511241008-system-bookworm@sha256:152152b44b980f96f2ee91b30ed982ef58881575063b4cac79856997f5af5ccf
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202511171009-system-bookworm@sha256:4c61926107908fad631d68bb502f085c0572c7ff8abef171f235de689a3bd441
+    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202511241009-system-bookworm@sha256:b86fd5ad072e4275094f33720f68ae69f5f09158cc87ac4fd9539d406be97bff
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202511171009-system-bookworm@sha256:8b6d6625faa3a4c410ab63da397e0c7a2a4ad4bff4c8cfba372ff16f229e4e6c
+    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202511241008-system-bookworm@sha256:9d8ef2bafd2c38a5bd7b4cf913243cdcb0dadff479ca46d93b2dea8c69ed71df
