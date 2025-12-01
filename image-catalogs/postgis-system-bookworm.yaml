@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20251124'
+    images.cnpg.io/date: '20251201'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202511241008-system-bookworm@sha256:63df565f1da47158988b100adc52ace2e21bacece73424c7e3df1286c61a2595
+    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202512011009-system-bookworm@sha256:2a143d8023bfd4178b2c27b700832350f80f29f1bdfc72d03532ee897dcd0c22
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202511241008-system-bookworm@sha256:5923623322f3c5bf50ad9f7aac8f9e6738b436998cfdb9b594ddbd0598cfb0aa
+    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202512011009-system-bookworm@sha256:820f5b67f58b15d02f5e5f1381c2eed8106330a6f3ff3795a1d9e4575a6c7d7e
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202511241008-system-bookworm@sha256:152152b44b980f96f2ee91b30ed982ef58881575063b4cac79856997f5af5ccf
+    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202512011009-system-bookworm@sha256:008b82ed5e939d665753f29c16691f01b90fea993928ea0f5494a922eefafd86
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202511241009-system-bookworm@sha256:b86fd5ad072e4275094f33720f68ae69f5f09158cc87ac4fd9539d406be97bff
+    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202512011009-system-bookworm@sha256:fb441b4d173f18d1b470b36593eafaf5bfb79479c304538f376ddf76db6c13bb
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202511241008-system-bookworm@sha256:9d8ef2bafd2c38a5bd7b4cf913243cdcb0dadff479ca46d93b2dea8c69ed71df
+    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202512011009-system-bookworm@sha256:1de4ff4ff8a2223ba460fb4ef35ddce886e15c5f2a11983f90b91cf2f5999f4a

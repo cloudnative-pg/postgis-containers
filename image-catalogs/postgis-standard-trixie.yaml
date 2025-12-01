@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20251124'
+    images.cnpg.io/date: '20251201'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202511241008-standard-trixie@sha256:5f131fe19461b982142f34197242074d5dc52693d28c0cfae81b4d2fe2e21781
+    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202512011009-standard-trixie@sha256:7f7c760b4be852395542dea1fc439a085958adf26783b8009d90d766782cd568
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202511241008-standard-trixie@sha256:8e67d955a95852077c4832a4d0d5e36fa54fda51878c54520c3f502b48032a3a
+    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202512011009-standard-trixie@sha256:544778b5e27412b4a96a756daaac19fcc52c1c184239bcfe057c110d411e703b
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202511241008-standard-trixie@sha256:6e6a137ed4daaf1b89866a3c0dac59e3dc12848d29f4f79acc137c83bd260fee
+    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202512011009-standard-trixie@sha256:94cc4236a68117d0fe04d094542bd0e6ac7602a94841155523b602e4fa143d8b
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202511241009-standard-trixie@sha256:fa539b079da5e9ac4ced4155a65ff424a92195ecd2a73658111cee1815c59240
+    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202512011009-standard-trixie@sha256:adae39c94b97600d1b4cc013cfa424d4874ba171c78366010efa7cfac3642009
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202511241008-standard-trixie@sha256:1cf00df66c10fcf07debacc78172a5c59d81141f62bc95e4a49db060202bdc60
+    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202512011009-standard-trixie@sha256:1759eddb03b19f356375ccf5895aa1f8517127c3c6c83a60446597124cb5fb73
