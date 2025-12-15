@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20251208'
+    images.cnpg.io/date: '20251215'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202512081009-system-bookworm@sha256:304ca194734b6ccc3c78600801226279f8a85b483d6be93866ffef0e3a1ac80e
+    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202512151010-system-bookworm@sha256:4fdd1809498e78db24ca09a0020e98bffd3c97be4d019466f8dbf2f68439a74f
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202512081009-system-bookworm@sha256:19a98394a1935e5a02a58f2801def71689d99acd01a62938b8ce733548dcd0eb
+    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202512151010-system-bookworm@sha256:0a09d8340bbfbad30acef628104a059ac8d418f62183c4719dbe52714b514eb4
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202512081009-system-bookworm@sha256:42f8408efb0ff488c32684ba976040242744088bdd93da8f955d09acafb20486
+    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202512151010-system-bookworm@sha256:bb0c76dfb1b24a75654dabba77ce0c86bf0d958017f804258f3d901a2ff05ccf
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202512081009-system-bookworm@sha256:125b0f9aa2d81ac1b33a2d7f5e6ede29c55d86a6eea7cd0500ab970de148c6c0
+    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202512151009-system-bookworm@sha256:d8f7decfba24f5f4aa5be3ba6ea8dc8bbd83078f704a4e06ceb319f467a95182
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202512081009-system-bookworm@sha256:c41de2665ebe2b89cbcbb6332e3a365ad5c3cd4a6258b3c27fb4164df852be96
+    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202512151010-system-bookworm@sha256:73b4f1867c17875311f0392d793b1699418aa652ee5f57b1cdbe01419f6a14bb

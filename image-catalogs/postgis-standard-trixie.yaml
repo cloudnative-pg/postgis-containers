@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20251208'
+    images.cnpg.io/date: '20251215'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202512081009-standard-trixie@sha256:92f8eb0fe091308806b9373c26cab7a75c0b210a38032a8cff9ec4361c88a622
+    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202512151010-standard-trixie@sha256:03513263d8d9bd3b69c08f8d66b5fe2b9b3a15469fb8447832079d4bd10b18e8
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202512081009-standard-trixie@sha256:d879e2b4c1bcf381b7be9b354a084d0f748bbbe3bb2efdd5e06632a577005fb1
+    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202512151010-standard-trixie@sha256:0a3f34022b44af319dd890c4cea186b1b5d55603c346fe88e1faf6f0be20c9a7
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202512081009-standard-trixie@sha256:764805d21ffaf3e63a03445c4e125ee5d2e7130d4e1544f928c103ec0facdc2b
+    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202512151010-standard-trixie@sha256:457b2c8b8e15eef7dbffd23ad9d54e9e108469a193a87d7c82368a7f0024d246
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202512081009-standard-trixie@sha256:3ea72a323349e42000050d50115abdb12f943d4a4e84260914bcc2421cb20f30
+    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202512151009-standard-trixie@sha256:4b303f2d0ed35850203a9b0b16e779b0986edc86e67196f27f1e3ea32b815116
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202512081009-standard-trixie@sha256:0f77bf2274f62fbf0332ba8ecdad4a0c4b161a665b135f8d9801f454ab940817
+    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202512151010-standard-trixie@sha256:38106fc0b10bea00bb8d2c1f72f11fe447c64417c05c63908bd965b3c5c42f30

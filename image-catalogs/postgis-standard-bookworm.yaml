@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20251208'
+    images.cnpg.io/date: '20251215'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202512081009-standard-bookworm@sha256:b12defcabf581c30a0b63dd7e5143327f5a0a674375e899316fdb96d84b4a1c7
+    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202512151010-standard-bookworm@sha256:9590f5007030098d4342b996587f51346134a7c2b941caf4840a5d2faeaf37c4
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202512081009-standard-bookworm@sha256:cc1f2200baaf89dc5835f64b433f3cc5247209b4fc9ffb4c77f0763293469521
+    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202512151010-standard-bookworm@sha256:85e09b383ce39268e6b5af733041f4962b5345d51ab9441d5d855879d9963631
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202512081009-standard-bookworm@sha256:8673e8ed0278ee1d6cf6bb2af2ed96059dbc4c113d3ec85688f0634eb5f8932a
+    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202512151010-standard-bookworm@sha256:f23746b8f036183bd3b850418841f746657b1633f3bcd8a6de7afcee91974de8
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202512081009-standard-bookworm@sha256:08ec8dbed7935c9a25e9bbb1a17d0914b80f91975fc863ff18fafe59f43b27e4
+    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202512151009-standard-bookworm@sha256:427681980804e2505477c5c2182b023463d7bb66b65e1acec4f5cd2dd62cd16c
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202512081009-standard-bookworm@sha256:fdcc1faa4750a033800b04034f542ecf3823213cf506d61d248b2c32c7390f53
+    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202512151010-standard-bookworm@sha256:03d92f6fa6b97df3bea44ca6daac1420deab917f4c8d56880375e5e6404ab45a
