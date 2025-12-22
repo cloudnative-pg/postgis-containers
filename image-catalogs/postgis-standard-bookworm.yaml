@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20251215'
+    images.cnpg.io/date: '20251222'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202512151010-standard-bookworm@sha256:9590f5007030098d4342b996587f51346134a7c2b941caf4840a5d2faeaf37c4
+    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202512221008-standard-bookworm@sha256:92ab06789100eadf34e470204241807969e42c3dde3dfe28bcad7f7b9bfd6837
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202512151010-standard-bookworm@sha256:85e09b383ce39268e6b5af733041f4962b5345d51ab9441d5d855879d9963631
+    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202512221008-standard-bookworm@sha256:8fdc245ef7012e8493e19cfcdc31da3c72ec26590808ac414179c27a55e5cf20
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202512151010-standard-bookworm@sha256:f23746b8f036183bd3b850418841f746657b1633f3bcd8a6de7afcee91974de8
+    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202512221008-standard-bookworm@sha256:a4fe625a0a1fc7a69b195d4d69ae9ea6113b793ae5c67cb54773ab25696e431e
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202512151009-standard-bookworm@sha256:427681980804e2505477c5c2182b023463d7bb66b65e1acec4f5cd2dd62cd16c
+    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202512221008-standard-bookworm@sha256:af9760c945632242d38226b165d16c86a8d5906fbf311ace693fa9a3371b82a7
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202512151010-standard-bookworm@sha256:03d92f6fa6b97df3bea44ca6daac1420deab917f4c8d56880375e5e6404ab45a
+    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202512221008-standard-bookworm@sha256:b43c5c23211259ea00a3f33fd227e98aff134ac9624b626e3ceeb80c4599e3ba

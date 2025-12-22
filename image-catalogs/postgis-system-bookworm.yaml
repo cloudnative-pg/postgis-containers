@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20251215'
+    images.cnpg.io/date: '20251222'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202512151010-system-bookworm@sha256:4fdd1809498e78db24ca09a0020e98bffd3c97be4d019466f8dbf2f68439a74f
+    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202512221008-system-bookworm@sha256:014d992ea3c583a46b99acb037fa24efb196139c58a2790af56383accdc1c24e
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202512151010-system-bookworm@sha256:0a09d8340bbfbad30acef628104a059ac8d418f62183c4719dbe52714b514eb4
+    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202512221008-system-bookworm@sha256:5c0ef2a4e6acf359320f200159f5c3857ecb7f277cef9f5374007572b6bed00f
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202512151010-system-bookworm@sha256:bb0c76dfb1b24a75654dabba77ce0c86bf0d958017f804258f3d901a2ff05ccf
+    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202512221008-system-bookworm@sha256:a3d1926a6e747ea413fd17f8f847a4504a50660d8ffaa75c19ed6b12a7632323
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202512151009-system-bookworm@sha256:d8f7decfba24f5f4aa5be3ba6ea8dc8bbd83078f704a4e06ceb319f467a95182
+    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202512221008-system-bookworm@sha256:575b3714856fd2a68b32fdb4ae4eebd48e691980d8be75aaf1f69ba490e40d6f
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202512151010-system-bookworm@sha256:73b4f1867c17875311f0392d793b1699418aa652ee5f57b1cdbe01419f6a14bb
+    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202512221008-system-bookworm@sha256:4636b01d167aa60d99a5ad1c7f4fdb04b149d9a677577b56c82bc7638e99228e
