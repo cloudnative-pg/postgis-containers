@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20251222'
+    images.cnpg.io/date: '20251229'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202512221008-system-bookworm@sha256:014d992ea3c583a46b99acb037fa24efb196139c58a2790af56383accdc1c24e
+    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202512291008-system-bookworm@sha256:f9ef4d9254595fcb074c9fbffbeb05e9c9f415d0a286a4e849a66a0420cbd184
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202512221008-system-bookworm@sha256:5c0ef2a4e6acf359320f200159f5c3857ecb7f277cef9f5374007572b6bed00f
+    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202512291008-system-bookworm@sha256:704294a263e0a6e6c581cf11ae898c025cba4763c3efbce40b0cd33619ed0a2a
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202512221008-system-bookworm@sha256:a3d1926a6e747ea413fd17f8f847a4504a50660d8ffaa75c19ed6b12a7632323
+    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202512291009-system-bookworm@sha256:030049a221e256bd6a2e7c1acd67e42ab821987a07849d12efaf7f75d883856e
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202512221008-system-bookworm@sha256:575b3714856fd2a68b32fdb4ae4eebd48e691980d8be75aaf1f69ba490e40d6f
+    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202512291008-system-bookworm@sha256:3a685784c7a2dfadddc2288a168a499cb0bd0e77b00eebccf3d88ae18d6c2ba5
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202512221008-system-bookworm@sha256:4636b01d167aa60d99a5ad1c7f4fdb04b149d9a677577b56c82bc7638e99228e
+    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202512291008-system-bookworm@sha256:4591a8e6da923fc630045e184745ac057e59184dd17bbe3780d31bbf0b19e176
