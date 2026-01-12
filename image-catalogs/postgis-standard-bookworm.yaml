@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260105'
+    images.cnpg.io/date: '20260112'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202601051009-standard-bookworm@sha256:7c13cefe3cc77761429afeedce9e0ed032fe5208bb48d02fc267ac867a16cdb7
+    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202601121010-standard-bookworm@sha256:3792486ac3719da70ecb9ecb49507df6b1765ca9326b3a080026d6befea5c92d
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202601051009-standard-bookworm@sha256:c17c4af12598cf3319b46da52461d37533db8bdbe77c7dac43a35d7ecede5f97
+    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202601121010-standard-bookworm@sha256:1bd3a2a3366e8423c37549140c19a6e2554447f9b98646299e87194fbb448f39
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202601051009-standard-bookworm@sha256:d95cafeb3ddf397f6c9a50c2d8152ae8f810c817cc9afa6d71266cd175a459b0
+    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202601121010-standard-bookworm@sha256:b9ca39747dfdd5255663cf40a920ac3fd8a230560c693576b47548e3f4c90810
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202601051009-standard-bookworm@sha256:0100e6304c17440a5f54dbc825c56adeda24e2ab5a5b7fef2d0094ae4770de04
+    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202601121010-standard-bookworm@sha256:fc9aff65aaae09097c0d40eeee67a24dd4dd64642d31732bdaa8eddc8651d0be
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202601051009-standard-bookworm@sha256:b901ba06cc25b8bae1c9500324266fbddffc16bd3b8aa0166e24abb70991c5d1
+    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202601121010-standard-bookworm@sha256:5e5576040cbc9eed8222de5789c8105dd5fc6142834795686958b43985f9980e

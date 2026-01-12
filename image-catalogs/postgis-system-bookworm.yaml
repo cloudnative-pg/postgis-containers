@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260105'
+    images.cnpg.io/date: '20260112'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202601051009-system-bookworm@sha256:b3d8a6ca2e88cc0af52b102e0be896b7bb04ff808147afc15604aa90a00e70ff
+    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202601121010-system-bookworm@sha256:e0564584478d370edbc3c0ec3c4b39c2acb0bf36bc7b4b59abfef5c4a0e974bd
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202601051009-system-bookworm@sha256:74d590157874026c41f4b5a5c78a13c874875bd71d483f6c2cbebc2dcd2987ee
+    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202601121010-system-bookworm@sha256:a7b52aad9bc0bd6e85e0ce5e159084aa1d5d958fa52435182f51c77f4863e182
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202601051009-system-bookworm@sha256:0d22c65de9d3f399b905fd81155397146cdf1caf415add85a1315971c2661a07
+    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202601121010-system-bookworm@sha256:5cae714c93d0256135607b2add6f174bed0f807f9ad4385a14af755e802e5358
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202601051009-system-bookworm@sha256:42258c3f8c17243a27d93ed3283bb75b8ea6fc9654ffb93bb63c8d11bb2f7b17
+    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202601121010-system-bookworm@sha256:523b228e0028a4d5aebeed82f13d8e946532cfb3ffbeefa1d193fa4c214ed48b
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202601051009-system-bookworm@sha256:06a25894821ddce3fc44bddbad8130c5997536f033bbc5e4053ca1591ff01f65
+    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202601121010-system-bookworm@sha256:517b155a43543c1408376d76d859d8aae28b3acced4a3a55ccfe736b65f93188
