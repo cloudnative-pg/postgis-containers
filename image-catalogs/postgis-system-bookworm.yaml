@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260112'
+    images.cnpg.io/date: '20260119'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202601121010-system-bookworm@sha256:e0564584478d370edbc3c0ec3c4b39c2acb0bf36bc7b4b59abfef5c4a0e974bd
+    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202601191011-system-bookworm@sha256:2a1e06852653de4b637ea1b3fde0f574537211e1afae81587262a8aa6030e49c
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202601121010-system-bookworm@sha256:a7b52aad9bc0bd6e85e0ce5e159084aa1d5d958fa52435182f51c77f4863e182
+    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202601191011-system-bookworm@sha256:70a2b41723b552e27723155d569a1a06f02d8185baf35724090221dde0213d0a
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202601121010-system-bookworm@sha256:5cae714c93d0256135607b2add6f174bed0f807f9ad4385a14af755e802e5358
+    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202601191011-system-bookworm@sha256:d6cf784e57623d80ffa2856f036058035975df4331fd89298e1de659e835bf19
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202601121010-system-bookworm@sha256:523b228e0028a4d5aebeed82f13d8e946532cfb3ffbeefa1d193fa4c214ed48b
+    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202601191011-system-bookworm@sha256:039632abf0c0e9de7bd6005810d29ae941c7cbc0817df68dedc6ba7c421a720f
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202601121010-system-bookworm@sha256:517b155a43543c1408376d76d859d8aae28b3acced4a3a55ccfe736b65f93188
+    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202601191011-system-bookworm@sha256:306ad081a1650bd35e4cb4ddfc1284c7604d81b13c5e83d64a7d2876d4889605

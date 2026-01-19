@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260112'
+    images.cnpg.io/date: '20260119'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202601121010-standard-bookworm@sha256:3792486ac3719da70ecb9ecb49507df6b1765ca9326b3a080026d6befea5c92d
+    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202601191011-standard-bookworm@sha256:5b77996c04b68017f4bcbfb92006e214f8137b6f00894a80d483e5685796e136
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202601121010-standard-bookworm@sha256:1bd3a2a3366e8423c37549140c19a6e2554447f9b98646299e87194fbb448f39
+    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202601191011-standard-bookworm@sha256:7c24358bf0b018c75c6f2551188f3fdf9bbf452999a6110df6006fef72f6490a
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202601121010-standard-bookworm@sha256:b9ca39747dfdd5255663cf40a920ac3fd8a230560c693576b47548e3f4c90810
+    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202601191011-standard-bookworm@sha256:9015cc572bf94fec3ded93a5bba99d1fd374e6443f48a1b59078b97fd9794d55
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202601121010-standard-bookworm@sha256:fc9aff65aaae09097c0d40eeee67a24dd4dd64642d31732bdaa8eddc8651d0be
+    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202601191011-standard-bookworm@sha256:e698e6b7fb007fc143450ba88fadbd35454993bb7841bfd38b49810658621591
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202601121010-standard-bookworm@sha256:5e5576040cbc9eed8222de5789c8105dd5fc6142834795686958b43985f9980e
+    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202601191011-standard-bookworm@sha256:e58f48e0ec7f88c2f9d15c908e9970ddebe6a611cf8408cfd28c88319c578aaa
