@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260119'
+    images.cnpg.io/date: '20260126'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202601191011-system-bookworm@sha256:2a1e06852653de4b637ea1b3fde0f574537211e1afae81587262a8aa6030e49c
+    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202601261010-system-bookworm@sha256:bbb0cb94351fc2cd26f2a16ff0b32a20a66ebbbcb8ef1e102e9dd203e59f71a6
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202601191011-system-bookworm@sha256:70a2b41723b552e27723155d569a1a06f02d8185baf35724090221dde0213d0a
+    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202601261010-system-bookworm@sha256:426e2a45cbdf447c17aab0df6401ac201bac90a1d09350186d5349dc57e5144b
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202601191011-system-bookworm@sha256:d6cf784e57623d80ffa2856f036058035975df4331fd89298e1de659e835bf19
+    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202601261010-system-bookworm@sha256:a022a6292e23012c684547cbb819eca46e68a9397536147297f36bf3164159f5
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202601191011-system-bookworm@sha256:039632abf0c0e9de7bd6005810d29ae941c7cbc0817df68dedc6ba7c421a720f
+    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202601261010-system-bookworm@sha256:1d730197df135671d525ec44834f140e1114937c6ac1469571a774a651fd534a
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202601191011-system-bookworm@sha256:306ad081a1650bd35e4cb4ddfc1284c7604d81b13c5e83d64a7d2876d4889605
+    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202601261010-system-bookworm@sha256:486ae575990e106a13259295ee2f9fe8b7fcf494f84f6ad5c91ee739d98ec852

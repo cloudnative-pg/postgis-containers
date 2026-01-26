@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260119'
+    images.cnpg.io/date: '20260126'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202601191011-standard-bookworm@sha256:5b77996c04b68017f4bcbfb92006e214f8137b6f00894a80d483e5685796e136
+    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202601261010-standard-bookworm@sha256:5031e1ae71abc3947af82b26394c11a71be3654caee0fd5e970132777edeefbf
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202601191011-standard-bookworm@sha256:7c24358bf0b018c75c6f2551188f3fdf9bbf452999a6110df6006fef72f6490a
+    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202601261010-standard-bookworm@sha256:30f1bf6d770d98f9e21ea51240bd3b33cdebab7d70d2d60165ecdad20e6748b0
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202601191011-standard-bookworm@sha256:9015cc572bf94fec3ded93a5bba99d1fd374e6443f48a1b59078b97fd9794d55
+    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202601261010-standard-bookworm@sha256:bc8f5206fb396760beab2a316b374658533b9f3e2153d1ad8815ee068d292fbf
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202601191011-standard-bookworm@sha256:e698e6b7fb007fc143450ba88fadbd35454993bb7841bfd38b49810658621591
+    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202601261010-standard-bookworm@sha256:c21fafad57937075cf4b94cea2de9e6d01eba8cdb22621cb02930491bc1815be
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202601191011-standard-bookworm@sha256:e58f48e0ec7f88c2f9d15c908e9970ddebe6a611cf8408cfd28c88319c578aaa
+    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202601261010-standard-bookworm@sha256:027c9db159bb6c49ed254ca4005d9475b054c6147018477236720f011ac6f26b
