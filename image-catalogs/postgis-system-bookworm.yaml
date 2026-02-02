@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260126'
+    images.cnpg.io/date: '20260202'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202601261010-system-bookworm@sha256:bbb0cb94351fc2cd26f2a16ff0b32a20a66ebbbcb8ef1e102e9dd203e59f71a6
+    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202602021022-system-bookworm@sha256:3ceaec021bf1ee8a2f0d95335bb7170387cea112693821473fa37a1ffdb0b630
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202601261010-system-bookworm@sha256:426e2a45cbdf447c17aab0df6401ac201bac90a1d09350186d5349dc57e5144b
+    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202602021022-system-bookworm@sha256:88e2be03df3a605178ac1164b86c563f2b1f5ae708f7ec441871380cc4a62471
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202601261010-system-bookworm@sha256:a022a6292e23012c684547cbb819eca46e68a9397536147297f36bf3164159f5
+    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202602021022-system-bookworm@sha256:b0485369555f4626979fcf6eb770d231ec97470832bda8f26679fefd748a4cad
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202601261010-system-bookworm@sha256:1d730197df135671d525ec44834f140e1114937c6ac1469571a774a651fd534a
+    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202602021022-system-bookworm@sha256:7143dbad93e9072df0a3afdfe833a092ec73b42c434d2ed0e7ac2680d46dc0b6
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202601261010-system-bookworm@sha256:486ae575990e106a13259295ee2f9fe8b7fcf494f84f6ad5c91ee739d98ec852
+    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202602021022-system-bookworm@sha256:2f8249e30b01202bbf06620f7226499ab405974cf361df65e4366a426259d520
