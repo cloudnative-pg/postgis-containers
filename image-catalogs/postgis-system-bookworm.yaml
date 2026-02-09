@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260202'
+    images.cnpg.io/date: '20260209'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202602021022-system-bookworm@sha256:3ceaec021bf1ee8a2f0d95335bb7170387cea112693821473fa37a1ffdb0b630
+    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202602091028-system-bookworm@sha256:66b19b1102d69b2ddc48643cb8ee17b845f4542d65b3407beeb233004e3a0132
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202602021022-system-bookworm@sha256:88e2be03df3a605178ac1164b86c563f2b1f5ae708f7ec441871380cc4a62471
+    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202602091028-system-bookworm@sha256:d44ad1d80a535ac5a7afa97d7778b73476ad7143ab35b30aacb797f6baff7750
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202602021022-system-bookworm@sha256:b0485369555f4626979fcf6eb770d231ec97470832bda8f26679fefd748a4cad
+    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202602091028-system-bookworm@sha256:85cd1e3fd66ab74484f263b8793f923f56f8f61cf5f4919b5f07b5cbc84815f0
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202602021022-system-bookworm@sha256:7143dbad93e9072df0a3afdfe833a092ec73b42c434d2ed0e7ac2680d46dc0b6
+    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202602091028-system-bookworm@sha256:7f0e86f7b7b91d50bf987853650fe081a9b95e68d208ef3a1aac6f6623708723
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202602021022-system-bookworm@sha256:2f8249e30b01202bbf06620f7226499ab405974cf361df65e4366a426259d520
+    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202602091028-system-bookworm@sha256:8087dee47d976d8d468855b979da6dfa3a01d8f7cc3bf6ebace38b6db1b355d9
