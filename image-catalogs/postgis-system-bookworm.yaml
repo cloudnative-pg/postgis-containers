@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260209'
+    images.cnpg.io/date: '20260301'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.20-3.6.1-202602091028-system-bookworm@sha256:66b19b1102d69b2ddc48643cb8ee17b845f4542d65b3407beeb233004e3a0132
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603011307-system-bookworm@sha256:4e459e9ff891b6b9965b885f994bb31716ab5e9156a7bb6e245427fb67426353
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.15-3.6.1-202602091028-system-bookworm@sha256:d44ad1d80a535ac5a7afa97d7778b73476ad7143ab35b30aacb797f6baff7750
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603011308-system-bookworm@sha256:3459958d923c37de16cae287edc80e75baeaf8b5bf80693330c24527a95c3c21
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.11-3.6.1-202602091028-system-bookworm@sha256:85cd1e3fd66ab74484f263b8793f923f56f8f61cf5f4919b5f07b5cbc84815f0
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603011308-system-bookworm@sha256:cf37ad3e533db53bf5c47863705027b0985852a83ce2b9d3d5efa81caa8aa0f1
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.7-3.6.1-202602091028-system-bookworm@sha256:7f0e86f7b7b91d50bf987853650fe081a9b95e68d208ef3a1aac6f6623708723
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603011308-system-bookworm@sha256:69da8a1079b240b0876796bfb8582304e095d4be4fa7d180bac787c8596e656d
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.1-3.6.1-202602091028-system-bookworm@sha256:8087dee47d976d8d468855b979da6dfa3a01d8f7cc3bf6ebace38b6db1b355d9
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603011308-system-bookworm@sha256:9d7129005add6fbccd4e0b21063caba4fa21e1be31d1763748ff7cbe72524441
