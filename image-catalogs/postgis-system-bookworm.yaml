@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260301'
+    images.cnpg.io/date: '20260302'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603011307-system-bookworm@sha256:4e459e9ff891b6b9965b885f994bb31716ab5e9156a7bb6e245427fb67426353
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603021023-system-bookworm@sha256:d71829dc769c6f3202123384be2028c2aee35ce26f9e3e1a54ef2cff6d657e54
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603011308-system-bookworm@sha256:3459958d923c37de16cae287edc80e75baeaf8b5bf80693330c24527a95c3c21
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603021022-system-bookworm@sha256:5c5d057fb9bccbc5498a05eeb03c9d87df1a6e3fabf55c82c1964f8d24c74476
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603011308-system-bookworm@sha256:cf37ad3e533db53bf5c47863705027b0985852a83ce2b9d3d5efa81caa8aa0f1
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603021024-system-bookworm@sha256:126f595222bf101bc88ceb34ec997ab18f8b1ee9a7329308d0c407c0b826403a
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603011308-system-bookworm@sha256:69da8a1079b240b0876796bfb8582304e095d4be4fa7d180bac787c8596e656d
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603021024-system-bookworm@sha256:c52af78d69abfc6d589165ea6f2e2139eb3ffcc1f6e126531fac7e2d19a4dfbb
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603011308-system-bookworm@sha256:9d7129005add6fbccd4e0b21063caba4fa21e1be31d1763748ff7cbe72524441
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603021022-system-bookworm@sha256:02104f1279bed4a9e9733b33c4ae14af747cfe14ec3c84b0664b53db79d67d8c

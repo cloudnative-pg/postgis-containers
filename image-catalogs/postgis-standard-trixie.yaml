@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260301'
+    images.cnpg.io/date: '20260302'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603011307-standard-trixie@sha256:5a6bc30009054cc57d71577a06af18481e36e024bfd41c8e8be4e46f7132a1e8
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603021023-standard-trixie@sha256:f7612ff312e2c8c7b2c702a9f88eed808ea647d6fd06eb98aba4ea8df91cad55
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603011308-standard-trixie@sha256:bdc42469fe8592e747f752456f6a49dc326772dbba592bb047943b674b691e70
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603021022-standard-trixie@sha256:34dd765836d5da5d9fdaced282adeadb6e4c93baccfea17990e259936d9a6551
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603011308-standard-trixie@sha256:1fa47dc58482cfca9906d15030e899164cb741b5d4b25ef95ba8f8875b8264e2
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603021024-standard-trixie@sha256:66dcbc45fae5743141612326d61bd50ed8842a7e0d8265564dd9c94caad205b8
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603011308-standard-trixie@sha256:ea2da3b8bde39309d60e93328a8b93ae0406d20583e3f50e35793793d5ce9236
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603021024-standard-trixie@sha256:66bbd25c05f0011ad0072c9be821587018e9d96ca3f92672cddba37f15a1e6c5
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603011308-standard-trixie@sha256:4760379dc77b12b53091dd4b4109c7bbf54d97f9fc833655669416084301eeb6
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603021022-standard-trixie@sha256:802c2e908463b273af66d5c0937beb9fb3f5f9d88a88182b36e3c8591894d2d3
