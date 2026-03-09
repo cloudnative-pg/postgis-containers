@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260302'
+    images.cnpg.io/date: '20260309'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603021023-standard-trixie@sha256:f7612ff312e2c8c7b2c702a9f88eed808ea647d6fd06eb98aba4ea8df91cad55
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603091023-standard-trixie@sha256:590831b34b1b3048f5f73d392ad60297a90fc88c6a3aacbb4950440a8d881836
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603021022-standard-trixie@sha256:34dd765836d5da5d9fdaced282adeadb6e4c93baccfea17990e259936d9a6551
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603091023-standard-trixie@sha256:ef5ccd62bee8709adad36d0fdd5d4e273401d1cd50613f883cfd241ba8c9a9a9
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603021024-standard-trixie@sha256:66dcbc45fae5743141612326d61bd50ed8842a7e0d8265564dd9c94caad205b8
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603091023-standard-trixie@sha256:510bbb2a05d79a8c82467d41810c94c0b47f56d29eaa93f143a22c28b79fb036
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603021024-standard-trixie@sha256:66bbd25c05f0011ad0072c9be821587018e9d96ca3f92672cddba37f15a1e6c5
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603091024-standard-trixie@sha256:b97a4cc5c453f557950251692fbf58eca0999cead41e8ceff6dee2f29864aec7
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603021022-standard-trixie@sha256:802c2e908463b273af66d5c0937beb9fb3f5f9d88a88182b36e3c8591894d2d3
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603091023-standard-trixie@sha256:f9c29a5a1844782a603f3870742ab705593a3dcb6cebc2bc664c7183775d7a09

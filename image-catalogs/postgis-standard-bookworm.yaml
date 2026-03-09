@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260302'
+    images.cnpg.io/date: '20260309'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603021023-standard-bookworm@sha256:19631f9b2c061a517e40530f6d8a1f5fc668382c6b7c5ba7853cd584727640a5
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603091023-standard-bookworm@sha256:3991ac2e90b8bee2eba42d6e09afabfbdeafb5904fb0a93c76eea4ec8a3b0824
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603021022-standard-bookworm@sha256:260907d495959b615f8394c505fd9effa3eb1809f3175210d6fbdd3dfb4e1e4a
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603091023-standard-bookworm@sha256:58a780baa9e9ccf2ea27d02269194e37dcc98fa09d8dfe06a9b426afcc31c63e
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603021024-standard-bookworm@sha256:1e4998dd7f5f027b505ad87d1baf7dd0e04a3da45595aa2ea3384a078d3cc85c
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603091023-standard-bookworm@sha256:2d518914b02b603f4c30cfffd1e47f1aa33d14582aa0bce3ac8c1f0c06ed4c49
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603021024-standard-bookworm@sha256:e7bdc10fa56f2a501f8e09903f490fe8f924fcea0914533bac44f137d644ca5f
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603091024-standard-bookworm@sha256:574905d9e541035872e9cac65b58a921f3d7aee7a180e71dc848ffa669b33ae1
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603021022-standard-bookworm@sha256:44992a614c15e866bb16b11e3832fcb434e8c1f795fa051d87cf14f558e8ffec
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603091023-standard-bookworm@sha256:d3d938120c53f4e9cf93615b0136610b0a5617a581b31cfff19a1446c0f01513
