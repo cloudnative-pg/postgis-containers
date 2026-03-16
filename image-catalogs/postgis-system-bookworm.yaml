@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260309'
+    images.cnpg.io/date: '20260316'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603091023-system-bookworm@sha256:10a1317fbad9b129171990dd7e7a100972c9c651343bf4b5cbd4ca79e6edfc2d
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603161028-system-bookworm@sha256:cd4dc22cf2449bd5c198a6368819a426d0e0593cd87e114badb1e84faa00ef48
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603091023-system-bookworm@sha256:d8c80c5ad7e25e7d187d1bf612836751348ad03b3f381f6812e38bf8fdc5c260
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603161029-system-bookworm@sha256:3248ce3e7631ce8b7ff845634ad91978ff4d17480b82beaa48e7e22f354b1318
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603091023-system-bookworm@sha256:8f11a025566232ce4f8ad904754d6e2091a5047ceba96107c313852130575f52
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603161029-system-bookworm@sha256:8ef01481c9c285fec606f08b0236f9e36239104b9f3fa4169b9f70a9e035761e
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603091024-system-bookworm@sha256:29feaabf19478c915ed339ab6ba55deece29162439fe68d6f51a6a52816bd09a
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603161028-system-bookworm@sha256:003ef909db60af54f4aef6d75d91400d64444599ccb50c60a3c687d80f571730
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603091023-system-bookworm@sha256:bdc9d256a0242ae6b71933266ba6c84bff156b34b9c30db622cbe842aa6bb595
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603161029-system-bookworm@sha256:3f03e20be6cd1e26fe599c86a833c9fb5999c25348253df621c7d9a5c7990c60

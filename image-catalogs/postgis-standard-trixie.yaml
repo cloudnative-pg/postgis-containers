@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260309'
+    images.cnpg.io/date: '20260316'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603091023-standard-trixie@sha256:590831b34b1b3048f5f73d392ad60297a90fc88c6a3aacbb4950440a8d881836
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603161028-standard-trixie@sha256:18e872cc424a3d3e342245d489d40029541edf8920e9e1d40545fcbbc00d524e
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603091023-standard-trixie@sha256:ef5ccd62bee8709adad36d0fdd5d4e273401d1cd50613f883cfd241ba8c9a9a9
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603161029-standard-trixie@sha256:e8b7cf056866d3ebccb7e27cb05e50435c400c13675f550c5712cab29ea8278d
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603091023-standard-trixie@sha256:510bbb2a05d79a8c82467d41810c94c0b47f56d29eaa93f143a22c28b79fb036
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603161029-standard-trixie@sha256:40d22509984fc304b364278aad3662a40b4f73c941e2284a3c60cbc7414be99f
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603091024-standard-trixie@sha256:b97a4cc5c453f557950251692fbf58eca0999cead41e8ceff6dee2f29864aec7
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603161028-standard-trixie@sha256:f9ebdeeaf2cdfd6f984840727a2ae0f3cc242e214361b63428623277c8d51a5b
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603091023-standard-trixie@sha256:f9c29a5a1844782a603f3870742ab705593a3dcb6cebc2bc664c7183775d7a09
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603161029-standard-trixie@sha256:89917236ab946395f13dba2519e7e9037df963cf7f1a10171da062d28784aa48

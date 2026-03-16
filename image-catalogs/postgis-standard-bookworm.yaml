@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260309'
+    images.cnpg.io/date: '20260316'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603091023-standard-bookworm@sha256:3991ac2e90b8bee2eba42d6e09afabfbdeafb5904fb0a93c76eea4ec8a3b0824
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603161028-standard-bookworm@sha256:f120c2af96f7052ab5c43e033bf77970867cbfddbadb071cf2cefc9dc7a88b20
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603091023-standard-bookworm@sha256:58a780baa9e9ccf2ea27d02269194e37dcc98fa09d8dfe06a9b426afcc31c63e
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603161029-standard-bookworm@sha256:db200bf984b3d525c53ea644bbc7f74d11346e4f50bdc3f6d5590f06ee687d60
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603091023-standard-bookworm@sha256:2d518914b02b603f4c30cfffd1e47f1aa33d14582aa0bce3ac8c1f0c06ed4c49
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603161029-standard-bookworm@sha256:164b86d9adde52134b1a3249b0742c046b25708c3b905a7ce33aac067c554481
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603091024-standard-bookworm@sha256:574905d9e541035872e9cac65b58a921f3d7aee7a180e71dc848ffa669b33ae1
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603161028-standard-bookworm@sha256:f5b3571da45d4555b1cca274f80186ac25099824ef3ad26def9b807bf976aa26
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603091023-standard-bookworm@sha256:d3d938120c53f4e9cf93615b0136610b0a5617a581b31cfff19a1446c0f01513
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603161029-standard-bookworm@sha256:6f8747fe71040c6375009fffbe2cf2730adba9fe8f1c57ad8fd119e90ff4a523
