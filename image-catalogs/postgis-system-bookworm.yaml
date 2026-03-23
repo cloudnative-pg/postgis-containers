@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260316'
+    images.cnpg.io/date: '20260323'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603161028-system-bookworm@sha256:cd4dc22cf2449bd5c198a6368819a426d0e0593cd87e114badb1e84faa00ef48
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603231027-system-bookworm@sha256:b682a3e43b128a439620bb340a39d02130638ac9bd21918fb53c736f5c973116
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603161029-system-bookworm@sha256:3248ce3e7631ce8b7ff845634ad91978ff4d17480b82beaa48e7e22f354b1318
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603231027-system-bookworm@sha256:0017f89a2543e6a15a0884ad2e19fef3d1ee0d81fc06e189b53476abf5416f2c
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603161029-system-bookworm@sha256:8ef01481c9c285fec606f08b0236f9e36239104b9f3fa4169b9f70a9e035761e
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603231028-system-bookworm@sha256:608c8406e0edf2bcd0b47ba293421dad78e18ddae3c081aed99f049c78acb1ba
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603161028-system-bookworm@sha256:003ef909db60af54f4aef6d75d91400d64444599ccb50c60a3c687d80f571730
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603231028-system-bookworm@sha256:9793f0aefcaf14b27fbe9f3868fef131b90f6a0dbf673d729b03d17d24925f8e
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603161029-system-bookworm@sha256:3f03e20be6cd1e26fe599c86a833c9fb5999c25348253df621c7d9a5c7990c60
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603231028-system-bookworm@sha256:7b0c597dfdcf70a16a848b503bbe22beda19c03560dcf350a0e4bdb1c7b9b83a

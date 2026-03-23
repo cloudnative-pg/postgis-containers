@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260316'
+    images.cnpg.io/date: '20260323'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603161028-standard-bookworm@sha256:f120c2af96f7052ab5c43e033bf77970867cbfddbadb071cf2cefc9dc7a88b20
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603231027-standard-bookworm@sha256:cff2f366a96a1039a5a38fa835dfb297659c049ec92bcba7a5cf661039f91d07
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603161029-standard-bookworm@sha256:db200bf984b3d525c53ea644bbc7f74d11346e4f50bdc3f6d5590f06ee687d60
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603231027-standard-bookworm@sha256:b2934cea09f2fda8083924f361f075f589b207acd0514b3838f3035bfdafb5f5
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603161029-standard-bookworm@sha256:164b86d9adde52134b1a3249b0742c046b25708c3b905a7ce33aac067c554481
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603231028-standard-bookworm@sha256:eb4093be0589abb43347abdd14523dcb9649550f251528006da885c7b530c13b
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603161028-standard-bookworm@sha256:f5b3571da45d4555b1cca274f80186ac25099824ef3ad26def9b807bf976aa26
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603231028-standard-bookworm@sha256:337756c1405d8a599e1d73ca85d22bc7dae076e341e8a17fd8b2054c62ab6dcf
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603161029-standard-bookworm@sha256:6f8747fe71040c6375009fffbe2cf2730adba9fe8f1c57ad8fd119e90ff4a523
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603231028-standard-bookworm@sha256:5587b438d3c211d55bca1e91bb8a5bd2e96d692900937223d884c10602544b56
