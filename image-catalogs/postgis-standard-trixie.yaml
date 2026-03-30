@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260323'
+    images.cnpg.io/date: '20260330'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603231027-standard-trixie@sha256:086d53016747c7b4bcddfda427c37e2d1fd5c1ee845f42080306fcdf4954d080
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603301036-standard-trixie@sha256:23b250685792dcf9c69953af71a8fa27d123e65f3f75b1bd83556a98828d595d
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603231027-standard-trixie@sha256:e322013638be7f295d382cd120c278fd5d412f07fc434119862b0a04b8aad61b
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603301037-standard-trixie@sha256:8af98d7330c83eb74763d7f4270050ee2623235386efbabf9bc6b389be1af0ac
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603231028-standard-trixie@sha256:920914171f1f20296b49bd2ca433fa79549821bd7fe4adc4585c10e21b3ebe3e
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603301036-standard-trixie@sha256:a834bffca380b63c6e15cb406aac3224fd265b7507e35f7e70b712bc010b54f2
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603231028-standard-trixie@sha256:852822f18d0c6d490251215fcb5e1497161d280007f03525a9461ba2f23fbe45
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603301035-standard-trixie@sha256:44f36950ec4e5303c7653d649e98a4f9fa023f6096b454f9e86b79d821d2e30f
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603231028-standard-trixie@sha256:73a51a832c29382fd7d598826b6830b80bf97332d798db94d4b94ef496dedb44
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603301035-standard-trixie@sha256:ac716103c2de3d7a2720b41a932f133089033d9d02f6b4cd0dd7c53aba27db2c

@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260323'
+    images.cnpg.io/date: '20260330'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603231027-system-bookworm@sha256:b682a3e43b128a439620bb340a39d02130638ac9bd21918fb53c736f5c973116
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603301036-system-bookworm@sha256:66b39f834d7113904cdc9a5076aeeba25d08672d147d29a431064310ed381bcf
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603231027-system-bookworm@sha256:0017f89a2543e6a15a0884ad2e19fef3d1ee0d81fc06e189b53476abf5416f2c
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603301037-system-bookworm@sha256:f1eb3c901ee8bcc09b805341addf4a7106fb1590379f32296e8879cfe96ae72b
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603231028-system-bookworm@sha256:608c8406e0edf2bcd0b47ba293421dad78e18ddae3c081aed99f049c78acb1ba
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603301036-system-bookworm@sha256:ebde8663ae95b2adf011ec9b3ea58848747d417c9d9660adbbe7720b409da222
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603231028-system-bookworm@sha256:9793f0aefcaf14b27fbe9f3868fef131b90f6a0dbf673d729b03d17d24925f8e
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603301035-system-bookworm@sha256:c79b5c170f49150165d20bc7c093d3dbeb80fb42795eb65b67c19fc565de8c1b
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603231028-system-bookworm@sha256:7b0c597dfdcf70a16a848b503bbe22beda19c03560dcf350a0e4bdb1c7b9b83a
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603301035-system-bookworm@sha256:89f6d3b4aa8b859e5cf76ae0f3d925c5f51cdd001224e7cdb3900b97b2ad9732

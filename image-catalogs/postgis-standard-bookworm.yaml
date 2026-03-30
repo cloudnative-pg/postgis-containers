@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260323'
+    images.cnpg.io/date: '20260330'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603231027-standard-bookworm@sha256:cff2f366a96a1039a5a38fa835dfb297659c049ec92bcba7a5cf661039f91d07
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603301036-standard-bookworm@sha256:6a5c2eb24bac4dfbbbefd9f18719259ae7d8e521c13cd678deaa4ab83466ba64
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603231027-standard-bookworm@sha256:b2934cea09f2fda8083924f361f075f589b207acd0514b3838f3035bfdafb5f5
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603301037-standard-bookworm@sha256:6e8aa904d7230cb0df807327946e73b54cae132184e54dc7ddf40d4318b156d7
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603231028-standard-bookworm@sha256:eb4093be0589abb43347abdd14523dcb9649550f251528006da885c7b530c13b
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603301036-standard-bookworm@sha256:5ff38fd1bce6c858cb67c769a1fa5fe83e823dc7e38ae31b704b73b1b4e92005
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603231028-standard-bookworm@sha256:337756c1405d8a599e1d73ca85d22bc7dae076e341e8a17fd8b2054c62ab6dcf
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603301035-standard-bookworm@sha256:5c243813b19fcfdd454aa78ce18a82ba34be8e72d9f37c2e7f00318a81f59751
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603231028-standard-bookworm@sha256:5587b438d3c211d55bca1e91bb8a5bd2e96d692900937223d884c10602544b56
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603301035-standard-bookworm@sha256:d7fd3d92505b96106cb9f572856422c7f939cb3a2f15e9ab093c2a121220c38b
