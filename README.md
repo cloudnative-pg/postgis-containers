@@ -63,11 +63,11 @@ For example: `postgis-testing:17.6-3.6.0-202509221231-system-trixie`.
 In addition to fully qualified tags, rolling tags are available in the
 following formats:
 
-- `MM.mm-x.y.TYPE-OS`: latest image for a given PostgreSQL *minor* version
-  (`17.6`) with a given PostGIS *minor* version (`3.6`) of a specific type
+- `MM.mm-x.y.z-TYPE-OS`: latest image for a given PostgreSQL *minor* version
+  (`17.6`) with a given PostGIS *minor* version (`3.6.2`) of a specific type
   (`minimal`) on a Debian version (`trixie`).
-  For example: `17.6-3.6-minimal-trixie`.
-- `MM-x.y.TYPE-OS`: latest image for a given PostgreSQL *major* version
+  For example: `17.6-3.6.2-minimal-trixie`.
+- `MM-x.y-TYPE-OS`: latest image for a given PostgreSQL *major* version
   (`17`) with a given PostGIS *minor* version (`3.6`) of a specific type
   (`minimal`) on a Debian version (`trixie`).
   For example: `17-3.6-minimal-trixie`.
