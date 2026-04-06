@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260330'
+    images.cnpg.io/date: '20260406'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202603301036-system-bookworm@sha256:66b39f834d7113904cdc9a5076aeeba25d08672d147d29a431064310ed381bcf
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202604061031-system-bookworm@sha256:8c5331e8ab587c9c90bd83082d5ad522fca844be56b2e29c6939692f812ea416
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202603301037-system-bookworm@sha256:f1eb3c901ee8bcc09b805341addf4a7106fb1590379f32296e8879cfe96ae72b
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202604061031-system-bookworm@sha256:e980541d361c7b6324364d153c7483ecb9d3f9c47b42a74edf337522ab3346e3
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202603301036-system-bookworm@sha256:ebde8663ae95b2adf011ec9b3ea58848747d417c9d9660adbbe7720b409da222
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202604061030-system-bookworm@sha256:2d9efd700669523ef1e1dce6c2635bdb5987c542a135d03ab7c5efa2cd151e87
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202603301035-system-bookworm@sha256:c79b5c170f49150165d20bc7c093d3dbeb80fb42795eb65b67c19fc565de8c1b
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202604061031-system-bookworm@sha256:29b0043d23e60c24b6af00aa980c336624a69f83d56552c254b5259cea3e5a87
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202603301035-system-bookworm@sha256:89f6d3b4aa8b859e5cf76ae0f3d925c5f51cdd001224e7cdb3900b97b2ad9732
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202604061030-system-bookworm@sha256:462b3760f5fc6f7227e80d2207f78e3f17b14905d820d324fd47b87b2ea9cfd1
