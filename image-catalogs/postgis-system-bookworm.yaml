@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260406'
+    images.cnpg.io/date: '20260413'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202604061031-system-bookworm@sha256:8c5331e8ab587c9c90bd83082d5ad522fca844be56b2e29c6939692f812ea416
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202604131208-system-bookworm@sha256:1a6e4be43718cc391d4af996bea024d94f9aa72b23fb341d95153f824e348fa5
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202604061031-system-bookworm@sha256:e980541d361c7b6324364d153c7483ecb9d3f9c47b42a74edf337522ab3346e3
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202604131207-system-bookworm@sha256:cda9f789a5058d0f550f87a8634eec1b70fd0fd93891c8fd76240117c9576d2f
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202604061030-system-bookworm@sha256:2d9efd700669523ef1e1dce6c2635bdb5987c542a135d03ab7c5efa2cd151e87
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202604131158-system-bookworm@sha256:dc132e6d1b8f450f6bd9401e3533c6300d0ae40ff3105fbbe2c1382bd3abe637
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202604061031-system-bookworm@sha256:29b0043d23e60c24b6af00aa980c336624a69f83d56552c254b5259cea3e5a87
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202604131205-system-bookworm@sha256:39d2fe443d5f297d6443a66a9afca7fde46bb246004a17b4902bd66479efdae1
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202604061030-system-bookworm@sha256:462b3760f5fc6f7227e80d2207f78e3f17b14905d820d324fd47b87b2ea9cfd1
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202604131202-system-bookworm@sha256:2500ab94555dc2487c946da0b3ccb4c5ae5f3fe5757120187130d3f7cad15c9c

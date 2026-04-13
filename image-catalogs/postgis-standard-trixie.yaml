@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260406'
+    images.cnpg.io/date: '20260413'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202604061031-standard-trixie@sha256:0458b74f475a6f5133fdc84cb99d1d001ea02135c9df3f4d74d69ea39f5d4401
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202604131208-standard-trixie@sha256:49b5b464bfed1afaac07b2407b049a546a548377be4b59782f7b0073f3dc34b7
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202604061031-standard-trixie@sha256:32ba80b6ed1073c8e9ac08a58fe7b29ba5af18c7ff4b3452650ea741cd7fd4a4
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202604131207-standard-trixie@sha256:8c89f94f93fefc5474d5e7bdc6da535346f4abc8015c5678fe10bcd38645f275
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202604061030-standard-trixie@sha256:e46403a7cd9a797025f819e5f8885759838ad696f4bcb4cabe3fc2573041e611
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202604131158-standard-trixie@sha256:343789659645bad887fb6cf96edc34fd16c3bf64a68b363b90bfe050537eeeb9
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202604061031-standard-trixie@sha256:1b96f390dd6973788557d0a13e6b7ac3615ea3322334a126e607f1c533b7e3f2
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202604131205-standard-trixie@sha256:13266db3f122900fec07ddc65730a0f9cdb97e63041236b9fff07205856e3fee
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202604061030-standard-trixie@sha256:860e013e6aced459881febc4abfa0117d1ae727937ef0fe0fe93e5940b587777
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202604131202-standard-trixie@sha256:33df86d142497bbe622cc30d804226eb8d0cc29432773d3136670b2bfa87017c
