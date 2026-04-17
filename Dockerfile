@@ -10,7 +10,7 @@ USER root
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         "postgresql-$PG_MAJOR-postgis-$POSTGIS_MAJOR=$POSTGIS_VERSION" \
-        "postgresql-$PG_MAJOR-postgis-$POSTGIS_MAJOR-scripts" && \
+        "postgresql-$PG_MAJOR-postgis-$POSTGIS_MAJOR-scripts=$POSTGIS_VERSION" && \
     apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false && \
     rm -rf /var/lib/apt/lists/* /var/cache/* /var/log/*
 
