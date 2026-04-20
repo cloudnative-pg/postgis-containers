@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260413'
+    images.cnpg.io/date: '20260420'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202604131208-standard-bookworm@sha256:8a596a9416fe9512a5340f432add47d111deeaa861b3244a0f4de009190227b0
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202604201040-standard-bookworm@sha256:434e5216f3820994144529f71e50332a2c26911fdbf2e1182fb48132b647691e
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202604131207-standard-bookworm@sha256:5669ec6f7724f1a55d4d2c8f8af13e9ccb4ab251104caf8d511be1e839b91b42
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202604201039-standard-bookworm@sha256:d442485a5a3d0fff6e0b80362d2afce74ae90557bb19d445b4d669979b83ac97
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202604131158-standard-bookworm@sha256:4086f712b255e5975f444e688831764b25cacca2c0a77dcb1c5f94db554aba6d
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202604201040-standard-bookworm@sha256:7db13478fa53df1177f84720588e1802ea855fe1918a4307faaec786399c9a98
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202604131205-standard-bookworm@sha256:cc84530d6da197221e2a2a55671fb94f4645b3e4181887120ba34bb829d2ea44
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202604201040-standard-bookworm@sha256:dac30afc61c93949b78b5c171f9ceed6e4f56837ac1cf334a92b24fbd777193f
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202604131202-standard-bookworm@sha256:59a2f34f68b98f3067c5719bca6d66feeaea5f7bcea6025e83874cff01aefe85
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202604201040-standard-bookworm@sha256:ed71db2d1ac4d4a550714672c371ecfddeccf243ea2b9aa778baf03ca2235d68

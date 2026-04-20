@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260413'
+    images.cnpg.io/date: '20260420'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202604131208-system-bookworm@sha256:1a6e4be43718cc391d4af996bea024d94f9aa72b23fb341d95153f824e348fa5
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202604201040-system-bookworm@sha256:be70cae574acddae9afaedf2c8dd62324f419679d0e07ffad99999d851d97598
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202604131207-system-bookworm@sha256:cda9f789a5058d0f550f87a8634eec1b70fd0fd93891c8fd76240117c9576d2f
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202604201039-system-bookworm@sha256:8d20224b20848b9a95793fcf91ae2d375cccf993446e9b84992efeff71df4e6e
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202604131158-system-bookworm@sha256:dc132e6d1b8f450f6bd9401e3533c6300d0ae40ff3105fbbe2c1382bd3abe637
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202604201040-system-bookworm@sha256:7f3ef2616f894f0b7f399a0167fca733a49927d7328976f57cd34db4638abe63
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202604131205-system-bookworm@sha256:39d2fe443d5f297d6443a66a9afca7fde46bb246004a17b4902bd66479efdae1
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202604201040-system-bookworm@sha256:8388de95779655f904d51417d2012f452a97e6a3d1bfa50b5c8508837367333b
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202604131202-system-bookworm@sha256:2500ab94555dc2487c946da0b3ccb4c5ae5f3fe5757120187130d3f7cad15c9c
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202604201040-system-bookworm@sha256:ee4c0888fc63e0ccb2b07d8b511d60bedae2f770c8d4ddbe4930c9cb140a8fd0
