@@ -86,7 +86,7 @@ supported combination of image type and operating system version.
 
 This software is available under [Apache License 2.0](LICENSE).
 
-Copyright The CloudNativePG Contributors.
+Copyright © contributors to CloudNativePG, established as CloudNativePG a Series of LF Projects, LLC.
 
 Licensing information of all the software included in the container images is
 in the `/usr/share/doc/*/copyright*` files.
