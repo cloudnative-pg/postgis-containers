@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260420'
+    images.cnpg.io/date: '20260427'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202604201040-standard-trixie@sha256:e26325cd8ec980e48c76fbc0f25d763e36c042d5723c88b969ab588018806baf
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202604271046-standard-trixie@sha256:9d5be642bb056427aeca5515188a3c31016a8a83f4d083cef1458f55353ed017
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202604201039-standard-trixie@sha256:383b5825afb7c7a1975a9ecfa32847d08d4dbb7142fc21ee1f44abe0f7870621
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202604271046-standard-trixie@sha256:477ac2573d1938f83dfbc62c4d300f4d050d3ca74f28a9e44eaf879d5dcd958d
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202604201040-standard-trixie@sha256:a33a31b2d06285d4d411cc68d7ae768b57a5b4367a821576cf2a7f3c7a264716
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202604271044-standard-trixie@sha256:ec92ab4371a7a738742052814005a9dfd000361d872d0d1343f53210d301b74c
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202604201040-standard-trixie@sha256:60c500afb8f2351c9b4965a4cd8881c8ba2230d21f33b9e4376f434b39394898
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202604271044-standard-trixie@sha256:5728343b3b651d953fc304dfe5690209a7e4ee636b4842b0f06236f7d6ccbb9f
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202604201040-standard-trixie@sha256:2dbdd17605e922f32ce607a97a370e5fe8f6877964667ca934a23d3521d50eae
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202604271046-standard-trixie@sha256:14f49d36efa14d6ac902ba84f9bbb7b82fd7b919b0e5316d5ff4662ce247e42a

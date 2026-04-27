@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260420'
+    images.cnpg.io/date: '20260427'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202604201040-system-bookworm@sha256:be70cae574acddae9afaedf2c8dd62324f419679d0e07ffad99999d851d97598
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202604271046-system-bookworm@sha256:477c093626e53b1cd8f67bb0fe7ed322d8eff97f6017193790473c4ab6432c54
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202604201039-system-bookworm@sha256:8d20224b20848b9a95793fcf91ae2d375cccf993446e9b84992efeff71df4e6e
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202604271046-system-bookworm@sha256:a8e933d4cfaf4d997e8af0620d6d10c3898941af2e73f56ce0270aebe34208ec
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202604201040-system-bookworm@sha256:7f3ef2616f894f0b7f399a0167fca733a49927d7328976f57cd34db4638abe63
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202604271044-system-bookworm@sha256:9a8b543fea40d7b80ddd99ec5b5c97e05baf31aa7bc21ccd118b93aae4c6a8c7
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202604201040-system-bookworm@sha256:8388de95779655f904d51417d2012f452a97e6a3d1bfa50b5c8508837367333b
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202604271044-system-bookworm@sha256:cbf1321486d4d1233a61573cb9c12892519c6bb56ca568f3bc89a1ff336d3359
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202604201040-system-bookworm@sha256:ee4c0888fc63e0ccb2b07d8b511d60bedae2f770c8d4ddbe4930c9cb140a8fd0
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202604271046-system-bookworm@sha256:48f79b246d40d491c88a01de356e0d746508c4a4a80e9ddc0ebdf2a6a78d7b3a
