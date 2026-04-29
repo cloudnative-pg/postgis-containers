@@ -12,11 +12,11 @@ variable "postgisMajorVersions" {
 postgisMatrix = {
   bookworm = {
     // renovate: suite=bookworm-pgdg depName=postgis
-    "3" = "3.6.2+dfsg-1.pgdg12+1"
+    "3" = "3.6.3+dfsg-1.pgdg12+1"
   }
   trixie = {
     // renovate: suite=trixie-pgdg depName=postgis
-    "3" = "3.6.2+dfsg-1.pgdg13+1"
+    "3" = "3.6.3+dfsg-1.pgdg13+1"
   }
 }
 
