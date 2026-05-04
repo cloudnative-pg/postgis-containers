@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260427'
+    images.cnpg.io/date: '20260504'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202604271046-system-bookworm@sha256:477c093626e53b1cd8f67bb0fe7ed322d8eff97f6017193790473c4ab6432c54
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.3-202605041118-system-bookworm@sha256:313715360c8d1b7715368a66bf20d339978d5ca80ae5f98635f3ef22a9ba9155
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202604271046-system-bookworm@sha256:a8e933d4cfaf4d997e8af0620d6d10c3898941af2e73f56ce0270aebe34208ec
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.3-202605041117-system-bookworm@sha256:8776de656ea75b9ddd463f99a6a1fa2bfb1804b8fde5c82f49f77402ca6063ca
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202604271044-system-bookworm@sha256:9a8b543fea40d7b80ddd99ec5b5c97e05baf31aa7bc21ccd118b93aae4c6a8c7
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.3-202605041117-system-bookworm@sha256:c0d32693498a284b3b790890f1170a8b5c1bf3b37a3d92ae36ea9615c2bce1cc
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202604271044-system-bookworm@sha256:cbf1321486d4d1233a61573cb9c12892519c6bb56ca568f3bc89a1ff336d3359
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.3-202605041119-system-bookworm@sha256:65888867b7b0b11359a572b233ae8317e663ccf9409752fe367da771abba33b8
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202604271046-system-bookworm@sha256:48f79b246d40d491c88a01de356e0d746508c4a4a80e9ddc0ebdf2a6a78d7b3a
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.3-202605041120-system-bookworm@sha256:ab415d5b2bdcce277035eb0c0a4e52488b3a2cb112ed5248b14bf40a5d83a0c1

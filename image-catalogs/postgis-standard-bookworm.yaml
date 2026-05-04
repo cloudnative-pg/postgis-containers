@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260427'
+    images.cnpg.io/date: '20260504'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202604271046-standard-bookworm@sha256:752b5c60be7c9b860fc695706bd25f62f0544170162a535757861bbe1a56f7fe
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.3-202605041118-standard-bookworm@sha256:145a1d8f688b8cdb269284c59570481b2a3dd2a7af4860295b3cdeefcf070757
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202604271046-standard-bookworm@sha256:0f073a4de10b5401618c69484be6ea2399063dc0851c4ae0a5e1ee173d090889
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.3-202605041117-standard-bookworm@sha256:a25c717b02aa3078fc09ab929bf5296f297a038b42d70232505e42ad202ae2af
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202604271044-standard-bookworm@sha256:7a7b09259a74a77bef97ea7fa77e8ced691fbf74dbcf750cd1d28d4341e0b943
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.3-202605041117-standard-bookworm@sha256:99df8029d7e64566eee7e82ceeb96e9e92e72b0048c12d466b84892ab3563ec9
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202604271044-standard-bookworm@sha256:31f928a0d706389ce0d8242de6a464a86ab5582c31f4c89b4dd689476701492a
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.3-202605041119-standard-bookworm@sha256:e501ca5ffc1e3fe62801974486d18f342509a9d7f231814a5cbb84d13e1e6d2c
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202604271046-standard-bookworm@sha256:0b107a47d516d63e52257810a01befc7fc8d72e17a08ede6e72a277461e11ef0
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.3-202605041120-standard-bookworm@sha256:435a29825c46eac630780a62a1f4760a8aebec52a271189b7451992b25f03c44

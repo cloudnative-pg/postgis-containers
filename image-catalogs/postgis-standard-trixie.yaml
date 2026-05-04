@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260427'
+    images.cnpg.io/date: '20260504'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.2-202604271046-standard-trixie@sha256:9d5be642bb056427aeca5515188a3c31016a8a83f4d083cef1458f55353ed017
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.3-202605041118-standard-trixie@sha256:8cb940eab78532c892c3ae2ca2405fdce2665e8a630e6599c8adf4e47d101b1e
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.2-202604271046-standard-trixie@sha256:477ac2573d1938f83dfbc62c4d300f4d050d3ca74f28a9e44eaf879d5dcd958d
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.3-202605041117-standard-trixie@sha256:59c18a2b25adeb5f837b0edf1798f5aaf19d0a172affc3e22f584cee87558ec8
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.2-202604271044-standard-trixie@sha256:ec92ab4371a7a738742052814005a9dfd000361d872d0d1343f53210d301b74c
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.3-202605041117-standard-trixie@sha256:6f920c8743f147dd6cf8f1161dce905acf3ab7838db7f1f1d729fa66bfae1d33
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.2-202604271044-standard-trixie@sha256:5728343b3b651d953fc304dfe5690209a7e4ee636b4842b0f06236f7d6ccbb9f
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.3-202605041119-standard-trixie@sha256:0b10cefd15f896d2892ab2b90c70b2258348c03df9310145fd1db7ad07682fc1
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.2-202604271046-standard-trixie@sha256:14f49d36efa14d6ac902ba84f9bbb7b82fd7b919b0e5316d5ff4662ce247e42a
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.3-202605041120-standard-trixie@sha256:496c96095e8fa984cdd933165ec818a63dbb9533dbde3ce808ab06f9dac00c59
