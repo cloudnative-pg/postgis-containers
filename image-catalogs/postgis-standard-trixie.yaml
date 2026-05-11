@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260504'
+    images.cnpg.io/date: '20260511'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.3-202605041118-standard-trixie@sha256:8cb940eab78532c892c3ae2ca2405fdce2665e8a630e6599c8adf4e47d101b1e
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.3-202605111110-standard-trixie@sha256:a6bbac2cbbb12fc031057f21aa382b6e3028530fee3ddd476f92587512a60c0a
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.3-202605041117-standard-trixie@sha256:59c18a2b25adeb5f837b0edf1798f5aaf19d0a172affc3e22f584cee87558ec8
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.3-202605111110-standard-trixie@sha256:2c3061f293f6d3bcc2b97fdd61e05b0e39ae7e492ed6106b67c6614c46b7f9dc
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.3-202605041117-standard-trixie@sha256:6f920c8743f147dd6cf8f1161dce905acf3ab7838db7f1f1d729fa66bfae1d33
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.3-202605111110-standard-trixie@sha256:1c79fc0bf80b10a32136a1f0d302c8068f3508496ac094436156eaa152aabd5d
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.3-202605041119-standard-trixie@sha256:0b10cefd15f896d2892ab2b90c70b2258348c03df9310145fd1db7ad07682fc1
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.3-202605111110-standard-trixie@sha256:9ae4a1abaf21135ed6318bb0402b55a5c6d585e321265642e561d13af6573ff6
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.3-202605041120-standard-trixie@sha256:496c96095e8fa984cdd933165ec818a63dbb9533dbde3ce808ab06f9dac00c59
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.3-202605111110-standard-trixie@sha256:8bcdc53bc981108406bdd8bdb1159a756fec128503b3bff9e35be7e7273e13df

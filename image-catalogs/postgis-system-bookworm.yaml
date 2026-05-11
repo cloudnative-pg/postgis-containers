@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260504'
+    images.cnpg.io/date: '20260511'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.3-202605041118-system-bookworm@sha256:313715360c8d1b7715368a66bf20d339978d5ca80ae5f98635f3ef22a9ba9155
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.3-202605111110-system-bookworm@sha256:73766e8fa8998b1925220597a877e20a15e89cbe663a131fa3d1a33209540b5d
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.3-202605041117-system-bookworm@sha256:8776de656ea75b9ddd463f99a6a1fa2bfb1804b8fde5c82f49f77402ca6063ca
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.3-202605111110-system-bookworm@sha256:ea1e8428b187717714ba034cf72f1c284cb72a4901cda5f030509336f15f0064
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.3-202605041117-system-bookworm@sha256:c0d32693498a284b3b790890f1170a8b5c1bf3b37a3d92ae36ea9615c2bce1cc
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.3-202605111110-system-bookworm@sha256:22077f030092d0e4e7ee0a803d43427aa4f5c80c3f3a232ce5b7f53da2a11ba9
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.3-202605041119-system-bookworm@sha256:65888867b7b0b11359a572b233ae8317e663ccf9409752fe367da771abba33b8
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.3-202605111110-system-bookworm@sha256:9f20cb20b77098188df650dacbf7a40fc070f6aff5896d15dc3bbcf4198a9512
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.3-202605041120-system-bookworm@sha256:ab415d5b2bdcce277035eb0c0a4e52488b3a2cb112ed5248b14bf40a5d83a0c1
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.3-202605111110-system-bookworm@sha256:1589f388106760e3870c0800bb833ad02ad3d588ec95371c58348bc1459eeb0d

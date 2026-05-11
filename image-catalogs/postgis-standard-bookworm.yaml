@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260504'
+    images.cnpg.io/date: '20260511'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.3-202605041118-standard-bookworm@sha256:145a1d8f688b8cdb269284c59570481b2a3dd2a7af4860295b3cdeefcf070757
+    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.3-202605111110-standard-bookworm@sha256:2e4331556e2d19c50362e5d2d62b5916b7779f6e69b1b088e1640e77d1488296
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.3-202605041117-standard-bookworm@sha256:a25c717b02aa3078fc09ab929bf5296f297a038b42d70232505e42ad202ae2af
+    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.3-202605111110-standard-bookworm@sha256:705b9650c34ad5b02d3c6f3b345c678caca208b21150be6c3ec1dd696011a340
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.3-202605041117-standard-bookworm@sha256:99df8029d7e64566eee7e82ceeb96e9e92e72b0048c12d466b84892ab3563ec9
+    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.3-202605111110-standard-bookworm@sha256:382c9af23e9e67b77e980b78bb5c1fdecbf7ae4271022082307490a037756ceb
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.3-202605041119-standard-bookworm@sha256:e501ca5ffc1e3fe62801974486d18f342509a9d7f231814a5cbb84d13e1e6d2c
+    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.3-202605111110-standard-bookworm@sha256:541753f9f19d2f2564e54fea5d8af83409a6f5a5006475256bf9a43a571c82b9
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.3-202605041120-standard-bookworm@sha256:435a29825c46eac630780a62a1f4760a8aebec52a271189b7451992b25f03c44
+    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.3-202605111110-standard-bookworm@sha256:af1ed43138870bdf202fbb305fc0a7498b204aa76259a49c0ff226329b3560e7
