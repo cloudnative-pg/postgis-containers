@@ -61,6 +61,9 @@ target "postgis" {
     POSTGIS_MAJOR = postgisMajor
     BASE = "${getBaseImage(pgVersion, tgt, distro)}"
   }
+  output = [
+    "type=image,oci-mediatypes=true,oci-artifact=true",
+  ]
   attest = [
     "type=provenance,mode=max",
     "type=sbom"
