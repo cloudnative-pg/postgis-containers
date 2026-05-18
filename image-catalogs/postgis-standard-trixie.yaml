@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260511'
+    images.cnpg.io/date: '20260518'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.3-202605111110-standard-trixie@sha256:a6bbac2cbbb12fc031057f21aa382b6e3028530fee3ddd476f92587512a60c0a
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.3-202605181127-standard-trixie@sha256:68ab64f061c5cee8cbf6ca105d03b83fe2243dfadb90f8729498888bd1963faa
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.3-202605111110-standard-trixie@sha256:2c3061f293f6d3bcc2b97fdd61e05b0e39ae7e492ed6106b67c6614c46b7f9dc
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.3-202605181128-standard-trixie@sha256:ded34907932ae980edb5cd4cb3b5d111c94a7cd55ca4b1cdf13ff4c31fc79a7c
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.3-202605111110-standard-trixie@sha256:1c79fc0bf80b10a32136a1f0d302c8068f3508496ac094436156eaa152aabd5d
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.3-202605181128-standard-trixie@sha256:08e83cdb7a0b4b64c5097485d8cb21d05a29a41211241240771eeb933cdb87dc
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.3-202605111110-standard-trixie@sha256:9ae4a1abaf21135ed6318bb0402b55a5c6d585e321265642e561d13af6573ff6
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.3-202605181126-standard-trixie@sha256:7c46ae180777d318cb44ec0da183a41dfaf3154b4b18068b1fc6d1a6a425a230
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.3-202605111110-standard-trixie@sha256:8bcdc53bc981108406bdd8bdb1159a756fec128503b3bff9e35be7e7273e13df
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.3-202605181128-standard-trixie@sha256:cbb6201272d56c35ad0e21a37a9a8b99fbe0201761ab12a57e6eb576a65cc9db

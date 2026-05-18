@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260511'
+    images.cnpg.io/date: '20260518'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.22-3.6.3-202605111110-system-bookworm@sha256:73766e8fa8998b1925220597a877e20a15e89cbe663a131fa3d1a33209540b5d
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.3-202605181127-system-bookworm@sha256:6676867d933c79d67e64e8e9a2a26fe0fb4869a709a106b599fbb0f0c5eabacc
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.17-3.6.3-202605111110-system-bookworm@sha256:ea1e8428b187717714ba034cf72f1c284cb72a4901cda5f030509336f15f0064
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.3-202605181128-system-bookworm@sha256:0acd01923d482aa0486158446d48cae9a96b7c676701369012ac9b8f13b4e1bf
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.13-3.6.3-202605111110-system-bookworm@sha256:22077f030092d0e4e7ee0a803d43427aa4f5c80c3f3a232ce5b7f53da2a11ba9
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.3-202605181128-system-bookworm@sha256:32ea673c86fbcfd6f1956c50451e836b667191d28dd0ff9d033cd84b49a2752f
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.9-3.6.3-202605111110-system-bookworm@sha256:9f20cb20b77098188df650dacbf7a40fc070f6aff5896d15dc3bbcf4198a9512
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.3-202605181126-system-bookworm@sha256:7755c0c0d3670016c17770f1e4dbc415cb1df1cc5a32c9c7e840a94178faa1bb
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.3-3.6.3-202605111110-system-bookworm@sha256:1589f388106760e3870c0800bb833ad02ad3d588ec95371c58348bc1459eeb0d
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.3-202605181128-system-bookworm@sha256:d496955c5d53bddc6416d2b2ae825c5cee633da9e20471c70ba0a6fd29482c53
