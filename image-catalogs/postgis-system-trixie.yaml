@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260518'
+    images.cnpg.io/date: '20260525'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-trixie@sha256:a81308e173f72ac595add468e83e6976c48fd0ab81f08f9be8af87faba2fbb68
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.3-202605181127-system-trixie@sha256:3b9d59714299178f1507774df1eaeadd5a391a7fd7b258850e6d055908d65a21
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.3-202605251128-system-trixie@sha256:b07ed700fea75764c8aa63a7a4897bcac43fb0a77ac6370abf5525ba41bd736a
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.3-202605181128-system-trixie@sha256:b35a8580ebc99bb664aba92e70016707653c5b0ca49b92d9e185f8b7818990a4
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.3-202605251128-system-trixie@sha256:470ec8628860caf55aab1aaca9a6d4877c9fbbda469c5e0f1f77bffa357e7e73
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.3-202605181128-system-trixie@sha256:8edb6223eb258442bde9b569eba73cf1cce1f800e118955555422e6334e7418e
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.3-202605251128-system-trixie@sha256:f63f3b6e7171347357517019c9ab67fc058674eac88c2205c43632a26455f3b4
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.3-202605181126-system-trixie@sha256:abb820017a594a74f266413b7aba101393f999ac41c0934870440e7cd4f220f0
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.3-202605251128-system-trixie@sha256:076d423b08437397bcd422fb85c59f8dab6f7670edec62f262a95245a0692502
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.3-202605181128-system-trixie@sha256:aa9f01e3592c659ea7c870577056be36909720b01a1fb99c6c67db38eb247476
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.3-202605251128-system-trixie@sha256:7ebce4066d93c14a351cf2e0d1538180075b4e72b10ba5746706eb2714aa7fb0
