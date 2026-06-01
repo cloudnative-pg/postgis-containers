@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260525'
+    images.cnpg.io/date: '20260601'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.3-202605251128-system-bookworm@sha256:2209d62455f805fbed99712a4ed6ae4a5112bd1e6331cab2f066f797218fe5c0
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.3-202606011204-system-bookworm@sha256:a008a749085acdddb47db786999565b459c5e7557cae046bf5db8242a23f3b73
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.3-202605251128-system-bookworm@sha256:ba8fefcdc7a4807b9a9ae753da1730a5a67ef07c35b17f1e4a49eec7de4a7527
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.3-202606011205-system-bookworm@sha256:88474335e03cab32b56de7eb510d42a1e8021c93c2df89ac228544b47b75744a
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.3-202605251128-system-bookworm@sha256:1481332c321b69c2aa3d8986b0f6c7abece75e58fe90ce8a510855c5add411b2
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.3-202606011204-system-bookworm@sha256:685e2a7103a0ed9d6f43bab8e7cc52b26f8b5293808e8def12118e498e84f192
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.3-202605251128-system-bookworm@sha256:fa26760779b31338c453afb31b84e1e26f51b11207005e5c5fef507547a22049
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.3-202606011206-system-bookworm@sha256:9130623ab29e6160198759634c48d9e5aa12d88241d87c37ac1abd66f506c105
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.3-202605251128-system-bookworm@sha256:8e135e6d3e6e6da77986b0d952fa3bea95ccafcd5af3de2f7a7f18e525f462fe
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.3-202606011204-system-bookworm@sha256:de7ed64d6de9d87e9ce3d3818727a6db639cbc4b16191a7a014d63438064e526

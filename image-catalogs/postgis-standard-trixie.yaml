@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260525'
+    images.cnpg.io/date: '20260601'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.3-202605251128-standard-trixie@sha256:f907f9a12fa95c2763f27b846f7e9a27ab7cfe6f09e394734f3124fc3d1ec1f5
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.3-202606011204-standard-trixie@sha256:e9b58963de090895923863ffa5b694954ede01c4fbb01bded7c9f8f92b733be4
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.3-202605251128-standard-trixie@sha256:68c14a6c97a615e2784372bb9e25b5f884405228822ea53da4bb0f85e66916c6
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.3-202606011205-standard-trixie@sha256:5d5d5abff8511cbafbcbfa5f057c4134c8fc3bf9bfc77f718a8ed28e6ec96ac4
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.3-202605251128-standard-trixie@sha256:47682a895ac259042f6c96d6ff188bf29bc0a4b8292429b045e6fc06de309de6
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.3-202606011204-standard-trixie@sha256:fd77a67e3bae92c0219d9ba8f105bed7b2423ff03553d1a0fa60bd2522b29c4c
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.3-202605251128-standard-trixie@sha256:a8420e5019448c50b8a3d48868b0a67c61e26857e6cc63e26b11cd46241cf25e
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.3-202606011206-standard-trixie@sha256:dc85d15f220355fe8f55b0200db61abe6ad3751271a351bcfe88d4290e7abba4
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.3-202605251128-standard-trixie@sha256:423feacb526eed675f0a25bd2c60b196c759f76cade26d42c139e14b6b93a1f7
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.3-202606011204-standard-trixie@sha256:58c8c67770e226ad6e536ef58b2874ab8adf6d7e75a1f52d731e35b30efdbd92
