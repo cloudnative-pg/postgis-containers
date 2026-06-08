@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260601'
+    images.cnpg.io/date: '20260608'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.3-202606011204-system-bookworm@sha256:a008a749085acdddb47db786999565b459c5e7557cae046bf5db8242a23f3b73
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.3-202606081144-system-bookworm@sha256:d1ed360ef374e31673cfb9faec083d60b1c691f07b5039a690ae4734de1de740
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.3-202606011205-system-bookworm@sha256:88474335e03cab32b56de7eb510d42a1e8021c93c2df89ac228544b47b75744a
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.3-202606081142-system-bookworm@sha256:bbf8e8cc72ba1f822cd2fb8ca1532eae332a18d9438c3f6e05a3379cce805753
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.3-202606011204-system-bookworm@sha256:685e2a7103a0ed9d6f43bab8e7cc52b26f8b5293808e8def12118e498e84f192
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.3-202606081144-system-bookworm@sha256:77da1cb4915584383348e5d7ac1cd39055676f57e9c84c6d82047e9c534028f9
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.3-202606011206-system-bookworm@sha256:9130623ab29e6160198759634c48d9e5aa12d88241d87c37ac1abd66f506c105
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.3-202606081142-system-bookworm@sha256:cd2faff844c8069c653ce84a2f6078215ddc78c8fef945537fe632cfe02d3d80
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.3-202606011204-system-bookworm@sha256:de7ed64d6de9d87e9ce3d3818727a6db639cbc4b16191a7a014d63438064e526
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.3-202606081142-system-bookworm@sha256:149a4a85b5d6d3d59ce533ede38a1fc63d180a94014a950dd56bee0f58368d65

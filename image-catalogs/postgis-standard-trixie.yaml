@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260601'
+    images.cnpg.io/date: '20260608'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.3-202606011204-standard-trixie@sha256:e9b58963de090895923863ffa5b694954ede01c4fbb01bded7c9f8f92b733be4
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.3-202606081144-standard-trixie@sha256:58be4b69a27c15915b099055031a5da856f2201f952527f92505f93112a2025a
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.3-202606011205-standard-trixie@sha256:5d5d5abff8511cbafbcbfa5f057c4134c8fc3bf9bfc77f718a8ed28e6ec96ac4
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.3-202606081142-standard-trixie@sha256:7961952d30fba98f655c7b41e05b55df0267794c904c9b926077bce8f9a49305
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.3-202606011204-standard-trixie@sha256:fd77a67e3bae92c0219d9ba8f105bed7b2423ff03553d1a0fa60bd2522b29c4c
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.3-202606081144-standard-trixie@sha256:cb4599de56d496e8fa3a9e1399a344ff9a199feaa02f339435cb26058ebf086e
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.3-202606011206-standard-trixie@sha256:dc85d15f220355fe8f55b0200db61abe6ad3751271a351bcfe88d4290e7abba4
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.3-202606081142-standard-trixie@sha256:1bb0a1415d37bb58eebb3132e4c60c5bb85ecc4026b05962f484525fc5be1f38
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.3-202606011204-standard-trixie@sha256:58c8c67770e226ad6e536ef58b2874ab8adf6d7e75a1f52d731e35b30efdbd92
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.3-202606081142-standard-trixie@sha256:8dab376675ca237269a3d60dca2ef1030868bc9d5aebae67cbb23a8c56344f8b
