@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260608'
+    images.cnpg.io/date: '20260615'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.3-202606081144-standard-trixie@sha256:58be4b69a27c15915b099055031a5da856f2201f952527f92505f93112a2025a
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.3-202606151254-standard-trixie@sha256:55b3aedf06b75da7154e0c6f3bad8935e4dd2106286f86713ff3930880b9c6b3
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.3-202606081142-standard-trixie@sha256:7961952d30fba98f655c7b41e05b55df0267794c904c9b926077bce8f9a49305
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.3-202606151253-standard-trixie@sha256:a382dec98f6de40bdb75c2e4e67db15d8753bacc3a3ed738971123a2b0c32e0b
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.3-202606081144-standard-trixie@sha256:cb4599de56d496e8fa3a9e1399a344ff9a199feaa02f339435cb26058ebf086e
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.3-202606151249-standard-trixie@sha256:ff30987fa085efabee769d3b0372687245e32dfdfdab6ae2e2af11c1610dd376
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.3-202606081142-standard-trixie@sha256:1bb0a1415d37bb58eebb3132e4c60c5bb85ecc4026b05962f484525fc5be1f38
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.3-202606151233-standard-trixie@sha256:2b06fd2e4caef7364f46b1378e4c79794a171e0c1d2ad22ecdccc94438a2daf4
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.3-202606081142-standard-trixie@sha256:8dab376675ca237269a3d60dca2ef1030868bc9d5aebae67cbb23a8c56344f8b
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.3-202606151254-standard-trixie@sha256:7f28d6553568a26e07f9f47064c3847820854df12df0bef403cb8f29856c6521

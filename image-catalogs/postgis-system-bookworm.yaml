@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260608'
+    images.cnpg.io/date: '20260615'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.3-202606081144-system-bookworm@sha256:d1ed360ef374e31673cfb9faec083d60b1c691f07b5039a690ae4734de1de740
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.3-202606151254-system-bookworm@sha256:db497610bed11d5a49ff025e964050a54b88ada8fc0f9be9b440bb3843862963
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.3-202606081142-system-bookworm@sha256:bbf8e8cc72ba1f822cd2fb8ca1532eae332a18d9438c3f6e05a3379cce805753
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.3-202606151253-system-bookworm@sha256:2ffd77a001519cf3ab1dcd5655b3364d2844d8532667e48faf41ec5995a7196f
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.3-202606081144-system-bookworm@sha256:77da1cb4915584383348e5d7ac1cd39055676f57e9c84c6d82047e9c534028f9
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.3-202606151249-system-bookworm@sha256:de188562f7801922642dda6de0011b2a567ba028ad162b46c46cbef572840d47
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.3-202606081142-system-bookworm@sha256:cd2faff844c8069c653ce84a2f6078215ddc78c8fef945537fe632cfe02d3d80
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.3-202606151233-system-bookworm@sha256:e20e6ed0f4893ce8793cdb923d6ae7e636b9d9a91df37c7b870993ff85c876bc
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.3-202606081142-system-bookworm@sha256:149a4a85b5d6d3d59ce533ede38a1fc63d180a94014a950dd56bee0f58368d65
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.3-202606151254-system-bookworm@sha256:2fee48b1b0b7d76ef44b7473a3432dcceee8fb81ee560adc31973b706360e4ef
