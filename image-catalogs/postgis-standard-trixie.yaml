@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260615'
+    images.cnpg.io/date: '20260629'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.3-202606151254-standard-trixie@sha256:55b3aedf06b75da7154e0c6f3bad8935e4dd2106286f86713ff3930880b9c6b3
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202606291146-standard-trixie@sha256:4f16b1dc380c619739de3c94996ef239b5e425647fb49c9e4d9dcbf171f03d44
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.3-202606151253-standard-trixie@sha256:a382dec98f6de40bdb75c2e4e67db15d8753bacc3a3ed738971123a2b0c32e0b
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202606291146-standard-trixie@sha256:a8bdad76708d011b43bb111ada5a6035b9965ea74027819d393340804098d2c7
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.3-202606151249-standard-trixie@sha256:ff30987fa085efabee769d3b0372687245e32dfdfdab6ae2e2af11c1610dd376
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202606291146-standard-trixie@sha256:21ee01fd112fa8a2093183b59e948d8d50fc34dcc427b6be2209a1d320cdf3a7
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.3-202606151233-standard-trixie@sha256:2b06fd2e4caef7364f46b1378e4c79794a171e0c1d2ad22ecdccc94438a2daf4
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202606291146-standard-trixie@sha256:cee94263d1a5d36755666b4ccbab760c6f43bed7fd8b134ed6b9d13c6d386f3d
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.3-202606151254-standard-trixie@sha256:7f28d6553568a26e07f9f47064c3847820854df12df0bef403cb8f29856c6521
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202606291146-standard-trixie@sha256:0e17a0d4d1181cce22d76afedc36741ca14dd306adf580d226c136245788667e

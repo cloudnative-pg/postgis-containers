@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260615'
+    images.cnpg.io/date: '20260629'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.3-202606151254-system-bookworm@sha256:db497610bed11d5a49ff025e964050a54b88ada8fc0f9be9b440bb3843862963
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202606291146-system-bookworm@sha256:b2bca1d25f1426b240ad7b61e35ea6f98eeb99f2271fd3fc0644ab82f3ea07bb
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.3-202606151253-system-bookworm@sha256:2ffd77a001519cf3ab1dcd5655b3364d2844d8532667e48faf41ec5995a7196f
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202606291146-system-bookworm@sha256:e4d0d3ad6bd87263475de90d59de1897e4e99d825089d98ae3e168f7e7af171a
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.3-202606151249-system-bookworm@sha256:de188562f7801922642dda6de0011b2a567ba028ad162b46c46cbef572840d47
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202606291146-system-bookworm@sha256:6cec4023c92bad2bb69e0ce092e6373213899fe44b3a5c25340be695b7910cb3
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.3-202606151233-system-bookworm@sha256:e20e6ed0f4893ce8793cdb923d6ae7e636b9d9a91df37c7b870993ff85c876bc
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202606291146-system-bookworm@sha256:1bdece5a4acb4ff05df3322d5acb9851848ed9e28c2a5a40a2201cc4aab0ade6
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.3-202606151254-system-bookworm@sha256:2fee48b1b0b7d76ef44b7473a3432dcceee8fb81ee560adc31973b706360e4ef
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202606291146-system-bookworm@sha256:54ae7d6fa2dff5a32eeda9dc5a340942d9fccf0ee1d873a62693da81e189c7dc
