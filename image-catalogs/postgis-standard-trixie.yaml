@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260629'
+    images.cnpg.io/date: '20260706'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202606291146-standard-trixie@sha256:4f16b1dc380c619739de3c94996ef239b5e425647fb49c9e4d9dcbf171f03d44
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607061135-standard-trixie@sha256:b16225e89dae655fa4695aabe79f66396fa05222d411909f790c8d2b14bfb7d6
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202606291146-standard-trixie@sha256:a8bdad76708d011b43bb111ada5a6035b9965ea74027819d393340804098d2c7
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607061135-standard-trixie@sha256:532e0f5536a88ea73558f84cdd488d11d4f6ba5e268862b77ef7796161ddc6a4
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202606291146-standard-trixie@sha256:21ee01fd112fa8a2093183b59e948d8d50fc34dcc427b6be2209a1d320cdf3a7
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607061135-standard-trixie@sha256:5e0c05988b16163d7de190011c8b064ae81882b41d9bb8c0ee034b239af600c6
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202606291146-standard-trixie@sha256:cee94263d1a5d36755666b4ccbab760c6f43bed7fd8b134ed6b9d13c6d386f3d
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607061135-standard-trixie@sha256:21e06edbf2eff2ec0535e3e196f31f7dd365105086126d66fbd48016d82356cd
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202606291146-standard-trixie@sha256:0e17a0d4d1181cce22d76afedc36741ca14dd306adf580d226c136245788667e
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607061135-standard-trixie@sha256:ef1027a0a39b10ca64a11157939f9f9b491f1395b794854e4ff46afe9aceaebe

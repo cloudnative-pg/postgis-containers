@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260629'
+    images.cnpg.io/date: '20260706'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202606291146-system-bookworm@sha256:b2bca1d25f1426b240ad7b61e35ea6f98eeb99f2271fd3fc0644ab82f3ea07bb
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607061135-system-bookworm@sha256:c7bb8e07b5f59894930eb488028c7243f766fa7d3e460ff5c43a97735c099ae5
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202606291146-system-bookworm@sha256:e4d0d3ad6bd87263475de90d59de1897e4e99d825089d98ae3e168f7e7af171a
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607061135-system-bookworm@sha256:fceaf3a3c9a88ee55a1a2560584936d0add236c1736303140af3ae8375cb23e8
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202606291146-system-bookworm@sha256:6cec4023c92bad2bb69e0ce092e6373213899fe44b3a5c25340be695b7910cb3
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607061135-system-bookworm@sha256:0fc32bacec6a6dfa2f5773d113d8749a463e184bff97c67f6ada643cf0499191
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202606291146-system-bookworm@sha256:1bdece5a4acb4ff05df3322d5acb9851848ed9e28c2a5a40a2201cc4aab0ade6
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607061135-system-bookworm@sha256:110b20395edcd2e4014a39a78d1153da1e3b834a480f693ac78036ff6292399c
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202606291146-system-bookworm@sha256:54ae7d6fa2dff5a32eeda9dc5a340942d9fccf0ee1d873a62693da81e189c7dc
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607061135-system-bookworm@sha256:ee58f30b1e4bfeaa45cc99119cfd929e610d7c9dcfb3f6aa66c13c5663df3207
