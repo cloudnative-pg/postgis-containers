@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260706'
+    images.cnpg.io/date: '20260713'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607061135-system-bookworm@sha256:c7bb8e07b5f59894930eb488028c7243f766fa7d3e460ff5c43a97735c099ae5
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607131107-system-bookworm@sha256:9868e5af2b885f820975fa7fbb99747d9fd6d328b64fb57d9d8275f9166abfbc
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607061135-system-bookworm@sha256:fceaf3a3c9a88ee55a1a2560584936d0add236c1736303140af3ae8375cb23e8
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607131106-system-bookworm@sha256:8a30804ec2b5276a91b0809dcf1bbb036dff1c0d14e6f6ee99158ee870c1a0b0
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607061135-system-bookworm@sha256:0fc32bacec6a6dfa2f5773d113d8749a463e184bff97c67f6ada643cf0499191
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607131106-system-bookworm@sha256:fa2488255d713b9c7bb24a5fe3d6696135a12083b2a423052dd341607871a249
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607061135-system-bookworm@sha256:110b20395edcd2e4014a39a78d1153da1e3b834a480f693ac78036ff6292399c
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607131106-system-bookworm@sha256:0d5e9232e7bbffbdf87547c95aecfcf6d9c10e96b4ad852873c92b071bacf957
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607061135-system-bookworm@sha256:ee58f30b1e4bfeaa45cc99119cfd929e610d7c9dcfb3f6aa66c13c5663df3207
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607131106-system-bookworm@sha256:e573e7fcfd769cb1ae6e7d3fd7e05e88c470202e1e633d7abd0acbeee58b37af

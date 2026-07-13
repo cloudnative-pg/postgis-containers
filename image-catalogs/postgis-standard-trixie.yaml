@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260706'
+    images.cnpg.io/date: '20260713'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607061135-standard-trixie@sha256:b16225e89dae655fa4695aabe79f66396fa05222d411909f790c8d2b14bfb7d6
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607131107-standard-trixie@sha256:11c2817f82e857ad4030888ce5fd14d6620517f5bbd235498ddba75d707b5579
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607061135-standard-trixie@sha256:532e0f5536a88ea73558f84cdd488d11d4f6ba5e268862b77ef7796161ddc6a4
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607131106-standard-trixie@sha256:7379ca9959eeb4c87bef24ca07c8934900d4f6fbd4b260d66a61300357e6465c
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607061135-standard-trixie@sha256:5e0c05988b16163d7de190011c8b064ae81882b41d9bb8c0ee034b239af600c6
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607131106-standard-trixie@sha256:bdb889d44357dbd6af3fed03443458b164e3fa9e2c3038c31ab37011f77841c3
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607061135-standard-trixie@sha256:21e06edbf2eff2ec0535e3e196f31f7dd365105086126d66fbd48016d82356cd
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607131106-standard-trixie@sha256:527ac663eef76d8767c9f1c994b1787945d6b9c4293922f4ccbeaa37f1061bc4
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607061135-standard-trixie@sha256:ef1027a0a39b10ca64a11157939f9f9b491f1395b794854e4ff46afe9aceaebe
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607131106-standard-trixie@sha256:44e8a5176ec8950e48d3d3364c259cc546fcead5ac3c8d9941aebc4cdd594e02
