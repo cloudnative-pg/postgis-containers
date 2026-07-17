@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260713'
+    images.cnpg.io/date: '20260717'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607131107-system-bookworm@sha256:9868e5af2b885f820975fa7fbb99747d9fd6d328b64fb57d9d8275f9166abfbc
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607171055-system-bookworm@sha256:af7714b354ba82c99e96be01a90bdc2c80861229fb3df0aec77f7a5edacac867
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607131106-system-bookworm@sha256:8a30804ec2b5276a91b0809dcf1bbb036dff1c0d14e6f6ee99158ee870c1a0b0
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607171055-system-bookworm@sha256:6b32f16859169a82a62597a3205ec48d822f8ddd331583b30fdb11e71c1ee9fe
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607131106-system-bookworm@sha256:fa2488255d713b9c7bb24a5fe3d6696135a12083b2a423052dd341607871a249
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607171056-system-bookworm@sha256:786a180985b3f51092df7b92b245779af1d66e54ebba27716b5a2f4bffcd4683
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607131106-system-bookworm@sha256:0d5e9232e7bbffbdf87547c95aecfcf6d9c10e96b4ad852873c92b071bacf957
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607171056-system-bookworm@sha256:277a64ecf432e796764c1794eb6fbfc495b940da11c87d250055dd7fc98c7c33
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607131106-system-bookworm@sha256:e573e7fcfd769cb1ae6e7d3fd7e05e88c470202e1e633d7abd0acbeee58b37af
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607171056-system-bookworm@sha256:408f36b403dcaa5db002ba036151524a385607e6c71afacd3856ed27c4a208dc

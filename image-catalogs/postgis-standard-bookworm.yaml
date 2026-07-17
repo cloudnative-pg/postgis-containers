@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260713'
+    images.cnpg.io/date: '20260717'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607131107-standard-bookworm@sha256:bca7efc1a8488031c2c251a23d2f0cf7bd1733cb4fe163178203e44f13008c52
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607171055-standard-bookworm@sha256:f358de8602c9549290b0e9f9d2e66e37147149151d407822e71885fda47abb87
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607131106-standard-bookworm@sha256:714af7898708234e116186eb5ec2d9aa5f7850a2bb42f03b79e90d83e380a520
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607171055-standard-bookworm@sha256:584fd2eac637aa2d8b55f32c0e40e8615cfdace049dd93c46dfb2f4f2ae32a4e
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607131106-standard-bookworm@sha256:48bc4fcb25001ea901e9cc02d71545feb793e69d4b3ce82ec9d6860b9b9e8a51
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607171056-standard-bookworm@sha256:448449de2b8c082ad26deaf6b04812d5faa211f31ea8a0e0517d8a00b8f8776a
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607131106-standard-bookworm@sha256:5538aa863ed109248076cbadd5bc98068d27e33645040e8b4a4abc302d8dc5ed
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607171056-standard-bookworm@sha256:fefd2c9274d400f0e3db98cf5b73ad2c5466e01b9dee6ef4c3e9a1655786bb78
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607131106-standard-bookworm@sha256:e4a4bda91d227cc0c32904b289db9e0094ac1e77669c7d5c6f16b96fde58b779
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607171056-standard-bookworm@sha256:8a6bc09b066018a85915642bc1a9191b2406782459a9c80a66d144e729803730
