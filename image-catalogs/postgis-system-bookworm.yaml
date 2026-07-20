@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260717'
+    images.cnpg.io/date: '20260720'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607171055-system-bookworm@sha256:af7714b354ba82c99e96be01a90bdc2c80861229fb3df0aec77f7a5edacac867
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607201104-system-bookworm@sha256:a7cf05f311ceb7b74dfe54e0106facf7c65310e6ca99c0d0d2e7cead3495171d
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607171055-system-bookworm@sha256:6b32f16859169a82a62597a3205ec48d822f8ddd331583b30fdb11e71c1ee9fe
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607201105-system-bookworm@sha256:640049769c93da81a2239f919ef5876417c8ab9b28972d8e65c4e9d41ffcb1d1
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607171056-system-bookworm@sha256:786a180985b3f51092df7b92b245779af1d66e54ebba27716b5a2f4bffcd4683
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607201104-system-bookworm@sha256:a55791d519494d163ad96f6eb2590c04b189edcfd03c8e1ec3b75c66c731888e
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607171056-system-bookworm@sha256:277a64ecf432e796764c1794eb6fbfc495b940da11c87d250055dd7fc98c7c33
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607201104-system-bookworm@sha256:943ad790ff5b18518d9ac4fdb2ce6193af834d8e6e300b0dcbbc4a1a1dae2de6
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607171056-system-bookworm@sha256:408f36b403dcaa5db002ba036151524a385607e6c71afacd3856ed27c4a208dc
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607201105-system-bookworm@sha256:7dcb62fb79299f6aa1b32a7863b17c1e047ad4784f3e7ab272beff4bfe59db27

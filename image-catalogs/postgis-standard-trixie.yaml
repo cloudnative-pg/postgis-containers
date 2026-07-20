@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260717'
+    images.cnpg.io/date: '20260720'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607171055-standard-trixie@sha256:a64a37869a9da6bb0cebad45051e7936bbc2018501f1d2c353ac631d65acfb4d
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607201104-standard-trixie@sha256:3538b11277d555f77eda81f230948b827fcd03de3748163bb6864fd64483c21f
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607171055-standard-trixie@sha256:ee5acc4a5a444337ca1084cca525e9d25b03af7c77b360a05b6a5f9640cd17d2
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607201105-standard-trixie@sha256:39434c2a5cf918410888573112eabe15380c6104e3182092e1a72f3d072a58ad
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607171056-standard-trixie@sha256:a381d6425907787571a84b48beeb9383e6dd6bc26e893be01c73effead74aa6d
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607201104-standard-trixie@sha256:087fc8aeadbbb71b1e154fffc4e08338cb7f67ab95439fcaedae049d091bfef8
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607171056-standard-trixie@sha256:167fd85bfccee2eaf90d49a04abe13c6ab8e2922d392da90e549cbb4927c215f
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607201104-standard-trixie@sha256:bf09ec1fa66873067567a4236173ed26243edf6f44673bb80111ede7752001c9
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607171056-standard-trixie@sha256:bd38ee75084394f8d0ebe8bc0d21f7d3fc4e22be8089d16f5f45751b0645f2a5
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607201105-standard-trixie@sha256:0b3f86d55fcbafad6fcde45ca58fa816d4d37bab26abc67a4cefe16d562fd05f

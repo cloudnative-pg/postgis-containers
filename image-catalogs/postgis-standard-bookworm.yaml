@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260717'
+    images.cnpg.io/date: '20260720'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607171055-standard-bookworm@sha256:f358de8602c9549290b0e9f9d2e66e37147149151d407822e71885fda47abb87
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607201104-standard-bookworm@sha256:f59cdb39fd094a5c7cd2cb518c9e503e5ce1b16e8ad2abde06f94e166888143e
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607171055-standard-bookworm@sha256:584fd2eac637aa2d8b55f32c0e40e8615cfdace049dd93c46dfb2f4f2ae32a4e
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607201105-standard-bookworm@sha256:46df8bc05f74205e30441ebb5f22c65a6708777379f7a2ddcdeee715e88acafd
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607171056-standard-bookworm@sha256:448449de2b8c082ad26deaf6b04812d5faa211f31ea8a0e0517d8a00b8f8776a
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607201104-standard-bookworm@sha256:1b6bf72a1c5a7c9aa83dc377a48a8bf43bea89e671f52933dd11cf1cd1f8e2c7
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607171056-standard-bookworm@sha256:fefd2c9274d400f0e3db98cf5b73ad2c5466e01b9dee6ef4c3e9a1655786bb78
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607201104-standard-bookworm@sha256:409ab722eef6537b773025f7109ba83d5c2fc932ce712cacbefcac2003e8ba38
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607171056-standard-bookworm@sha256:8a6bc09b066018a85915642bc1a9191b2406782459a9c80a66d144e729803730
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607201105-standard-bookworm@sha256:97012389a8b0632e53132eebf578448b45879f73624d17ca6950109267eb6186
