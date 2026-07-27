@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260720'
+    images.cnpg.io/date: '20260727'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607201104-system-bookworm@sha256:a7cf05f311ceb7b74dfe54e0106facf7c65310e6ca99c0d0d2e7cead3495171d
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607271107-system-bookworm@sha256:6d3a733a1c59b8959d678840cd20281e4ee142837ba8139391fd42aedb84e88c
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607201105-system-bookworm@sha256:640049769c93da81a2239f919ef5876417c8ab9b28972d8e65c4e9d41ffcb1d1
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607271107-system-bookworm@sha256:016fa51ce74030ef9495cd20a5233cc84b6272c6f345886f927ff562ff64f48d
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607201104-system-bookworm@sha256:a55791d519494d163ad96f6eb2590c04b189edcfd03c8e1ec3b75c66c731888e
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607271107-system-bookworm@sha256:cdda2735f60ab69796dfaf5b840c1a4fab7d7377da9805fa8968ba44eb15e9b2
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607201104-system-bookworm@sha256:943ad790ff5b18518d9ac4fdb2ce6193af834d8e6e300b0dcbbc4a1a1dae2de6
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607271108-system-bookworm@sha256:5f099e06e667d425037c7287f48ca8b6e1c41f58190d03a0a9587b2c646dc38e
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607201105-system-bookworm@sha256:7dcb62fb79299f6aa1b32a7863b17c1e047ad4784f3e7ab272beff4bfe59db27
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607271107-system-bookworm@sha256:f3b3956b80fb26980286dd0d5e5b3eb50b425dd16d314f69c7454e3c5df0c0bf
