@@ -11,13 +11,22 @@ variable "postgisMajorVersions" {
 // PostGIS matrix of distro x versions
 postgisMatrix = {
   bookworm = {
-    // renovate: suite=bookworm-pgdg depName=postgis
+    // renovate: suite=bookworm-pgdg depName=postgresql-postgis
     "3" = "3.6.4+dfsg-2.pgdg12+1"
   }
   trixie = {
-    // renovate: suite=trixie-pgdg depName=postgis
+    // renovate: suite=trixie-pgdg depName=postgresql-postgis
     "3" = "3.6.4+dfsg-2.pgdg13+1"
   }
+}
+
+// PgRouting matrix of distro x versions
+// Unlike postgis pgrouting has no major-version selector, so this is a plain distro -> version map.
+pgRoutingMatrix = {
+  // renovate: suite=bookworm-pgdg depName=postgresql-pgrouting
+  "bookworm" = "4.0.1-1.pgdg12+1"
+  // renovate: suite=trixie-pgdg depName=postgresql-pgrouting
+  "trixie" = "4.0.1-1.pgdg13+1"
 }
 
 variable "distributions" {
@@ -59,6 +68,7 @@ target "postgis" {
     PG_MAJOR = "${getMajor(pgVersion)}"
     POSTGIS_VERSION = "${getPostgisPackage(distro, postgisMajor)}"
     POSTGIS_MAJOR = postgisMajor
+    PGROUTING_VERSION = "${getPgRoutingPackage(distro)}"
     BASE = "${getBaseImage(pgVersion, tgt, distro)}"
   }
   output = [
@@ -118,4 +128,9 @@ function getPostgisVersion {
 function getShortPostgisVersion {
   params = [ distro, postgisMajor ]
   result = join(".", slice(split(".", split("+", getPostgisPackage(distro, postgisMajor))[0]), 0, 2))
+}
+
+function getPgRoutingPackage {
+  params = [distro]
+  result = pgRoutingMatrix[distro]
 }

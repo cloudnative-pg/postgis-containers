@@ -11,7 +11,7 @@
 # CNPG PostGIS Container Images
 
 This repository provides scripts and definitions for building **immutable
-application container images** that bundle PostGIS with PostgreSQL.
+application container images** that bundle PostGIS and pgRouting with PostgreSQL.
 These images are built on top of the official
 [CNPG PostgreSQL container images project](https://github.com/cloudnative-pg/postgres-containers)
 and are maintained for the latest PostGIS major version (currently 3), across
