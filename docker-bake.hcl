@@ -21,13 +21,11 @@ postgisMatrix = {
 }
 
 // PgRouting matrix of distro x versions
-// Unlike postgis:
-// - pgrouting has no major-version selector, so this is a plain distro -> version map.
-// - pgrouting has no generic "pgrouting" metapackage, so renovate is anchored to the latest supported stable major.
+// Unlike postgis pgrouting has no major-version selector, so this is a plain distro -> version map.
 pgRoutingMatrix = {
-  // renovate: suite=bookworm-pgdg depName=postgresql-18-pgrouting
+  // renovate: suite=bookworm-pgdg depName=postgresql-pgrouting
   "bookworm" = "4.0.1-1.pgdg12+1"
-  // renovate: suite=trixie-pgdg depName=postgresql-18-pgrouting
+  // renovate: suite=trixie-pgdg depName=postgresql-pgrouting
   "trixie" = "4.0.1-1.pgdg13+1"
 }
 
