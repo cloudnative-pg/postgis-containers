@@ -11,11 +11,11 @@ variable "postgisMajorVersions" {
 // PostGIS matrix of distro x versions
 postgisMatrix = {
   bookworm = {
-    // renovate: suite=bookworm-pgdg depName=postgis
+    // renovate: suite=bookworm-pgdg depName=postgresql-postgis
     "3" = "3.6.4+dfsg-2.pgdg12+1"
   }
   trixie = {
-    // renovate: suite=trixie-pgdg depName=postgis
+    // renovate: suite=trixie-pgdg depName=postgresql-postgis
     "3" = "3.6.4+dfsg-2.pgdg13+1"
   }
 }
