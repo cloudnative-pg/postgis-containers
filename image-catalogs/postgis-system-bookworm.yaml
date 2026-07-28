@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260727'
+    images.cnpg.io/date: '20260728'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607271107-system-bookworm@sha256:6d3a733a1c59b8959d678840cd20281e4ee142837ba8139391fd42aedb84e88c
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607281037-system-bookworm@sha256:e9adcd43fbe980f55d5fee1c4048c11c734d94a4ff4bede4847ed147a86630e2
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607271107-system-bookworm@sha256:016fa51ce74030ef9495cd20a5233cc84b6272c6f345886f927ff562ff64f48d
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607281037-system-bookworm@sha256:87d72fa821206fbb379ce9a5309fc90991d42cb55248a18e9a8d923524d4095a
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607271107-system-bookworm@sha256:cdda2735f60ab69796dfaf5b840c1a4fab7d7377da9805fa8968ba44eb15e9b2
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607281036-system-bookworm@sha256:9277612f41c419de07ab3bbb8d2412b2adda4d809cfb35fd5311939e2726b8ed
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607271108-system-bookworm@sha256:5f099e06e667d425037c7287f48ca8b6e1c41f58190d03a0a9587b2c646dc38e
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607281037-system-bookworm@sha256:87d1749e8ad0ffe28cbd6c2c2889148e749ed070cc9ab2f43b5251e2ed8595e0
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607271107-system-bookworm@sha256:f3b3956b80fb26980286dd0d5e5b3eb50b425dd16d314f69c7454e3c5df0c0bf
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607281037-system-bookworm@sha256:097093394e223caf128a99d15d9576ea66b6e6e3c84417bc0816daa00f548f65

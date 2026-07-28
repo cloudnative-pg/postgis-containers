@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260727'
+    images.cnpg.io/date: '20260728'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607271107-standard-trixie@sha256:bfcb8b0b76de986873f9d77cd1f344d0b0f879515bcf690148c8ea4a1de58b83
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607281037-standard-trixie@sha256:c6e2a47e82e9e62eb2d1f66a43d75659cca52f9ae6daec13771db1ff193e1f12
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607271107-standard-trixie@sha256:a9857c26c5d8e8b0ca35a2e602d94e2e1c495d6e60328fab0a394a9a41979c6f
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607281037-standard-trixie@sha256:766cdede107d2a5f0d4fbddcaf942d0a61243f9c07b920a026895138cde210e6
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607271107-standard-trixie@sha256:52e044019e6fcb03bba0b4bf8668720778e27726bc5eefc14ede9eae40e31c3b
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607281036-standard-trixie@sha256:f136c8991622d7bc24a536deed99b5cbadd054c3d6be0bc2bd34ffab9b8aa401
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607271108-standard-trixie@sha256:8841f820ea97cb35edddcb1d653a2a8dee712118b9d8ce0f601484ace9a58e66
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607281037-standard-trixie@sha256:d5d76c86674d987a4d60bc9340482366e4a3342f4768938d56b1e88bf5f0b417
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607271107-standard-trixie@sha256:4efd9536a20e3a898547330f160391da1c9bfd01b1d223c30d419ef61d5549b9
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607281037-standard-trixie@sha256:e8a2c494b57dbcd1861bbf61e553fda870f5b5a5ae51cd62d964f6356a9c9fd2
