@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260728'
+    images.cnpg.io/date: '20260803'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607281037-standard-bookworm@sha256:6a5013a98c3bb0e47891d22bc57fe24f39a1683952cf349d9c87361c4444f3c2
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202608031108-standard-bookworm@sha256:b8b6984f07836c87d69fe7502018561a89522bad1dbb3c264e6d608b80ade905
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607281037-standard-bookworm@sha256:b64e2cb6cd6f23d9dc1253f3ab2298accbc5f9b1e8d520244d1b762bf9223ef4
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202608031108-standard-bookworm@sha256:65e390541fad98b8c036f1fb3b0e7ab74b62e8d4b675cd88362d9b9647726b43
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607281036-standard-bookworm@sha256:ee856c52a6c4b0d178ff803b0bb9e09ff2a3a5b4cdf82f78f4148d0cb16dc690
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202608031108-standard-bookworm@sha256:61a14245df0c1e4ac6ea3db3fc4177195b588e70df830653aa63a6d17620011d
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607281037-standard-bookworm@sha256:f109dc7996e464a614504c915640bdb1a6729849b87ec1afbfe61cdc560612a4
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202608031108-standard-bookworm@sha256:f547e1a3d00055009ea25e5957dcdc728d8fdf9e4591069e89713d8fcb6960a4
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607281037-standard-bookworm@sha256:6268a4248454604cca1e7d01cf4e955722fd790589779b508f5558ac90a4b545
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202608031108-standard-bookworm@sha256:e05e114d67cf3f9979041914238ef625b557307499036324fd3a6578c37ab21c

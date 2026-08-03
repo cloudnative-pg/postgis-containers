@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260728'
+    images.cnpg.io/date: '20260803'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607281037-system-bookworm@sha256:e9adcd43fbe980f55d5fee1c4048c11c734d94a4ff4bede4847ed147a86630e2
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202608031108-system-bookworm@sha256:c0eacb78bdc35521ef7d8261e91d8f20b9c6e910e145d448ef57676650371717
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607281037-system-bookworm@sha256:87d72fa821206fbb379ce9a5309fc90991d42cb55248a18e9a8d923524d4095a
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202608031108-system-bookworm@sha256:1c2b154a7097fbeda7fa690e2b296e15c65100e0a1811e7f63ab96b30579ace5
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607281036-system-bookworm@sha256:9277612f41c419de07ab3bbb8d2412b2adda4d809cfb35fd5311939e2726b8ed
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202608031108-system-bookworm@sha256:3bb3342db32c84bb63554fc438c1352d4163ddb914fd348a16ae5443741e3d49
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607281037-system-bookworm@sha256:87d1749e8ad0ffe28cbd6c2c2889148e749ed070cc9ab2f43b5251e2ed8595e0
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202608031108-system-bookworm@sha256:d0835a8747727d7f66506866168a7b242d97544884d27cf8316f6345dfa51f7d
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607281037-system-bookworm@sha256:097093394e223caf128a99d15d9576ea66b6e6e3c84417bc0816daa00f548f65
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202608031108-system-bookworm@sha256:665a2c3d723d842a3319a8b79e83e40f2f146162f2753f7158e0c84c077617a3

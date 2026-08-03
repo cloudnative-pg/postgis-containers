@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260728'
+    images.cnpg.io/date: '20260803'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202607281037-standard-trixie@sha256:c6e2a47e82e9e62eb2d1f66a43d75659cca52f9ae6daec13771db1ff193e1f12
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202608031108-standard-trixie@sha256:b4c3280f504fa0c836afabd7201ba2a499e1bf23b481d3a05aea9fed716b3dd0
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202607281037-standard-trixie@sha256:766cdede107d2a5f0d4fbddcaf942d0a61243f9c07b920a026895138cde210e6
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202608031108-standard-trixie@sha256:eb3145070eac119d6a77e0b86054ace8a858c7c2fd2fd1b46f9cbd802c69842b
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202607281036-standard-trixie@sha256:f136c8991622d7bc24a536deed99b5cbadd054c3d6be0bc2bd34ffab9b8aa401
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202608031108-standard-trixie@sha256:ac335edb6c8a52961ee4ffc14f831415d953be040cf6e4b7c8387ae83d9fc458
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202607281037-standard-trixie@sha256:d5d76c86674d987a4d60bc9340482366e4a3342f4768938d56b1e88bf5f0b417
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202608031108-standard-trixie@sha256:11e8d7f5e7d5b8f0a7a37f632f7146e93167fa7c1369e12e4c055cb57b3434b7
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202607281037-standard-trixie@sha256:e8a2c494b57dbcd1861bbf61e553fda870f5b5a5ae51cd62d964f6356a9c9fd2
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202608031108-standard-trixie@sha256:cd33541c84db4a2dd149e40b3baad430861eac01f76ba964ee20d3f750cb0e22
