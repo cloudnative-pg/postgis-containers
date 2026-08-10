@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260803'
+    images.cnpg.io/date: '20260810'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202608031108-standard-bookworm@sha256:b8b6984f07836c87d69fe7502018561a89522bad1dbb3c264e6d608b80ade905
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202608101031-standard-bookworm@sha256:7d39e73a94f03ac67a026cb6d7da1fe0a19a512236d4300cbc1e75bc3d869364
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202608031108-standard-bookworm@sha256:65e390541fad98b8c036f1fb3b0e7ab74b62e8d4b675cd88362d9b9647726b43
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202608101031-standard-bookworm@sha256:0a1a59e31a29c1f797d845e7a381c6ce829bcae85583b960e4098577b793955e
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202608031108-standard-bookworm@sha256:61a14245df0c1e4ac6ea3db3fc4177195b588e70df830653aa63a6d17620011d
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202608101031-standard-bookworm@sha256:57453bfbfc91f6b5398fab4a3448c59dc7e37a522862c7690191943ee6229b40
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202608031108-standard-bookworm@sha256:f547e1a3d00055009ea25e5957dcdc728d8fdf9e4591069e89713d8fcb6960a4
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202608101031-standard-bookworm@sha256:e1845f8a4f0feb826076b92343be63107aad4d1ba0f20be8eb37543823507a99
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202608031108-standard-bookworm@sha256:e05e114d67cf3f9979041914238ef625b557307499036324fd3a6578c37ab21c
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202608101031-standard-bookworm@sha256:655170e22280dae7dd7857f1fc48e432c2d6b9f0ce363c174cbcaa8ac38335de

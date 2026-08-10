@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260803'
+    images.cnpg.io/date: '20260810'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202608031108-standard-trixie@sha256:b4c3280f504fa0c836afabd7201ba2a499e1bf23b481d3a05aea9fed716b3dd0
+    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202608101031-standard-trixie@sha256:c81fe7923d245a5578a7422af5b66237270ff504ebc690490bcacfe18506c32c
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202608031108-standard-trixie@sha256:eb3145070eac119d6a77e0b86054ace8a858c7c2fd2fd1b46f9cbd802c69842b
+    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202608101031-standard-trixie@sha256:2ce720f430ffa9724dad026cb6c4aaf885741decca948b3b3b829106bf2e51d5
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202608031108-standard-trixie@sha256:ac335edb6c8a52961ee4ffc14f831415d953be040cf6e4b7c8387ae83d9fc458
+    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202608101031-standard-trixie@sha256:90b10c315a6ba7ab6f31bab096e3bae69b92dcdae48186e72fea852f05fbf593
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202608031108-standard-trixie@sha256:11e8d7f5e7d5b8f0a7a37f632f7146e93167fa7c1369e12e4c055cb57b3434b7
+    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202608101031-standard-trixie@sha256:6dc27e2032e3357f66d5fc2eba57a95c15f0be0dd9aeb46d1acd2c54cedd5342
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202608031108-standard-trixie@sha256:cd33541c84db4a2dd149e40b3baad430861eac01f76ba964ee20d3f750cb0e22
+    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202608101031-standard-trixie@sha256:d00cc29f954513813c836a269494f3439a95fd1d2793a7887a29310263229100
