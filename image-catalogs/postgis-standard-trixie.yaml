@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260810'
+    images.cnpg.io/date: '20260813'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.23-3.6.4-202608101031-standard-trixie@sha256:c81fe7923d245a5578a7422af5b66237270ff504ebc690490bcacfe18506c32c
+    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202608131548-standard-trixie@sha256:1fd8379e04934a1c07f23852a51c04291e22c46464d86738ec5d68654b041b1f
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.18-3.6.4-202608101031-standard-trixie@sha256:2ce720f430ffa9724dad026cb6c4aaf885741decca948b3b3b829106bf2e51d5
+    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202608131548-standard-trixie@sha256:8b0049b443bbb260014604a9f7921e76e35ea2cc95a8d41a0ca0fc6ac5685b6a
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.14-3.6.4-202608101031-standard-trixie@sha256:90b10c315a6ba7ab6f31bab096e3bae69b92dcdae48186e72fea852f05fbf593
+    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202608131549-standard-trixie@sha256:c4567f942d51be0c811df93c3990728dfa5e2461309df144d9adb9d98bdd6834
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.10-3.6.4-202608101031-standard-trixie@sha256:6dc27e2032e3357f66d5fc2eba57a95c15f0be0dd9aeb46d1acd2c54cedd5342
+    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202608131548-standard-trixie@sha256:a709314c6314bf649b24b27280d18d08937671dd9904a319e8bad4d1336fa6d7
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.4-3.6.4-202608101031-standard-trixie@sha256:d00cc29f954513813c836a269494f3439a95fd1d2793a7887a29310263229100
+    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202608131549-standard-trixie@sha256:d85bf08f53d72b27ae0906a28ab3bb3f5a01f52acb53007d19f52c809d755ea1
