@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260813'
+    images.cnpg.io/date: '20260817'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202608131548-system-bookworm@sha256:b0f05f63b0c6da5337fa21da113392e9da19bda0c7a9bc19ce0db0641180e39c
+    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202608171014-system-bookworm@sha256:47a15d7201e97c79212a599812d8cd20f98e241b5cd6c668e98bcb371cd5e74a
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202608131548-system-bookworm@sha256:910c08b2292d13e2fc2fcba1c33bc97d47b0c42917ebcef65203ec66707fa344
+    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202608171014-system-bookworm@sha256:abf7b9a619f2a1af6282dc1d950d2a9aff9f267c67b323b6e92d93eff6ab8c53
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202608131549-system-bookworm@sha256:9d64112132d04397c9498e9b5dcd55fa5d87bbcacd505783125242862190f793
+    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202608171012-system-bookworm@sha256:f45cc0f30b5a3dd2d35449ab7d8b0229afec2415b1bc0825297cae401624a094
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202608131548-system-bookworm@sha256:872a5e43625c89b056e484d1fb9beee538c9f3f1bb07ed4a1dad22b6b30af3f6
+    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202608171012-system-bookworm@sha256:c950253700e0a3cacc041c27e6a2366c70ba1f2cf69fe57b79f1b7da226ab10b
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202608131549-system-bookworm@sha256:d066ac8bca2708850944751d35e6cf40d91a41ec9cf658505810527038406bf4
+    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202608171012-system-bookworm@sha256:43ac72cab2aaadbfc72953aa5cf199bc10c38c79e885417781541cb1b3e53adf

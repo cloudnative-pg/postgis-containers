@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260813'
+    images.cnpg.io/date: '20260817'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202608131548-standard-trixie@sha256:1fd8379e04934a1c07f23852a51c04291e22c46464d86738ec5d68654b041b1f
+    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202608171014-standard-trixie@sha256:81bb144068aadf9b47b5080fdd92e106cae934ca5f00f77550093e28485fbc9e
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202608131548-standard-trixie@sha256:8b0049b443bbb260014604a9f7921e76e35ea2cc95a8d41a0ca0fc6ac5685b6a
+    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202608171014-standard-trixie@sha256:38c27392d6e0e41217c4709bde3ffffa3ecda4f7457e07dc3b35480d9e73eafd
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202608131549-standard-trixie@sha256:c4567f942d51be0c811df93c3990728dfa5e2461309df144d9adb9d98bdd6834
+    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202608171012-standard-trixie@sha256:54feb4101214aeddd9fad599c1a59887552d69a9812342138dc645ee42049e5d
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202608131548-standard-trixie@sha256:a709314c6314bf649b24b27280d18d08937671dd9904a319e8bad4d1336fa6d7
+    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202608171012-standard-trixie@sha256:275347e42aaebe3ae225cb2244e5d252638352e946f557dfad2a45334fe1cd86
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202608131549-standard-trixie@sha256:d85bf08f53d72b27ae0906a28ab3bb3f5a01f52acb53007d19f52c809d755ea1
+    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202608171012-standard-trixie@sha256:b23fa79c6682610349cd90be4e13a6bf150bbca7aeaee377d6f4587921d526a0
