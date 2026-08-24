@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260817'
+    images.cnpg.io/date: '20260824'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202608171014-system-bookworm@sha256:47a15d7201e97c79212a599812d8cd20f98e241b5cd6c668e98bcb371cd5e74a
+    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202608241017-system-bookworm@sha256:63da0eeb50ddb9caa3b9a5e9a3afa065a529c6817cafeebeafef7510df78d9b0
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202608171014-system-bookworm@sha256:abf7b9a619f2a1af6282dc1d950d2a9aff9f267c67b323b6e92d93eff6ab8c53
+    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202608241017-system-bookworm@sha256:7d63d59bc490d387ae73b0e1d6118689adcc5e721ab2ee8cfe32c9ee9005d75e
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202608171012-system-bookworm@sha256:f45cc0f30b5a3dd2d35449ab7d8b0229afec2415b1bc0825297cae401624a094
+    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202608241018-system-bookworm@sha256:5538bf86e91aeea8108a0d6bd34803d603ebeca4986d8b1a9ffd38a6bf96b6d3
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202608171012-system-bookworm@sha256:c950253700e0a3cacc041c27e6a2366c70ba1f2cf69fe57b79f1b7da226ab10b
+    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202608241017-system-bookworm@sha256:772001e5f2e252772c5f6b4064e9774505ae34cc91652a63259f0342bcda3429
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202608171012-system-bookworm@sha256:43ac72cab2aaadbfc72953aa5cf199bc10c38c79e885417781541cb1b3e53adf
+    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202608241018-system-bookworm@sha256:15f8e9b564cc5084f129fbc5754482db5f687e039bda6da3885bced62c48d47c

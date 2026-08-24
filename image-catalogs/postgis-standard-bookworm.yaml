@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260817'
+    images.cnpg.io/date: '20260824'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202608171014-standard-bookworm@sha256:e282ee586af911f63c13acdb95f6e791061c2e0d41fefac89dcc5f3eeec82a9a
+    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202608241017-standard-bookworm@sha256:ad71d798a67821a5d384bc165704d62d952bf21e8d57847968fe9da0aca78e2f
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202608171014-standard-bookworm@sha256:8c9deee2e595463d1d0b05edbe89ce7fbf3e8d3b7a9a6b4b2cfb3df0a1013d2d
+    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202608241017-standard-bookworm@sha256:23d121255b021c82407a71a94cbda03819696b76fdb93ad53cb9cb3be3dfdbcf
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202608171012-standard-bookworm@sha256:256b50827b8c641145e7ae71d9c696f65ea052ee7edd47744d437d6949d7a775
+    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202608241018-standard-bookworm@sha256:2ee4939c5ed933cf9f094cc9b2e2683e71172d7a0960e162ede087bd8c6ae10f
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202608171012-standard-bookworm@sha256:35ca6606fa65821f058a327c995d46f59fd853ee663f7f8f5b373bffb9a4fd14
+    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202608241017-standard-bookworm@sha256:7799d674f069dc499d6498091285c6206079fd0ae6de0491d5f0e6e86c26d537
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202608171012-standard-bookworm@sha256:0dc876bfb6de34d4c0528f4ae71a3310febb4cdfa54787775cc68f2b74e534e9
+    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202608241018-standard-bookworm@sha256:7de2246a5f628b3737087e6f6f81c6974b982034779c80965fcc4641d0fbda41
