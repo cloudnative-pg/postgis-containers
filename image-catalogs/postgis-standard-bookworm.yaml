@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260824'
+    images.cnpg.io/date: '20260831'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202608241017-standard-bookworm@sha256:ad71d798a67821a5d384bc165704d62d952bf21e8d57847968fe9da0aca78e2f
+    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202608311017-standard-bookworm@sha256:4a57bd6018a57963bbe45cf7ec7bf37014d82a3eaec4484e5891af9af8c282f3
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202608241017-standard-bookworm@sha256:23d121255b021c82407a71a94cbda03819696b76fdb93ad53cb9cb3be3dfdbcf
+    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202608311017-standard-bookworm@sha256:1ba35bd35efe42078443a5ac96f2eba0e825e88d859246d01a14dffc6fd16ff8
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202608241018-standard-bookworm@sha256:2ee4939c5ed933cf9f094cc9b2e2683e71172d7a0960e162ede087bd8c6ae10f
+    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202608311017-standard-bookworm@sha256:b86cf1595bd0c702c2f1995b20150f95fe545f6e623e5029bced08d3e4da46f4
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202608241017-standard-bookworm@sha256:7799d674f069dc499d6498091285c6206079fd0ae6de0491d5f0e6e86c26d537
+    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202608311017-standard-bookworm@sha256:6783b653c5a030ab9ac222a184d8076da7ed3b10f96fc95b4e788de2d334a681
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202608241018-standard-bookworm@sha256:7de2246a5f628b3737087e6f6f81c6974b982034779c80965fcc4641d0fbda41
+    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202608311018-standard-bookworm@sha256:9999cb02f27cd973ba2e4725a908b825f46116d800c155cfd4ef5f0da4eefcf4

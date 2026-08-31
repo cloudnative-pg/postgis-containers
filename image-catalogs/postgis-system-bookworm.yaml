@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260824'
+    images.cnpg.io/date: '20260831'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202608241017-system-bookworm@sha256:63da0eeb50ddb9caa3b9a5e9a3afa065a529c6817cafeebeafef7510df78d9b0
+    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202608311017-system-bookworm@sha256:b781d08456b2d8e06ba6b26ec1c4a606ed12d409f92349799a6203feac833fa0
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202608241017-system-bookworm@sha256:7d63d59bc490d387ae73b0e1d6118689adcc5e721ab2ee8cfe32c9ee9005d75e
+    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202608311017-system-bookworm@sha256:af5ea5148ea0b36bbc05d5717aeb3177b985665d12cae6b036a2cf21a7c1a381
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202608241018-system-bookworm@sha256:5538bf86e91aeea8108a0d6bd34803d603ebeca4986d8b1a9ffd38a6bf96b6d3
+    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202608311017-system-bookworm@sha256:1ecbf53bd81ee9d9df8c94c75e00a09807ffdb36caaff7a65bfaf9a8be920203
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202608241017-system-bookworm@sha256:772001e5f2e252772c5f6b4064e9774505ae34cc91652a63259f0342bcda3429
+    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202608311017-system-bookworm@sha256:f405271f89ea37e7a56ba83bacc98059605f3c445666094960eebee501e40f8a
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202608241018-system-bookworm@sha256:15f8e9b564cc5084f129fbc5754482db5f687e039bda6da3885bced62c48d47c
+    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202608311018-system-bookworm@sha256:9d33cfe8e788495af0f9c74e9d3537ceda040558b162b6cfe1c421c28f03b3e4
