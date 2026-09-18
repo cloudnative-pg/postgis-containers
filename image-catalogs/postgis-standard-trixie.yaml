@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260831'
+    images.cnpg.io/date: '20260918'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202608311017-standard-trixie@sha256:2efbfbf0550ca008376b71232c256d29fa7e2c0fad85ddd1ca6d589cfb44d8ca
+    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202609141016-standard-trixie@sha256:22ae32a8c02df19eda3dc56688a989b2b9a8d0d941d74b04d95f73d002dd0664
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202608311017-standard-trixie@sha256:5c28ebba3202ff027da64bafeabb2a48983cbfec2f74ce1b36c9e635f35da763
+    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202609141016-standard-trixie@sha256:65ee0ba032379fb0d9b19a2953acc1510645046cbbf3d01207a7dfbfc3f250f7
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202608311017-standard-trixie@sha256:85a96426bdd97d168ffbc7ae8777a5907cc0540dc87ff2c6884a431ad402af16
+    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202609141016-standard-trixie@sha256:5698654db60db36e35eab55fc60d81d5dcebc854d0e290f57525d3d9605d5380
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202608311017-standard-trixie@sha256:b0fda4c440fd871cc2ab67699e04a69e5024532c4f22520a33cd3ca5d89cdad5
+    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202609141018-standard-trixie@sha256:f7b7496d881c0a2208cf2b4b3047f53fc73616af1aca1163605fe453c5711077
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202608311018-standard-trixie@sha256:2f2b987c5ba3c271a883ac8d76d47470098de3b6436cd1907aa6d0f681fa18fd
+    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202609141017-standard-trixie@sha256:f6296fc51cd3d697822bd89525cd0b8adc5992e78695c2b12538ae54ef7f8bc3
