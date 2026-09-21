@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260918'
+    images.cnpg.io/date: '20260921'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202609141016-system-bookworm@sha256:134a00406dfd0459eab82d5782e8793ff0782c24c2aa6bad88b0eeeb63d050d8
+    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202609211021-system-bookworm@sha256:b04ada67409274bea61310297232d161caf32ddbab29acb78c5b6af92487afca
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202609141016-system-bookworm@sha256:08568aabf96218349f23b6d4346c1fd7339aa91716683049970f6324207eccf4
+    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202609211021-system-bookworm@sha256:3e03818f0517868ede3adbd94e0af2705b960889b1a5505249066c8aeac4f648
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202609141016-system-bookworm@sha256:30a755d269bf1f9f4bc40a4acf9436446abeec27ab5bfa1b24932ad11c61572a
+    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202609211021-system-bookworm@sha256:02315ca2411ec057a34fea48e9dcc24d3fe50e2efae54d9231af6c3369f42122
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202609141018-system-bookworm@sha256:c142808c9495331e1464b81acf8a935b62ce745f80eba1f5608dbb0098084829
+    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202609211020-system-bookworm@sha256:6172f7fafa4338b64481ea89851310d9899a87422a821b04dcad4fb816c0d9f5
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202609141017-system-bookworm@sha256:45fb3e2356c31739366fd77a5cb563d36223d240282ee7ba9daaad6263483431
+    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202609211021-system-bookworm@sha256:a438c9db1b47c7c7a607bd9005193e32d6c9411d169b709362f54eb347652db1
