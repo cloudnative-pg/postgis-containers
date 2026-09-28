@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260921'
+    images.cnpg.io/date: '20260928'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202609211021-system-bookworm@sha256:b04ada67409274bea61310297232d161caf32ddbab29acb78c5b6af92487afca
+    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202609281018-system-bookworm@sha256:8f48f821e202e28caf854df7762e64aeff4cd7d9b01f8ce5dbf68c4be3adcd26
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202609211021-system-bookworm@sha256:3e03818f0517868ede3adbd94e0af2705b960889b1a5505249066c8aeac4f648
+    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202609281018-system-bookworm@sha256:361b627deb51682f374fada2713db67cee32191d1b78c7814053582b9d5fee0f
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202609211021-system-bookworm@sha256:02315ca2411ec057a34fea48e9dcc24d3fe50e2efae54d9231af6c3369f42122
+    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202609281018-system-bookworm@sha256:ee4650bfe4dcacb260998bbc8ad21c737f44a232429062b802054715a073a6f1
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202609211020-system-bookworm@sha256:6172f7fafa4338b64481ea89851310d9899a87422a821b04dcad4fb816c0d9f5
+    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202609281018-system-bookworm@sha256:8cb64c84e43fa50959b8036c34c3ee4770f025041f5a9e586a8c924cfab809c3
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202609211021-system-bookworm@sha256:a438c9db1b47c7c7a607bd9005193e32d6c9411d169b709362f54eb347652db1
+    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202609281018-system-bookworm@sha256:e4430acf868fead5773ada87aa21f69c0e445cf8fd9aa766c15093dda2c461c5

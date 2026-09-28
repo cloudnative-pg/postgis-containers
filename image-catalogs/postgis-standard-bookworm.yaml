@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260921'
+    images.cnpg.io/date: '20260928'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202609211021-standard-bookworm@sha256:08aaa855297e8caaae138fb1a36c363fe77af5517b63fef65178b01a68a52cc3
+    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202609281018-standard-bookworm@sha256:f4ea2d40bd101493cb7930b5c3ff9519da55b3012f887f2529987e879050bb00
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202609211021-standard-bookworm@sha256:6d1ce7a2bfca58222d26bd2bdc7e7ae01eb64faf2ff552d6da137383726c164a
+    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202609281018-standard-bookworm@sha256:09c70b52cf5552c52c18c954390dd5be25db75c2da2a37360cf2c9b539799c96
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202609211021-standard-bookworm@sha256:a23d47a063cccc21ad6d3b5941b6ab41ef9246e29787b5db945c7f912fc0fcf2
+    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202609281018-standard-bookworm@sha256:a7a1089c95fff3e6160ee579adbed7b37573838c5eeb71f8a2c5c395882375c1
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202609211020-standard-bookworm@sha256:8cbc3ed98d1a97a0ee9efc6335b50063ec755b0c28f2b5cff33a06208ee772ed
+    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202609281018-standard-bookworm@sha256:6dd3a3744565a59e6ad5840a23f426ff8076ba6f1ef270dbb5e3ba2efb58ac47
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202609211021-standard-bookworm@sha256:d95de67be5923b4f2ac08f30bb2e772de478b082ac4ae2af7b8a3651596269a4
+    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202609281018-standard-bookworm@sha256:bc413ca91bba30f8ff585d2ebf65915736f3d5aab7d5b755db53e524fe13faf8
