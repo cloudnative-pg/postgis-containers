@@ -18,12 +18,11 @@ them for review.
 
 | Name | GitHub Handle | Country |
 | :--- | :--- | :--- |
-| Gabriele Bartolini | [@gbartolini](https://github.com/gbartolini) |  |
-| Francesco Canovai | [@fcanovai](https://github.com/fcanovai) |  |
-| Leonardo Cecchi | [@leonardoce](https://github.com/leonardoce) |  |
+| Gabriele Bartolini | [@gbartolini](https://github.com/gbartolini) | Italy |
 | Niccolò Fei | [@NiccoloFei](https://github.com/NiccoloFei) | Italy |
 | Tao Li | [@litaocdl](https://github.com/litaocdl) | China |
-| Marco Nenciarini | [@mnencia](https://github.com/mnencia) |  |
+| Marco Nenciarini | [@mnencia](https://github.com/mnencia) | Italy |
+
 
 Component Owner is a rung of the CloudNativePG contributor ladder. A new
 owner is added by a ⅔ vote of this repository's existing Component Owners,
