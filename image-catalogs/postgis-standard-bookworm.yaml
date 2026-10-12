@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20261005'
+    images.cnpg.io/date: '20261012'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202610051020-standard-bookworm@sha256:8909ca0952e63f711b43a51f8ea8693891ed208a554a7f74247afc1e939196f5
+    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202610121021-standard-bookworm@sha256:f9c72eee2d7fb902ba2ccbafbac7864e02be7c06d9bcae9be159acb681b75627
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202610051020-standard-bookworm@sha256:7af1ccc01b2f58850b5b00b6640d67f2e683bd557eef0397534bac620d5892a8
+    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202610121021-standard-bookworm@sha256:c195209a8733e7b5ed894d5621ff35ccca081ec92a159d0f9383e090122d726f
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202610051020-standard-bookworm@sha256:8ed5ae05969cd913c0e016f0a978224b7df863160357f38beb2bd08ca10c7a25
+    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202610121021-standard-bookworm@sha256:500875d4625e9915f3eed8e854aab2aaa65e99376e8cbd51f81db3f2a755db27
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202610051020-standard-bookworm@sha256:782b4473b5cdee230fce25c223ff9647d6b55b80a36255651c372a46cb45ce12
+    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202610121021-standard-bookworm@sha256:2c1f5c2160418d3236a71978757ba5fe266c13690a637967e1454466e664f894
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202610051020-standard-bookworm@sha256:6fd832bd1a9ba31a9c9e09fc8cdf2d0a541e4c110afd7fdbf2539a81f285711b
+    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202610121021-standard-bookworm@sha256:558b691a4b2c57ebf90343b53b41b885fad48c4ffaac4149bb5fffd289cf8b0a
