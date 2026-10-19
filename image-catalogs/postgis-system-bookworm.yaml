@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20261012'
+    images.cnpg.io/date: '20261019'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202610121021-system-bookworm@sha256:1a627c615dddfe9ebbee60bee2bd6436c8e3decdf64ca51a7fe0c1ffb0b75550
+    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202610191017-system-bookworm@sha256:8c444736259f14a1c49fddb121bc3434f27a1cde8b0c5834b08ce53f47a5e98b
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202610121021-system-bookworm@sha256:003145844fdd9a2798f309b74eabfe71e413d9839813039c83fba14a04913c06
+    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202610191017-system-bookworm@sha256:a1377957aae83d4d86e0ab65965a685ab1153441a774d2cd4ce11cd13575ed56
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202610121021-system-bookworm@sha256:abda14bc5f2ce3ac134f1f7209b84536aa3d1911216fb2179ca64ea664928072
+    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202610191017-system-bookworm@sha256:5698835f792c9f5e958e692fdee824b6694432d5bfdbe7f6d59047dfd30e7b25
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202610121021-system-bookworm@sha256:cb98190c2efb990c551cc8b8e1480507b468c86bc7bcd1e1df6b3533122e60be
+    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202610191015-system-bookworm@sha256:6dffeb4b1522d05a2f160810513cc972db68c2acdb5d69a7ba10acc16dfe4e52
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202610121021-system-bookworm@sha256:b1093df7c66681457581516fd7bd5caeff74aafef5cbf70178a5bd0a04c329a8
+    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202610191015-system-bookworm@sha256:1510dbeba6c94337537f0e201af236bc32ad9b83ad3e2a8d2f13a95fd6c496f1
