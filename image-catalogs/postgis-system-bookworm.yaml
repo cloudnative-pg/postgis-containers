@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20261019'
+    images.cnpg.io/date: '20261026'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202610191017-system-bookworm@sha256:8c444736259f14a1c49fddb121bc3434f27a1cde8b0c5834b08ce53f47a5e98b
+    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202610261018-system-bookworm@sha256:ba6d1978a32f67d38cd8c9239004eaeebaf6e1fe7961e59e0cd3e89f62ac288d
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202610191017-system-bookworm@sha256:a1377957aae83d4d86e0ab65965a685ab1153441a774d2cd4ce11cd13575ed56
+    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202610261018-system-bookworm@sha256:a5d61e7edc99c5dadf1c15bd883da57ebc3ecf758bb640db9538b7c805162e7e
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202610191017-system-bookworm@sha256:5698835f792c9f5e958e692fdee824b6694432d5bfdbe7f6d59047dfd30e7b25
+    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202610261018-system-bookworm@sha256:7710d132ccf7accd5fa00226bc04552ee5937fd74eeff6644492bea1ecd05af8
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202610191015-system-bookworm@sha256:6dffeb4b1522d05a2f160810513cc972db68c2acdb5d69a7ba10acc16dfe4e52
+    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202610261018-system-bookworm@sha256:dfc885c625fd50933a3c8c0534564f69773208e6002d9d4ef4ca77222ebbe6f4
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202610191015-system-bookworm@sha256:1510dbeba6c94337537f0e201af236bc32ad9b83ad3e2a8d2f13a95fd6c496f1
+    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202610261018-system-bookworm@sha256:baea3b17d3d998cb32fa06b0b8c40d588814c34817c57f988984d24a10779639
