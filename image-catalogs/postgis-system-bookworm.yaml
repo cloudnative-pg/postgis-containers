@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20261026'
+    images.cnpg.io/date: '20261102'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.24-3.6.4-202610261018-system-bookworm@sha256:ba6d1978a32f67d38cd8c9239004eaeebaf6e1fe7961e59e0cd3e89f62ac288d
+    image: ghcr.io/cloudnative-pg/postgis:14.24-3.7.0-202611021010-system-bookworm@sha256:a05dd57a5dfbcdcb3f75bc2db7b783d45851515702a7f9a2c4c510f6ee0cea7e
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.19-3.6.4-202610261018-system-bookworm@sha256:a5d61e7edc99c5dadf1c15bd883da57ebc3ecf758bb640db9538b7c805162e7e
+    image: ghcr.io/cloudnative-pg/postgis:15.19-3.7.0-202611021010-system-bookworm@sha256:95281c1872b7ff18bf748c4f5ace74149ce61b4123cf27b3d255b5ee8fa369c0
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.15-3.6.4-202610261018-system-bookworm@sha256:7710d132ccf7accd5fa00226bc04552ee5937fd74eeff6644492bea1ecd05af8
+    image: ghcr.io/cloudnative-pg/postgis:16.15-3.7.0-202611021010-system-bookworm@sha256:92ae1784cd2a1e0be5e1c5a794862ef55aa90e89c2db9363e2c3c229979a22ff
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.11-3.6.4-202610261018-system-bookworm@sha256:dfc885c625fd50933a3c8c0534564f69773208e6002d9d4ef4ca77222ebbe6f4
+    image: ghcr.io/cloudnative-pg/postgis:17.11-3.7.0-202611021010-system-bookworm@sha256:28e517abcb598a93731f5e56e660d8c4fb18f3d93117592d558e5bc0fcd3cc80
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.6-3.6.4-202610261018-system-bookworm@sha256:baea3b17d3d998cb32fa06b0b8c40d588814c34817c57f988984d24a10779639
+    image: ghcr.io/cloudnative-pg/postgis:18.6-3.7.0-202611021010-system-bookworm@sha256:e07d63a8a9d8c3ac228865052e683e09938a09ec4ff7049796e234fb73e40fbc
