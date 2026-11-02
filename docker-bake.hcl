@@ -85,7 +85,7 @@ target "postgis" {
     PG_MAJOR = "${getMajor(pgVersion)}"
     POSTGIS_VERSION = "${getPostgisPackage(distro, postgisMajor)}"
     POSTGIS_MAJOR = postgisMajor
-    PGROUTING_VERSION = "${getPgRoutingPackage(distro)}"
+    PGROUTING_VERSION = "${pgRoutingMatrix[distro]}"
     ADDRESS_STANDARDIZER_VERSION = "${addressStandardizerMatrix[distro]}"
     TIGER_GEOCODER_VERSION = "${tigerGeocoderMatrix[distro]}"
     BASE = "${getBaseImage(pgVersion, tgt, distro)}"
@@ -147,9 +147,4 @@ function getPostgisVersion {
 function getShortPostgisVersion {
   params = [ distro, postgisMajor ]
   result = join(".", slice(split(".", split("+", getPostgisPackage(distro, postgisMajor))[0]), 0, 2))
-}
-
-function getPgRoutingPackage {
-  params = [distro]
-  result = pgRoutingMatrix[distro]
 }
