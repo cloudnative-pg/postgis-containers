@@ -13,12 +13,12 @@ spec:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.24-3.7.0-202611021010-standard-bookworm@sha256:c01ebe2b3a219848a657d806691754425948daffca07c42d6a994d2f5505095a
+    image: ghcr.io/cloudnative-pg/postgis:14.24-3.7.0-202611021536-standard-bookworm@sha256:8588943c087ffa656524b631d8aa8f73d9ca7f6f91160460c8289d6e94e21eb3
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.19-3.7.0-202611021010-standard-bookworm@sha256:1d476748f46bef53621ae8fa095b379c97ad00341849f87c2441c0f6381459b8
+    image: ghcr.io/cloudnative-pg/postgis:15.19-3.7.0-202611021527-standard-bookworm@sha256:b5be8c1ef0717436efeb60afbe2a4ad63cbe5fdd65ae5934b51f8ca2318cf248
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.15-3.7.0-202611021010-standard-bookworm@sha256:a02c3d9a4dbaaf9c57f7a98213fa6c18e6e9ecd6f57f428d9e418a1986832bd6
+    image: ghcr.io/cloudnative-pg/postgis:16.15-3.7.0-202611021527-standard-bookworm@sha256:7bc052db3b807b37202a6ffdc8f87cd984d26432ded244c18781c9e98dfcaa9a
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.11-3.7.0-202611021010-standard-bookworm@sha256:d4e1f334b28175469ba7f7f40fabbc58ba86e238dcb7d09be604116ef01d675d
+    image: ghcr.io/cloudnative-pg/postgis:17.11-3.7.0-202611021527-standard-bookworm@sha256:dd86a98649773bdeadbcf5feae90723b1b78e37676c0974a26cc0059d93e7f24
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.6-3.7.0-202611021010-standard-bookworm@sha256:b1ba736678ddf40983c70c1a0d8ebefea1b84421a304dc5960833b910c2dbe6c
+    image: ghcr.io/cloudnative-pg/postgis:18.6-3.7.0-202611021527-standard-bookworm@sha256:2e50bc893faec9d48390eb066dba8af51b9c5abd18db92c77e233ecb15b8a1a5
