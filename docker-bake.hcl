@@ -29,6 +29,23 @@ pgRoutingMatrix = {
   "trixie" = "4.0.2-1.pgdg13+1"
 }
 
+// address_standardizer and the tiger geocoder are separate packages since PostGIS 3.7.
+// The PostgreSQL major in depName is only a Renovate lookup key: every major has the same version.
+addressStandardizerMatrix = {
+  // renovate: suite=bookworm-pgdg depName=postgresql-18-address-standardizer
+  "bookworm" = "3.7.0-1.pgdg12+1"
+  // renovate: suite=trixie-pgdg depName=postgresql-18-address-standardizer
+  "trixie" = "3.7.0-1.pgdg13+1"
+}
+
+// Packaged for PostgreSQL 16 and later only.
+tigerGeocoderMatrix = {
+  // renovate: suite=bookworm-pgdg depName=postgresql-18-postgis-tiger-geocoder
+  "bookworm" = "2025.2-1.pgdg12+1"
+  // renovate: suite=trixie-pgdg depName=postgresql-18-postgis-tiger-geocoder
+  "trixie" = "2025.2-1.pgdg13+1"
+}
+
 variable "distributions" {
   default = [
     "bookworm",
@@ -68,7 +85,9 @@ target "postgis" {
     PG_MAJOR = "${getMajor(pgVersion)}"
     POSTGIS_VERSION = "${getPostgisPackage(distro, postgisMajor)}"
     POSTGIS_MAJOR = postgisMajor
-    PGROUTING_VERSION = "${getPgRoutingPackage(distro)}"
+    PGROUTING_VERSION = "${pgRoutingMatrix[distro]}"
+    ADDRESS_STANDARDIZER_VERSION = "${addressStandardizerMatrix[distro]}"
+    TIGER_GEOCODER_VERSION = "${tigerGeocoderMatrix[distro]}"
     BASE = "${getBaseImage(pgVersion, tgt, distro)}"
   }
   output = [
@@ -128,9 +147,4 @@ function getPostgisVersion {
 function getShortPostgisVersion {
   params = [ distro, postgisMajor ]
   result = join(".", slice(split(".", split("+", getPostgisPackage(distro, postgisMajor))[0]), 0, 2))
-}
-
-function getPgRoutingPackage {
-  params = [distro]
-  result = pgRoutingMatrix[distro]
 }
