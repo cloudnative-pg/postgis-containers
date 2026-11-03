@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20261102'
+    images.cnpg.io/date: '20261103'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.24-3.7.0-202611021536-system-bookworm@sha256:d33557acfd557bed2834cbb1581e9b15ac28835e01ad3895ced61a50c24f49e4
+    image: ghcr.io/cloudnative-pg/postgis:14.24-3.7.0-202611030856-system-bookworm@sha256:17f6f549dc4785c62a612b6bb4f73b463c0f3b5b83f0a95278960b62c785b017
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.19-3.7.0-202611021527-system-bookworm@sha256:20839fee88c8263e538f5922b97ecd678aefa1e7210b17721ba1bebfbaa58bb9
+    image: ghcr.io/cloudnative-pg/postgis:15.19-3.7.0-202611030855-system-bookworm@sha256:1533941cca1a48aea0776643ffd0ff4433c382dfc630ff38a0e9eb36a7af4777
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.15-3.7.0-202611021527-system-bookworm@sha256:e85cf9cd9033b47a2592d010a50f39ccb0b917b0dbb3c781bf3a92659212485a
+    image: ghcr.io/cloudnative-pg/postgis:16.15-3.7.0-202611030856-system-bookworm@sha256:889414e9f90c4c66fc09de02f0d235078086c51d760e54d8b346a6aa92bfcbe8
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.11-3.7.0-202611021527-system-bookworm@sha256:ba9ca09e5c754324a6d7c6cc76d645e58c11261d3e5880e16b2c22784fec4041
+    image: ghcr.io/cloudnative-pg/postgis:17.11-3.7.0-202611030856-system-bookworm@sha256:fa406a06651b879e12ddcbbc5c7013a9ea6de1cb96438c81a1b56ac97736df43
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.6-3.7.0-202611021527-system-bookworm@sha256:384573b97d8cd72b239913af7c5dce0918b8d15cbee4bcc911145eef23db78aa
+    image: ghcr.io/cloudnative-pg/postgis:18.6-3.7.0-202611030856-system-bookworm@sha256:7152baaa22af92cf1130f1ce1e9b82d59007adefef5eb65ee29ddc1ff08d6096
