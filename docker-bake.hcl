@@ -33,9 +33,9 @@ pgRoutingMatrix = {
 // The PostgreSQL major in depName is only a Renovate lookup key: every major has the same version.
 addressStandardizerMatrix = {
   // renovate: suite=bookworm-pgdg depName=postgresql-18-address-standardizer
-  "bookworm" = "3.7.0-1.pgdg12+1"
+  "bookworm" = "3.7.0-1.pgdg12+2"
   // renovate: suite=trixie-pgdg depName=postgresql-18-address-standardizer
-  "trixie" = "3.7.0-1.pgdg13+1"
+  "trixie" = "3.7.0-1.pgdg13+2"
 }
 
 // Packaged for PostgreSQL 16 and later only.
