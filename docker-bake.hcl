@@ -41,9 +41,9 @@ addressStandardizerMatrix = {
 // Packaged for PostgreSQL 16 and later only.
 tigerGeocoderMatrix = {
   // renovate: suite=bookworm-pgdg depName=postgresql-18-postgis-tiger-geocoder
-  "bookworm" = "2025.2-1.pgdg12+1"
+  "bookworm" = "2025.2-1.pgdg12+2"
   // renovate: suite=trixie-pgdg depName=postgresql-18-postgis-tiger-geocoder
-  "trixie" = "2025.2-1.pgdg13+1"
+  "trixie" = "2025.2-1.pgdg13+2"
 }
 
 variable "distributions" {
