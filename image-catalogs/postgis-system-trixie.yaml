@@ -13,12 +13,12 @@ spec:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-trixie@sha256:a81308e173f72ac595add468e83e6976c48fd0ab81f08f9be8af87faba2fbb68
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.25-3.7.0-202611130926-system-trixie@sha256:b660f8da5dd6ecf8c9f89f7d0630b7ca590164eca8e290a4dfe25a5494832067
+    image: ghcr.io/cloudnative-pg/postgis:14.25-3.7.0-202611131026-system-trixie@sha256:8d8ca038587e22a81487dd04c13d2ab8d57ee2c32a4f3fbd07068e9eaab673d4
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.20-3.7.0-202611130926-system-trixie@sha256:1d533e302cf5add2aea61be35e2fbadbc012dc54b2707b3bf0b061115917acb2
+    image: ghcr.io/cloudnative-pg/postgis:15.20-3.7.0-202611131027-system-trixie@sha256:30269df11b07a7ae12065b57227b053554bb341378cffb77cf39919ab382937f
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.16-3.7.0-202611130926-system-trixie@sha256:80625053140b1ae94a96e02651246e25333ab2a70f9f23aa70612d24f6652185
+    image: ghcr.io/cloudnative-pg/postgis:16.16-3.7.0-202611131026-system-trixie@sha256:ee270bc9f9cf1833e8562b2493e3afe6767a2cea051158ed8c104f6e3cabcb5f
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.12-3.7.0-202611130926-system-trixie@sha256:f80e57edd66b1f8c39012754fa0899b86af60495572bf12677fbe5ce5f9f5cbc
+    image: ghcr.io/cloudnative-pg/postgis:17.12-3.7.0-202611131027-system-trixie@sha256:9f2e5d5f79c3b0e75c4e1d8bc50711cb042de9ac75f7f148bed370ab3eeecb1f
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.7-3.7.0-202611130926-system-trixie@sha256:c29f5ec1531e04499ae849333b82926f33e4946bcea450f71f93c3660639d59e
+    image: ghcr.io/cloudnative-pg/postgis:18.7-3.7.0-202611131026-system-trixie@sha256:17b4b2005503a74dc7902776da78ffa7a3ce4c0e0db5092af42bc0fc1971b4de
