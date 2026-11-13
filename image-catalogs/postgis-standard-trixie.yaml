@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20261109'
+    images.cnpg.io/date: '20261113'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.24-3.7.0-202611091010-standard-trixie@sha256:eb223f6adcfa32978e1cd1165a9ce36b8c8f45cf0353361170974cafc002e6b2
+    image: ghcr.io/cloudnative-pg/postgis:14.25-3.7.0-202611130926-standard-trixie@sha256:83fae620051bb29ae2e8cc5c8d586223003a1753d601bdd404604409b14f19c6
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.19-3.7.0-202611091010-standard-trixie@sha256:084b4c1d81940753fd54de73d8f0a2754c59f1201d4e767f04d16670d41e23ac
+    image: ghcr.io/cloudnative-pg/postgis:15.20-3.7.0-202611130926-standard-trixie@sha256:02e501bba2c342cb4f6c398805e4d1ae47c0c5cf7e97de9a0f75b8fcc1d08dc9
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.15-3.7.0-202611091010-standard-trixie@sha256:fb3a8d64ae001c50a0a47a749d079c65abcb4fcb48d1a268669a762294f9a9a1
+    image: ghcr.io/cloudnative-pg/postgis:16.16-3.7.0-202611130926-standard-trixie@sha256:a22927c767cb3e658f865d7c3aa75635283d08a9231faec548ce8ae074567692
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.11-3.7.0-202611091010-standard-trixie@sha256:d58e2f4392387daab0bef8302594af6355771bd3d6fa33cd7822a8ca702e0b02
+    image: ghcr.io/cloudnative-pg/postgis:17.12-3.7.0-202611130926-standard-trixie@sha256:e9ba202f655baa2090a6c00346f3c9faf2d80b8021f44d5296630c248a384347
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.6-3.7.0-202611091010-standard-trixie@sha256:4954d1ede0f4106683da47e3eb00bc89af113ccfc689b72b3bccffe51ddf9677
+    image: ghcr.io/cloudnative-pg/postgis:18.7-3.7.0-202611130926-standard-trixie@sha256:b45e56a37d9c99069b57cd03b2aca1887870faf336cf2ca5aa44830968aab427

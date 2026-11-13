@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20261109'
+    images.cnpg.io/date: '20261113'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.24-3.7.0-202611091010-system-bookworm@sha256:9eeaf05a3e4ceb45657aa0cafefdad85891c8c82e4d6ee82c2620f71207d6e55
+    image: ghcr.io/cloudnative-pg/postgis:14.25-3.7.0-202611130926-system-bookworm@sha256:bddf1c545f6a257592116326c026f6750ca7ed776e8166ac88f28a243d8e98cb
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.19-3.7.0-202611091010-system-bookworm@sha256:73a36d124ce9432e9bf53a5dfd05f73425d8c0c372b1c34535e62274b072150a
+    image: ghcr.io/cloudnative-pg/postgis:15.20-3.7.0-202611130926-system-bookworm@sha256:d101706b66e2a9c6c50571009e1f7d385a4fbeb12dff7f98ecc184334d03b395
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.15-3.7.0-202611091010-system-bookworm@sha256:79ea0df81e915979ddf258afd4051ceb27a2ad84b16abcc8ac8e95e76d228294
+    image: ghcr.io/cloudnative-pg/postgis:16.16-3.7.0-202611130926-system-bookworm@sha256:3b9b1ebf159bec9fa2da981f4005faef92a57f3ddcc491488a4b783425ca7a47
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.11-3.7.0-202611091010-system-bookworm@sha256:d4eb4141a792d7e1cd6efc8906f57ab7588a99b3f854f7eb8b2323635d3358df
+    image: ghcr.io/cloudnative-pg/postgis:17.12-3.7.0-202611130926-system-bookworm@sha256:89477ad4f079fba54f5344291f1bdd59ef6ec2891cd920feaeec12ed70fc78e7
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.6-3.7.0-202611091010-system-bookworm@sha256:3293bf10e159b2ce6ccf20496c387b61c07fba80ef9b64c0babf0bc1c573521e
+    image: ghcr.io/cloudnative-pg/postgis:18.7-3.7.0-202611130926-system-bookworm@sha256:1f677548a00f68bdb9880235d945a02a37cac45c1a9d955d6dd2ee11c1bde0f0
