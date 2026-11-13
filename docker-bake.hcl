@@ -24,9 +24,9 @@ postgisMatrix = {
 // Unlike postgis pgrouting has no major-version selector, so this is a plain distro -> version map.
 pgRoutingMatrix = {
   // renovate: suite=bookworm-pgdg depName=postgresql-pgrouting
-  "bookworm" = "4.0.2-1.pgdg12+1"
+  "bookworm" = "4.0.2-1.pgdg12+2"
   // renovate: suite=trixie-pgdg depName=postgresql-pgrouting
-  "trixie" = "4.0.2-1.pgdg13+1"
+  "trixie" = "4.0.2-1.pgdg13+2"
 }
 
 // address_standardizer and the tiger geocoder are separate packages since PostGIS 3.7.
