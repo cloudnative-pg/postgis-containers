@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20261113'
+    images.cnpg.io/date: '20261116'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-trixie@sha256:923659e4731551989fa8754f8e15a7fe46e4be6bc59a3c5bbb63e52d77040c9a
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.25-3.7.0-202611131026-standard-trixie@sha256:08709b2f65f8b214cbfc078303867edc8bb3a7c5ab877621a97301b510b79e2f
+    image: ghcr.io/cloudnative-pg/postgis:14.25-3.7.0-202611161013-standard-trixie@sha256:c581e80c1cb3b0106c207513caaa764bc7515e6e5751e3a34aeb867d6c8df83f
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.20-3.7.0-202611131027-standard-trixie@sha256:160022183f139093bcf5c396a2b16a891033d55cd2ea13fb7f309080a35a6673
+    image: ghcr.io/cloudnative-pg/postgis:15.20-3.7.0-202611161013-standard-trixie@sha256:af573bb56aa3e1d07362638bb2c69993c9fc83fd5c862ebffb59287e909ef9f2
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.16-3.7.0-202611131026-standard-trixie@sha256:da5ffc0d6fa0905e221e430aa75f25fd7d6395e84d289cc7782a705a5697c7e2
+    image: ghcr.io/cloudnative-pg/postgis:16.16-3.7.0-202611161013-standard-trixie@sha256:704149cf253c177e22e2db6a949eddb98f4a624d501a0187877a6b06a8605916
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.12-3.7.0-202611131027-standard-trixie@sha256:85b23233af37a4235e9208abbc8ce1f97e4d41fb319b7436b7a3dde398513e65
+    image: ghcr.io/cloudnative-pg/postgis:17.12-3.7.0-202611161013-standard-trixie@sha256:924d1203861a35c9d71dbd2093a30e3a401e3c985b1fcff4d1d7cbb66db54578
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.7-3.7.0-202611131026-standard-trixie@sha256:54919d0029709c1b668e646f8e99e9093633911c6a6f0c78fe97146e5889c462
+    image: ghcr.io/cloudnative-pg/postgis:18.7-3.7.0-202611161013-standard-trixie@sha256:b785ccc1191940505be319d2f444176a8f01f87b96248e79eb7cabf2af3c64e4

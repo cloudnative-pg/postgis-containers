@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20261113'
+    images.cnpg.io/date: '20261116'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.25-3.7.0-202611131026-system-bookworm@sha256:bee0a8047e853410d8d64f69270a51013910791daf79f4e9da41e1e61730d16f
+    image: ghcr.io/cloudnative-pg/postgis:14.25-3.7.0-202611161013-system-bookworm@sha256:f65eacace17db1d358d39b4a51da7f0557082621e03a44c94243e86771b88d20
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.20-3.7.0-202611131027-system-bookworm@sha256:41162272c76d9cb445a59b1acc26d30efbfafdcd025d6ca1923eb6f5ae1a095a
+    image: ghcr.io/cloudnative-pg/postgis:15.20-3.7.0-202611161013-system-bookworm@sha256:387237ea76bdc54724ec9555f3f3489fc9f827424396127d3a1beafe1cb51f0d
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.16-3.7.0-202611131026-system-bookworm@sha256:148128f714f5b604e010c994236424c976109970689188881d844158b1cfcd60
+    image: ghcr.io/cloudnative-pg/postgis:16.16-3.7.0-202611161013-system-bookworm@sha256:4b2bfe522668a16f3ccf561f28f0f6752ec2af057a7e00ba45f30743f5cce339
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.12-3.7.0-202611131027-system-bookworm@sha256:56c84a92f6a27426cb7ed7a51df9085b530736e6da137ac69a5b28e02d60a1c0
+    image: ghcr.io/cloudnative-pg/postgis:17.12-3.7.0-202611161013-system-bookworm@sha256:1688a3191642598ffeda801b1382c9351a0d06ae22a31dadc4c9d35affa866e5
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.7-3.7.0-202611131026-system-bookworm@sha256:04f9a1590fdb679f6760f9f27af43305d7ae0b5c5066e8a31f2ff5c8d1abf20a
+    image: ghcr.io/cloudnative-pg/postgis:18.7-3.7.0-202611161013-system-bookworm@sha256:e950de470c63513f4d82e62433254076ada40185763b775ecb9ba3de1d366dc4
