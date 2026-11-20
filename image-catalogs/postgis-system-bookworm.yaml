@@ -6,19 +6,17 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20261116'
+    images.cnpg.io/date: '20261120'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
-  - major: 13
-    image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-bookworm@sha256:9e851af742cb38dd2988d8d31d2b4ab0a117efeba637b4bb27aeef6a1e50ab5b
-  - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.25-3.7.0-202611161013-system-bookworm@sha256:f65eacace17db1d358d39b4a51da7f0557082621e03a44c94243e86771b88d20
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.20-3.7.0-202611161013-system-bookworm@sha256:387237ea76bdc54724ec9555f3f3489fc9f827424396127d3a1beafe1cb51f0d
+    image: ghcr.io/cloudnative-pg/postgis:15.20-3.7.0-202611201731-system-bookworm@sha256:18bffe4a0bc32d8a9ba6d411c706c33a0bc7b5adc6a5d36822738ebb433cc7d1
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.16-3.7.0-202611161013-system-bookworm@sha256:4b2bfe522668a16f3ccf561f28f0f6752ec2af057a7e00ba45f30743f5cce339
+    image: ghcr.io/cloudnative-pg/postgis:16.16-3.7.0-202611201731-system-bookworm@sha256:e7767fdef2111c300ad5b501bf2ecdb12fcc89ad2da4bbb4a1391c95293c17de
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.12-3.7.0-202611161013-system-bookworm@sha256:1688a3191642598ffeda801b1382c9351a0d06ae22a31dadc4c9d35affa866e5
+    image: ghcr.io/cloudnative-pg/postgis:17.12-3.7.0-202611201731-system-bookworm@sha256:6c86914ac29eae76529718497f287f6804ce98ebe121f55e384a57ba6331bac5
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.7-3.7.0-202611161013-system-bookworm@sha256:e950de470c63513f4d82e62433254076ada40185763b775ecb9ba3de1d366dc4
+    image: ghcr.io/cloudnative-pg/postgis:18.7-3.7.0-202611201731-system-bookworm@sha256:9ee3bddd47fe30b3dd0dd1d4def73e3e69646bc8c3ceb29720e9e4cb0dfa41dc
+  - major: 19
+    image: ghcr.io/cloudnative-pg/postgis:19.0-3.7.0-202611201731-system-bookworm@sha256:2e13b83a96a03287bb5f06528a20c0dff751ceae26cb7fa35ef1a3d8073d6cbd

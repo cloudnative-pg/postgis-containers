@@ -6,19 +6,17 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20261116'
+    images.cnpg.io/date: '20261120'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
-  - major: 13
-    image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-system-trixie@sha256:a81308e173f72ac595add468e83e6976c48fd0ab81f08f9be8af87faba2fbb68
-  - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.25-3.7.0-202611161013-system-trixie@sha256:dce3a8e3ea6b597f80219d7a76236c819cc91559554e946e303584c85a66d0d4
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.20-3.7.0-202611161013-system-trixie@sha256:0a30a09e2176b1a154fd5254331380f51d64dcd992027d3d1d2554632ba490ef
+    image: ghcr.io/cloudnative-pg/postgis:15.20-3.7.0-202611201731-system-trixie@sha256:943c4bd413d01161edc56c7606422b821ced29dd885b0d572038a90c77a7ac0d
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.16-3.7.0-202611161013-system-trixie@sha256:4ddb6b42cf1d01cadc7f478e72fff6720d0f9323ea0af00ed27db5d7a02d9a3f
+    image: ghcr.io/cloudnative-pg/postgis:16.16-3.7.0-202611201731-system-trixie@sha256:f62583d5c9c60d432b14157ba11e5d40ec1fd76966d47c62546bd5b4635282a1
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.12-3.7.0-202611161013-system-trixie@sha256:2b12fc0b4c45036fb0afa148f2383be6eddd057487162111633c74b0331fed31
+    image: ghcr.io/cloudnative-pg/postgis:17.12-3.7.0-202611201731-system-trixie@sha256:92124eef65aba779d45b3dd20cfe9a418d485b1bac7d6d21f68ba7440622403f
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.7-3.7.0-202611161013-system-trixie@sha256:2c041fc0529d643d71a50c8db93215c208b7f303bac786876af741d5bf6feaf3
+    image: ghcr.io/cloudnative-pg/postgis:18.7-3.7.0-202611201731-system-trixie@sha256:38e8182291b8f697fc50046b59817e51a9e4afdc0426aef6a8eca234990c6111
+  - major: 19
+    image: ghcr.io/cloudnative-pg/postgis:19.0-3.7.0-202611201731-system-trixie@sha256:549ec907f11aaaba25f5f2febcf8f6365766628ea53c6b9ee57c783401ea78fd

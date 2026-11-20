@@ -6,19 +6,17 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20261116'
+    images.cnpg.io/date: '20261120'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
-  - major: 13
-    image: ghcr.io/cloudnative-pg/postgis:13.22-3.6.0-202511101009-standard-bookworm@sha256:847cbe938491676be865bd895475331c66a5f4e4392144ffd9e7c131028c635b
-  - major: 14
-    image: ghcr.io/cloudnative-pg/postgis:14.25-3.7.0-202611161013-standard-bookworm@sha256:fd44e30d0b2229b319bc349416270ff449e47a0f61570adb099a44d0d47bd675
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.20-3.7.0-202611161013-standard-bookworm@sha256:e565f643d2bb067ffeba5bd2059323ce431769233d8a4877cf5e45e9888c65aa
+    image: ghcr.io/cloudnative-pg/postgis:15.20-3.7.0-202611201731-standard-bookworm@sha256:321435f9fa3ca18cbbee9cb224f6f58084badffa19f62ecd6276d033573998ad
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.16-3.7.0-202611161013-standard-bookworm@sha256:20fd89412c4a7d352dd01062dd99a1434ed9c954bd7df32aa5873e89daa3db3e
+    image: ghcr.io/cloudnative-pg/postgis:16.16-3.7.0-202611201731-standard-bookworm@sha256:0c3c4f545bd2284a3287eb0f98058f13856d805336eec197e8345e67120cd02f
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.12-3.7.0-202611161013-standard-bookworm@sha256:327c213c086623a105d941a148c3116ef9e86408f6fb539a2574d6983cea45c1
+    image: ghcr.io/cloudnative-pg/postgis:17.12-3.7.0-202611201731-standard-bookworm@sha256:c74f057a89381f5b6f18993125dbc13b794928cfc37c95096997a63f2f8f21e3
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.7-3.7.0-202611161013-standard-bookworm@sha256:4abdce6f81007e4bdbdc1b93cdd4b875a5c2a7b8bb63bb5a55ada0e8e47cd25a
+    image: ghcr.io/cloudnative-pg/postgis:18.7-3.7.0-202611201731-standard-bookworm@sha256:b4e37c903a215a2b8d888f532ad20a16f0fb0cd359f08ffbe194f2e094653ed9
+  - major: 19
+    image: ghcr.io/cloudnative-pg/postgis:19.0-3.7.0-202611201731-standard-bookworm@sha256:1fd90d56d3bcaef11eeb7f2cc832b0a0cd186363de1db0c6fd66f798085ce029
