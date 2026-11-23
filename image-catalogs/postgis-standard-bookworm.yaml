@@ -6,17 +6,17 @@ metadata:
     images.cnpg.io/family: postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20261120'
+    images.cnpg.io/date: '20261123'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgis:15.20-3.7.0-202611201731-standard-bookworm@sha256:321435f9fa3ca18cbbee9cb224f6f58084badffa19f62ecd6276d033573998ad
+    image: ghcr.io/cloudnative-pg/postgis:15.20-3.7.0-202611231010-standard-bookworm@sha256:5b4b6df8d189560f7ee99ddf4fe84d0ddfc7bfede59808fec7c6e7f84e6e382a
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgis:16.16-3.7.0-202611201731-standard-bookworm@sha256:0c3c4f545bd2284a3287eb0f98058f13856d805336eec197e8345e67120cd02f
+    image: ghcr.io/cloudnative-pg/postgis:16.16-3.7.0-202611231010-standard-bookworm@sha256:17af9bb2fbca9aeb03cecd60e6c4b7d73be2fd0db393e9850e39e23d24140b43
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgis:17.12-3.7.0-202611201731-standard-bookworm@sha256:c74f057a89381f5b6f18993125dbc13b794928cfc37c95096997a63f2f8f21e3
+    image: ghcr.io/cloudnative-pg/postgis:17.12-3.7.0-202611231010-standard-bookworm@sha256:c336f0a0b02b1bbe3d38a2ab6e963b2a1921ff922467fa99fe6ced91411c1c68
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgis:18.7-3.7.0-202611201731-standard-bookworm@sha256:b4e37c903a215a2b8d888f532ad20a16f0fb0cd359f08ffbe194f2e094653ed9
+    image: ghcr.io/cloudnative-pg/postgis:18.7-3.7.0-202611231010-standard-bookworm@sha256:42ed2b4109f0686f808ae45d4698a517be1bc3b5dbaf7e0689216c156fb2296d
   - major: 19
-    image: ghcr.io/cloudnative-pg/postgis:19.0-3.7.0-202611201731-standard-bookworm@sha256:1fd90d56d3bcaef11eeb7f2cc832b0a0cd186363de1db0c6fd66f798085ce029
+    image: ghcr.io/cloudnative-pg/postgis:19.0-3.7.0-202611231010-standard-bookworm@sha256:23543b6fddf0d7680cada2be7c942aeebaa62863012429ced820eee84021abe0
